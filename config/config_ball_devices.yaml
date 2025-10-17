@@ -1,0 +1,7 @@
+#config_version=6
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough
+    eject_coil: c_trough_eject
+    tags: trough, home, drain

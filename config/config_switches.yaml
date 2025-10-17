@@ -1,0 +1,89 @@
+#config_version=6
+
+switches:
+  #Cabinet Switches
+  s_start_button:
+    number: 06
+    tags: start_button
+  s_tilt:
+    number: 07
+    tags: tilt
+  s_coin_right:
+    number: 09
+    tags: coin_right
+  s_credit_button:
+    number: 10
+    tags: credit_button
+  s_slam_tilt:
+    number: 16
+    tags: slam_tilt
+  #Playfield Switches:
+  s_right_outlane_rollover:
+    number: 01
+    tags: right_outlane_rollover 
+  s_middle_skill_lane:
+    number: 02
+    tags: middle_skill_lane
+  s_left_outlane_rollover:
+    number: 03
+    tags: left_outlane_rollover
+  s_outer_skill_lanes:
+    number: 04
+    tags: outer_skill_lanes 
+  s_left_bank_target_left:
+    number: 05
+    tags: left_bank_target_left
+  s_trough:
+    number: 08
+    tags: trough 
+  s_stand_up:
+    number: 12
+    tags: stand_up
+  s_left_bank_target_right:
+    number: 13
+    tags: left_bank_target_right
+  s_right_bank_target_right:
+    number: 14
+    tags: right_bank_target_right
+  s_spinner:
+    number: 15
+    tags: spinner
+  s_middle_upper_rollovers:
+    number: 17
+    tags: middle_upper_rollovers
+  s_left_lower_bumper:
+    number: 18
+    tags: left_lower_bumper
+  s_left_upper_bumper:
+    number: 19
+    tags: left_upper_bumper
+  s_left_bank_target_middle:
+    number: 21
+    tags: left_bank_target_middle
+  s_right_bank_target_middle:
+    number: 22
+    tags: right_bank_target_middle 
+  s_saucer:
+    number: 24
+    tags: saucer
+  s_right_bank_target_left:
+    number: 30
+    tags: right_bank_target_left
+  s_pop_bumper_bottom:
+    number: 33
+    tags: pop_bumper_bottom
+  s_pop_bumper_right:
+    number: 34
+    tags: pop_bumper_right
+  s_pop_bumper_left:
+    number: 35
+    tags: pop_bumper_left
+  s_right_sling:
+    number: 38
+    tags: right_sling
+  s_left_sling:
+    number: 39
+    tags: left_sling
+  s_inlanes:
+    number: 40
+    tags: inlanes

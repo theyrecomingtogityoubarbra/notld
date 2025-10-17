@@ -1,0 +1,27 @@
+#config_version=6
+
+coils:
+  c_trough_eject:
+    number: 07
+  c_drop_target_right:
+    number: 05
+  c_knocker:
+    number: 06
+  c_upper_left_sling:
+    number: 08
+  c_saucer:
+    number: 09
+  c_drop_target_left:
+    number: 10
+  c_left_pop_bumper:
+    number: 11
+  c_right_pop_bumper:
+    number: 12
+  c_middle_pop_bumper:
+    number: 13
+  c_right_sling:
+    number: 14
+  c_left_sling:
+    number: 15
+  c_coin_lockout:
+    number: 19

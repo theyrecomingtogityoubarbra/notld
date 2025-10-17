@@ -3,5 +3,11 @@
 # Attract mode that starts when the machine boots up, stops
 # whenever a game is started, and re-starts after the game ends.
 
+mode:
+  start_events: machine_reset_phase_3
+  stop_events: game_start
+  priority: 10
+
 slide_player:
-  mode_attract_started: attract
+  mode_attract_started:
+    attract

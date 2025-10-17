@@ -1,0 +1,69 @@
+2025-10-17 18:38:13,079 : INFO : root : Loading config.
+2025-10-17 18:38:13,083 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-17 18:38:13,083 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-10-17 18:38:13,083 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-17 18:38:13,099 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-17 18:38:13,099 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-17 18:38:13,112 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-17 18:38:13,114 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-17 18:38:13,118 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-17 18:38:13,134 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-17 18:38:13,137 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-17 18:38:13,277 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-17 18:38:13,277 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-17 18:38:13,278 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-17 18:38:13,280 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-17 18:38:13,281 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-17 18:38:13,281 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-17-18-38-13-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-17-18-38-13-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-17 18:38:13,281 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-17 18:38:13,281 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-17 18:38:13,281 : INFO : Machine : Platform: win32
+2025-10-17 18:38:13,281 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-17 18:38:13,281 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-17 18:38:13,284 : INFO : Machine : Initializing MPF...
+2025-10-17 18:38:13,405 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,440 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,440 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,440 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,441 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,560 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,560 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,560 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,560 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,560 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,560 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-17-18-38-13-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-17 18:38:13,561 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-17 18:38:13,579 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...pty config.")>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...pty config.")>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 83, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 119, in create_devices
+    self.raise_config_error("Device {}:'{}' has an empty config.".format(collection_name, device_name), 2,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device ball_devices:'bd_plunger' has an empty config. Context: ball_devices.bd_plunger Error Code: CFE-DeviceManager-2 (https://missionpinball.org/logs)
+2025-10-17 18:38:13,585 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-17 18:38:13,585 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-17 18:38:13,585 : INFO : Machine : Shutting down...
+2025-10-17 18:38:13,585 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-17 18:38:14,589 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 83, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 119, in create_devices
+    self.raise_config_error("Device {}:'{}' has an empty config.".format(collection_name, device_name), 2,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device ball_devices:'bd_plunger' has an empty config. Context: ball_devices.bd_plunger Error Code: CFE-DeviceManager-2 (https://missionpinball.org/logs)
+2025-10-17 18:38:14,591 : INFO : root : MPF run loop ended.
