@@ -1,0 +1,87 @@
+#config_version=6
+
+lights:
+  #Playfield Lights
+  l_first_row_right:
+    number: 00
+  l_second_row_middle:
+    number: 01
+  l_third_row_left:
+    number: 02
+  l_spinner_first:
+    number: 03
+  l_skill_lane_middle:
+    number: 06
+  l_spinner_adjacent:
+    number: 07
+  l_left_bank_lower:
+    number: 08
+  l_right_bank_left:
+    number: 09
+  l_shoot_again:
+    number: 10
+  l_first_row_middle:
+    number: 15
+  l_second_row_right:
+    number: 16
+  l_spinner_second:
+    number: 18
+  l_fourth_row_middle:
+    number: 20
+  l_rollover_middles:
+    number: 22
+  l_inlanes:
+    number: 23
+  l_right_bank_middle:
+    number: 24
+  l_first_row_left:
+    number: 30
+  l_third_row_right:
+    number: 31
+  l_spinner_third:
+    number: 33
+  l_skill_lane_outers:
+    number: 38
+  l_right_bank_right:
+    number: 39
+  l_fourth_row_left:
+    number: 40
+  l_second_row_left:
+    number: 45
+  l_third_row_middle:
+    number: 46
+  l_spinner_fourth:
+    number: 48
+  l_fifth_row_middle:
+    number: 53
+  l_left_bank_upper:
+    number: 54
+  l_fourth_row_right:
+    number: 55
+  #Backbox Lights
+  l_ball_in_play:
+    number: 12
+  l_player_1:
+    number: 13
+  l_1up:
+    number: 14
+  l_match:
+    number: 25
+  l_high_game_to_date:
+    number: 27
+  l_player_2:
+    number: 28
+  l_2up:
+    number: 29
+  l_game_over:
+    number: 42
+  l_player_3:
+    number: 43
+  l_3up:
+    number: 44
+  l_tilt:
+    number: 57
+  l_player_4:
+    number: 58
+  l_4up:
+    number: 59

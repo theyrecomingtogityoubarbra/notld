@@ -1,0 +1,186 @@
+2025-10-18 12:00:57,374 : INFO : root : Loading config.
+2025-10-18 12:00:57,393 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-18 12:00:57,394 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-18 12:00:57,562 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-18 12:00:57,574 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-18 12:00:57,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-18 12:00:57,586 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-18 12:00:57,596 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\attract_lights.yaml
+2025-10-18 12:00:57,596 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\attract_lights.yaml.
+2025-10-18 12:00:57,619 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\shows\.\attract_lights.yaml
+2025-10-18 12:00:57,620 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\dab29d17bbe6500d014c71b0a57bd9b0.mpf_cache
+2025-10-18 12:00:57,620 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-18 12:00:57,620 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-18-12-00-57-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-18-12-00-57-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-18 12:00:57,620 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-18 12:00:57,622 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-18 12:00:57,622 : INFO : Machine : Platform: win32
+2025-10-18 12:00:57,622 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-18 12:00:57,622 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-18 12:00:57,625 : INFO : Machine : Initializing MPF...
+2025-10-18 12:00:58,008 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,049 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,049 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,049 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,050 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,178 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,179 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,179 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,179 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,179 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,179 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-18-12-00-57-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,179 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-18 12:00:58,209 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-18 12:00:58,211 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-10-18 12:00:58,211 : INFO : ball_device.bd_trough : State: idle
+2025-10-18 12:00:58,222 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-18 12:00:58,225 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-18 12:00:58,225 : INFO : BallController : Initial balls found: 0
+2025-10-18 12:00:58,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,226 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,227 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,228 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-18 12:00:58,229 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-10-18 12:00:58,230 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-10-18 12:00:58,230 : INFO : Mode.attract : Started. Priority: 10
+2025-10-18 12:00:58,230 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-18 12:00:58,230 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-10-18 12:00:58,230 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\show_player.py", line 225, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\show_player.py", line 117, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\show_controller.py", line 135, in replace_or_advance_show
+    return show_obj.play_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 291, in play_with_config
+    running_show = RunningShow(machine=self.machine,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 519, in __init__
+    self._start_play()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 545, in _start_play
+    self._start_now()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 647, in _start_now
+    self._run_next_step(post_events=self.show_config.events_when_played,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 690, in _run_next_step
+    player.show_play_callback(
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 365, in show_play_callback
+    self.play(settings=settings, priority=priority, calling_context=calling_context,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 40, in play
+    self._light_named_color(light_name, instance_dict, full_context, s['color'], s["fade"],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 91, in _light_named_color
+    raise AssertionError("Could not find light or tag {} in {}".format(light_name, full_context))
+AssertionError: Could not find light or tag l_first_row_left in show_1.light_player
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=10, kwargs={'calling_context': 'mode_attract_started', 'mode': <Mode.attract>, 'settings': {attract_lights-None-None: {'speed': <NativeTemplate 1.0>, 'loops': -1, 'priority': 0, 'action': 'play', 'show': None, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('77732498-f568-488e-b8cf-70c7836346cf'), condition=None, blocking_facility=None) for event mode_attract_started. Could not find light or tag l_first_row_left in show_1.light_player
+2025-10-18 12:00:58,348 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-10-18 12:00:58,349 : INFO : Machine : Shutting down...
+2025-10-18 12:00:58,349 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-18 12:00:58,350 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\show_player.py", line 225, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\show_player.py", line 117, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\show_controller.py", line 135, in replace_or_advance_show
+    return show_obj.play_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 291, in play_with_config
+    running_show = RunningShow(machine=self.machine,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 519, in __init__
+    self._start_play()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 545, in _start_play
+    self._start_now()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 647, in _start_now
+    self._run_next_step(post_events=self.show_config.events_when_played,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 690, in _run_next_step
+    player.show_play_callback(
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 365, in show_play_callback
+    self.play(settings=settings, priority=priority, calling_context=calling_context,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 40, in play
+    self._light_named_color(light_name, instance_dict, full_context, s['color'], s["fade"],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 91, in _light_named_color
+    raise AssertionError("Could not find light or tag {} in {}".format(light_name, full_context))
+AssertionError: Could not find light or tag l_first_row_left in show_1.light_player
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=10, kwargs={'calling_context': 'mode_attract_started', 'mode': <Mode.attract>, 'settings': {attract_lights-None-None: {'speed': <NativeTemplate 1.0>, 'loops': -1, 'priority': 0, 'action': 'play', 'show': None, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('77732498-f568-488e-b8cf-70c7836346cf'), condition=None, blocking_facility=None) for event mode_attract_started. Could not find light or tag l_first_row_left in show_1.light_player
+2025-10-18 12:00:58,369 : INFO : root : MPF run loop ended.
