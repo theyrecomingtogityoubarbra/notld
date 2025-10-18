@@ -1,5 +1,8 @@
 #config_version=6
 
+hardware:
+  platform: lisy
+  
 ## MPF Main Machine Config File
 #
 # This file defines your system-wide properties like switches,
