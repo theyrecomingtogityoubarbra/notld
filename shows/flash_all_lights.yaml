@@ -1,0 +1,14 @@
+#show_version=6
+
+- time: 0
+  lights:
+    "*": white
+- time: 100ms
+  lights:
+    "*": off
+- time: 200ms
+  lights:
+    "*": white
+- time: 300ms
+  lights:
+    "*": off

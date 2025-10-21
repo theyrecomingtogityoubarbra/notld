@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://db3pmyldtx6i6"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_2vokc"]
+[ext_resource type="VideoStream" path="res://video/graveyard_failed.ogv" id="2_v4jm8"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="3_w23rq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MPFSlide" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_2vokc")
+
+[node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="MPFSlide"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+stream = ExtResource("2_v4jm8")
+autoplay = true
+script = ExtResource("3_w23rq")

@@ -1,0 +1,61 @@
+2025-10-20 07:34:21,450 : INFO : root : Loading config.
+2025-10-20 07:34:21,454 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-20 07:34:21,455 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-10-20 07:34:21,455 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-20 07:34:21,482 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-20 07:34:21,483 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-20 07:34:21,494 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-20 07:34:21,506 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-20 07:34:21,517 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-20 07:34:21,530 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-20 07:34:21,544 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-10-20 07:34:21,556 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-10-20 07:34:21,556 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-10-20 07:34:21,558 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-20 07:34:21,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-20 07:34:21,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-20 07:34:21,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-20 07:34:21,660 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-20 07:34:21,660 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-20 07:34:21,661 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\dab29d17bbe6500d014c71b0a57bd9b0.mpf_cache
+2025-10-20 07:34:21,662 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-20 07:34:21,662 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-20 07:34:21,663 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-20 07:34:21,663 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-20 07:34:21,663 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-20 07:34:21,664 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-20 07:34:21,675 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-20 07:34:21,684 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-20 07:34:21,693 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-20 07:34:21,693 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-20-07-34-21-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-20-07-34-21-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-20 07:34:21,693 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-20 07:34:21,693 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-20 07:34:21,693 : INFO : Machine : Platform: win32
+2025-10-20 07:34:21,693 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-20 07:34:21,693 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-20 07:34:21,696 : INFO : Machine : Initializing MPF...
+2025-10-20 07:34:21,789 : ERROR : ConfigValidator : Your config contains a value for the setting "game:min_players", but this is not a valid setting name.
+2025-10-20 07:34:21,789 : INFO : Machine : Shutting down...
+2025-10-20 07:34:21,789 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-20 07:34:21,790 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 241, in initialize_core_and_hardware
+    self._validate_config()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 372, in _validate_config
+    self.validate_machine_config_section('game')
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 393, in validate_machine_config_section
+    self.config[section] = self.config_validator.validate_config(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "game:min_players", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-10-20 07:34:21,791 : INFO : root : MPF run loop ended.

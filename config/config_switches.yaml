@@ -47,6 +47,8 @@ switches:
     tags: right_bank_target_right
   s_spinner:
     number: 15
+    debounce: quick
+    ignore_window_ms: 2000
     tags: spinner
   s_middle_upper_rollovers:
     number: 17

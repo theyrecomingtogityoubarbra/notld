@@ -1,0 +1,84 @@
+2025-10-20 08:44:51,106 : INFO : root : Loading config.
+2025-10-20 08:44:51,110 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-20 08:44:51,111 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-10-20 08:44:51,111 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-20 08:44:51,126 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-20 08:44:51,127 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-20 08:44:51,140 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-20 08:44:51,142 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-20 08:44:51,144 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-20 08:44:51,148 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-20 08:44:51,153 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-10-20 08:44:51,155 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-10-20 08:44:51,155 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-10-20 08:44:51,157 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-20 08:44:51,271 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-20 08:44:51,271 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-20 08:44:51,273 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-20 08:44:51,274 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-20 08:44:51,274 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-20 08:44:51,275 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\dab29d17bbe6500d014c71b0a57bd9b0.mpf_cache
+2025-10-20 08:44:51,276 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-20 08:44:51,276 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-20 08:44:51,277 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-20 08:44:51,277 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-20 08:44:51,278 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-20 08:44:51,278 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-20 08:44:51,279 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-20 08:44:51,280 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-20 08:44:51,280 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-20 08:44:51,280 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-20-08-44-51-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-20-08-44-51-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-20 08:44:51,280 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-20 08:44:51,280 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-20 08:44:51,281 : INFO : Machine : Platform: win32
+2025-10-20 08:44:51,281 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-20 08:44:51,281 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-20 08:44:51,284 : INFO : Machine : Initializing MPF...
+2025-10-20 08:44:51,385 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,413 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,413 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,413 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,413 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-20-08-44-51-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-20 08:44:51,578 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-20 08:44:51,604 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...s. Omit it!')>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...s. Omit it!')>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\ball_save.py", line 62, in validate_and_parse_config
+    raise AssertionError("{}: event {} in timer_start_events will not work because it is also in "
+AssertionError: ball_started: event <ball_save.default_ball_save> in timer_start_events will not work because it is also in enable_events. Omit it!
+2025-10-20 08:44:51,606 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-20 08:44:51,608 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-20 08:44:51,608 : INFO : Machine : Shutting down...
+2025-10-20 08:44:51,608 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-20 08:44:52,623 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\ball_save.py", line 62, in validate_and_parse_config
+    raise AssertionError("{}: event {} in timer_start_events will not work because it is also in "
+AssertionError: ball_started: event <ball_save.default_ball_save> in timer_start_events will not work because it is also in enable_events. Omit it!
+2025-10-20 08:44:52,624 : INFO : root : MPF run loop ended.

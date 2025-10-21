@@ -1,8 +1,5 @@
 #config_version=6
 
-hardware:
-  platform: lisy
-  
 ## MPF Main Machine Config File
 #
 # This file defines your system-wide properties like switches,
@@ -10,17 +7,34 @@ hardware:
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
+hardware:
+  platform: lisy
+
 config:
   - config_ball_devices.yaml
   - config_coils.yaml
   - config_switches.yaml
   - config_lights.yaml
+  - config_sounds.yaml
+
+game:
+  balls_per_game: 3        # Number of balls per player per game
+  max_players: 4           # Maximum players allowed
 
 modes:
   - attract
   - base
+  - escape_graveyard
 
 playfields:
   playfield:
     default_source_device: bd_trough
     tags: default
+
+ball_saves:
+  default_ball_save:
+    active_time: 10s              # how long the save is active after ball start
+    enable_events: ball_started   # start automatically at the beginning of each ball
+    auto_launch: true             # auto-eject the saved ball
+    balls_to_save: 1              # only one save per ball
+    eject_delay: 1s            # optional: delay before eject

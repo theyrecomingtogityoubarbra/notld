@@ -5,3 +5,50 @@ ball_devices:
     ball_switches: s_trough
     eject_coil: c_trough_eject
     tags: trough, home, drain
+  bd_saucer:
+    ball_switches: s_saucer
+    eject_coil: c_saucer
+    eject_targets: playfield
+    eject_timeouts: 2s
+    mechanical_eject: false
+    tags: saucer, home, eject
+
+# -------------------------------
+# DROP TARGETS
+# -------------------------------
+drop_targets:
+  s_right_bank_target_left:
+    switch: s_right_bank_target_left
+  s_right_bank_target_middle:
+    switch: s_right_bank_target_middle
+  s_right_bank_target_right:
+    switch: s_right_bank_target_right
+
+  s_left_bank_target_left:
+    switch: s_left_bank_target_left
+  s_left_bank_target_middle:
+    switch: s_left_bank_target_middle
+  s_left_bank_target_right:
+    switch: s_left_bank_target_right
+
+# -------------------------------
+# DROP TARGET BANKS
+# -------------------------------
+drop_target_banks:
+  right_bank:
+    drop_targets:
+      - s_right_bank_target_left
+      - s_right_bank_target_middle
+      - s_right_bank_target_right
+    reset_coil: c_drop_target_right
+    reset_on_complete: true
+    reset_events: ball_starting
+
+  left_bank:
+    drop_targets:
+      - s_left_bank_target_left
+      - s_left_bank_target_middle
+      - s_left_bank_target_right
+    reset_coil: c_drop_target_left
+    reset_on_complete: true
+    reset_events: ball_starting

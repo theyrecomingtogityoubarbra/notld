@@ -1,0 +1,12 @@
+#show_version=6
+# Flash the house lights repeatedly
+
+
+- duration: 0.3
+  lights:
+    l_left_bank_upper: on
+    l_left_bank_lower: on
+
+- duration: 0.3
+  lights:
+    '*': off

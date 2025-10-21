@@ -1,0 +1,95 @@
+2025-10-20 08:56:39,161 : INFO : root : Loading config.
+2025-10-20 08:56:39,165 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-20 08:56:39,165 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-20 08:56:39,282 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-20 08:56:39,283 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-20 08:56:39,284 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-20 08:56:39,284 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\base\config\base.yaml
+2025-10-20 08:56:39,285 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\base\config\base.yaml.
+2025-10-20 08:56:39,304 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\modes\base\config\base.yaml
+2025-10-20 08:56:39,305 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-20 08:56:39,305 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-20 08:56:39,306 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\dab29d17bbe6500d014c71b0a57bd9b0.mpf_cache
+2025-10-20 08:56:39,307 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-20 08:56:39,307 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-20 08:56:39,307 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-20 08:56:39,309 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-20 08:56:39,310 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-20 08:56:39,310 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-20 08:56:39,310 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-20 08:56:39,311 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-20 08:56:39,312 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-20 08:56:39,312 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-20-08-56-39-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-20-08-56-39-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-20 08:56:39,312 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-20 08:56:39,312 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-20 08:56:39,312 : INFO : Machine : Platform: win32
+2025-10-20 08:56:39,312 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-20 08:56:39,312 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-20 08:56:39,314 : INFO : Machine : Initializing MPF...
+2025-10-20 08:56:39,414 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,442 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,442 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,442 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,443 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-20-08-56-39-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-20 08:56:39,546 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-20 08:56:39,574 : ERROR : ConfigValidator : Your config contains a value for the setting "sequences:first_ball_check:events_when_incomplete", but this is not a valid setting name.
+2025-10-20 08:56:39,574 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\logic_blocks.py", line 77, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "sequences:first_ball_check:events_when_incomplete", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-10-20 08:56:39,578 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-20 08:56:39,578 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-20 08:56:39,579 : INFO : Machine : Shutting down...
+2025-10-20 08:56:39,579 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-20 08:56:40,584 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\logic_blocks.py", line 77, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "sequences:first_ball_check:events_when_incomplete", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-10-20 08:56:40,586 : INFO : root : MPF run loop ended.

@@ -1,0 +1,44 @@
+#config_version=6
+
+sounds:
+  firstballintro:
+    file: music/firstballintro.wav
+    track: music
+    volume: 0.8
+  subsequentball:
+    file: music/subsequentball.wav
+    track: music
+    volume: 0.8
+
+  escape_graveyard_music:
+    file: music/escape_graveyard_music.wav
+    track: music
+    volume: 0.8
+
+  skill_lane_1:
+    file: voice/herehecomesnowimgettingoutofhere.wav
+  skill_lane_2:
+    file: voice/heyyourestillafraid.wav
+  skill_lane_3:
+    file: voice/theyrecomingforyou.wav
+  skill_lane_4:
+    file: voice/looktherecomesoneofthemnow.wav
+  skill_lane_5:
+    file: voice/theyrecomingforyoubarbra.wav
+  skill_lane_6:
+    file: voice/theyrecomingtogetyoubarbra.wav
+
+  zombie_moan_1:
+    file: sounds/zombie1.wav
+    track: sfx
+  zombie_moan_2:
+    file: sounds/zombie2.wav
+    track: sfx
+  zombie_moan_3:
+    file: sounds/zombie3.wav
+    track: sfx
+
+  zombie_moan_third_target:
+    file: sounds/zombielong.wav
+    track: sfx
+    volume: 1.0

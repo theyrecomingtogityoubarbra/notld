@@ -1,0 +1,7 @@
+#show_version=6
+
+- duration: 2.0
+  sounds:
+    subsequentball:
+      action: stop
+      fade_out: 2.0

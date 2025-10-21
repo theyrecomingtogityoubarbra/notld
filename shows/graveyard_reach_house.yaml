@@ -1,0 +1,31 @@
+#show_version=6
+
+# -----------------------------------------------------
+# Graveyard Reach House Scene (final cinematic)
+# -----------------------------------------------------
+
+# Step 1: Fade out gameplay visuals (keep music playing)
+- duration: 0.5
+  slides:
+    graveyard_mode:
+      action: remove
+      transition:
+        type: fade
+        duration: 0.5
+
+# Step 2: Fade in the reach-house video
+- duration: 0.1
+  slides:
+    graveyard_reach_house:
+      action: play
+      transition:
+        type: fade
+        duration: 0.5
+
+# Step 3: Hold while video plays
+# Adjust duration to your clip’s actual length
+- duration: 7.0
+
+# Step 4: Optional — signal completion
+- duration: 0.1
+  events: reach_house_video_complete

@@ -1,9 +1,149 @@
 #config_version=6
 
-# Base mode that starts at the beginning of each ball
-# and stops at the end of each ball.
-
 mode:
-  start_events: ball_starting
-  stop_events: ball_will_end
-  priority: 100
+  start_events: ball_started
+  stop_events: mode_escape_graveyard_started, game_ended
+  priority: 50
+
+# -------------------------------
+# FIRST-BALL MUSIC DECIDER
+# -------------------------------
+counters:
+  first_ball_check:
+    count_events: game_ball_started
+    count_complete_value: 1         # completes on the first ball start
+    reset_events: game_ended
+    events_when_complete: play_first_ball_intro
+
+# -----------------------------
+# VARIABLE PLAYER (scoring)
+# -----------------------------
+variable_player:
+  # Bumpers & Slings - 10 points
+  s_left_upper_bumper_active:
+    score: 10
+  s_left_lower_bumper_active:
+    score: 10
+  s_left_sling_active:
+    score: 10
+  s_right_sling_active:
+    score: 10
+
+  # Rollovers - 500 points
+  s_outer_skill_lanes_active:
+    score: 500
+  s_middle_skill_lane_active:
+    score: 500
+  s_rollover_middles_active:
+    score: 500
+
+  # Saucer - 0 points
+  s_saucer_active:
+    score: 0
+
+  # Everything else - 100 points
+  s_spinner_active:
+    score: 100
+  s_left_bank_target_left_active:
+    score: 100
+  s_left_bank_target_right_active:
+    score: 100
+  s_left_bank_target_middle_active:
+    score: 100
+  s_right_bank_target_left_active:
+    score: 100
+  s_right_bank_target_right_active:
+    score: 100
+  s_right_bank_target_middle_active:
+    score: 100
+  s_inlanes_active:
+    score: 100
+  s_left_outlane_rollover_active:
+    score: 100
+  s_right_outlane_rollover_active:
+    score: 100
+  s_pop_bumper_left_active:
+    score: 100
+  s_pop_bumper_right_active:
+    score: 100
+  s_pop_bumper_bottom_active:
+    score: 100
+
+# -------------------------------
+# EVENT PLAYER
+# -------------------------------
+event_player:
+  mode_base_started: check_base_music
+  game_ball_started{device.counters.first_ball_check.value >= 1}: play_subsequent_ball_loop
+  firstballintro_complete: play_subsequent_ball_loop
+  mode_base_stopping: stop_base_music
+
+sound_player:
+  play_skilllane_quote_1:
+    herehecomesnowimgettingoutofhere:
+      action: play
+      priority: 50
+      volume: 0.7
+  play_skilllane_quote_2:
+    heyyourestillafraid:
+      action: play
+      priority: 50
+      volume: 0.7
+  play_skilllane_quote_3:
+    theyrecomingforyou:
+      action: play
+      priority: 50
+      volume: 0.7
+  play_skilllane_quote_4:
+    looktherecomesoneofthemnow:
+      action: play
+      priority: 50
+      volume: 0.7
+  play_skilllane_quote_5:
+    theyrecomingforyoubarbra:
+      action: play
+      priority: 50
+      volume: 0.7
+  play_skilllane_quote_6:
+    theyrecomingtogetyoubarbra:
+      action: play
+      priority: 50
+      volume: 0.7
+
+random_event_player:
+  # Random one-liner when either skill lane is hit
+  s_outer_skill_lanes_active:
+    events:
+      - play_skilllane_quote_1
+      - play_skilllane_quote_2
+      - play_skilllane_quote_3
+      - play_skilllane_quote_4
+      - play_skilllane_quote_5
+      - play_skilllane_quote_6
+
+  s_middle_skill_lane_active:
+    events:
+      - play_skilllane_quote_1
+      - play_skilllane_quote_2
+      - play_skilllane_quote_3
+      - play_skilllane_quote_4
+      - play_skilllane_quote_5
+      - play_skilllane_quote_6
+
+# -------------------------------
+# SHOW PLAYER
+# -------------------------------
+show_player:
+  play_first_ball_intro:
+    play_firstballintro:
+      action: play
+
+  play_subsequent_ball_loop:
+    play_subsequentball:
+      action: play
+      loops: -1
+
+  stop_base_music:
+    fade_out_subsequentball:
+      action: play
+

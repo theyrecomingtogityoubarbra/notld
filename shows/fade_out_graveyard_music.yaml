@@ -1,0 +1,10 @@
+#show_version=6
+
+# ---------------------------------------------
+# Fade out escape_graveyard_music at mode end
+# ---------------------------------------------
+- duration: 2.0
+  sounds:
+    escape_graveyard_music:
+      action: stop
+      fade_out: 2s

@@ -1,0 +1,27 @@
+2025-10-21 09:54:27,615 : INFO : root : Loading config.
+2025-10-21 09:54:27,619 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-21 09:54:27,619 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-21 09:54:27,723 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-21 09:54:27,724 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-21 09:54:27,726 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-21 09:54:27,726 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-21 09:54:27,727 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-21 09:54:27,728 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\dab29d17bbe6500d014c71b0a57bd9b0.mpf_cache
+2025-10-21 09:54:27,730 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\fade_out_graveyard_music.yaml
+2025-10-21 09:54:27,730 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\fade_out_graveyard_music.yaml.
+2025-10-21 09:54:27,745 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\shows\.\fade_out_graveyard_music.yaml
+2025-10-21 09:54:27,746 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-21 09:54:27,746 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\fade_out_subsequentball.yaml
+2025-10-21 09:54:27,746 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\fade_out_subsequentball.yaml.
+2025-10-21 09:54:27,747 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\shows\.\fade_out_subsequentball.yaml
+2025-10-21 09:54:27,747 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-21 09:54:27,748 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\flash_all_lights.yaml
+2025-10-21 09:54:27,748 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\flash_all_lights.yaml.
+2025-10-21 09:54:27,760 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\shows\.\flash_all_lights.yaml
+2025-10-21 09:54:27,761 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-21 09:54:27,761 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\graveyard_intro.yaml
+2025-10-21 09:54:27,761 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\graveyard_intro.yaml.
+2025-10-21 09:54:27,771 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\shows\.\graveyard_intro.yaml
+2025-10-21 09:54:27,772 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-21 09:54:27,773 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\graveyard_lights.yaml
+2025-10-21 09:54:27,773 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\graveyard_lights.yaml.
