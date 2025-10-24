@@ -1,0 +1,234 @@
+2025-10-24 11:54:49,740 : INFO : root : Loading config.
+2025-10-24 11:54:49,746 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-24 11:54:49,747 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-24 11:54:49,761 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-24 11:54:49,761 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-24 11:54:49,776 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-24 11:54:49,776 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-24 11:54:49,778 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-24 11:54:49,779 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-24 11:54:49,791 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-24 11:54:49,795 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-24 11:54:49,800 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-10-24 11:54:49,802 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-10-24 11:54:49,802 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-10-24 11:54:49,805 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-24 11:54:49,943 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-24 11:54:49,943 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-24 11:54:49,944 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-24 11:54:49,945 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-24 11:54:49,945 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-24 11:54:49,946 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\dab29d17bbe6500d014c71b0a57bd9b0.mpf_cache
+2025-10-24 11:54:49,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-24 11:54:49,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-24 11:54:49,948 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-24 11:54:49,949 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-24 11:54:49,949 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-24 11:54:49,951 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-24 11:54:49,951 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-24 11:54:49,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-24 11:54:49,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-24 11:54:49,953 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-24 11:54:49,953 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-24-11-54-49-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-24-11-54-49-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-24 11:54:49,953 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-24 11:54:49,953 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-24 11:54:49,953 : INFO : Machine : Platform: win32
+2025-10-24 11:54:49,953 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-24 11:54:49,953 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-24 11:54:49,955 : INFO : Machine : Initializing MPF...
+2025-10-24 11:54:50,239 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-24 11:54:50,241 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-24 11:54:50,412 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY35', 'prev_value': None, 'change': True}
+2025-10-24 11:54:50,412 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2025-10-24 11:54:50,412 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,731 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,766 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,767 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,767 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,767 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,873 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,873 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,873 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,874 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,874 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,874 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-24-11-54-49-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-24 11:54:51,874 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-24 11:54:51,915 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-10-24 11:54:51,915 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-10-24 11:54:51,916 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('5', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_left_bank_target_left>
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('8', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_trough>
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('13', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_left_bank_target_right>
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('14', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_right_bank_target_right>
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('21', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_left_bank_target_middle>
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('22', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_right_bank_target_middle>
+2025-10-24 11:54:51,916 : INFO : SwitchController : Found active switch: ('30', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x00000192CC7696D0>) <switch.s_right_bank_target_left>
+2025-10-24 11:54:51,923 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-24 11:54:51,926 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-24 11:54:51,946 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-24 11:54:51,946 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-24 11:54:52,062 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2025-10-24 11:54:52,095 : INFO : ball_device.bd_trough : State: idle
+2025-10-24 11:54:52,095 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-10-24 11:54:52,095 : INFO : ball_device.bd_saucer : State: idle
+2025-10-24 11:54:52,109 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-24 11:54:52,115 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-24 11:54:52,116 : INFO : EventManager : Event: ======'drop_target_s_right_bank_target_left_down'====== Args={'device': <drop_target.s_right_bank_target_left>}
+2025-10-24 11:54:52,116 : INFO : EventManager : Event: ======'drop_target_s_right_bank_target_middle_down'====== Args={'device': <drop_target.s_right_bank_target_middle>}
+2025-10-24 11:54:52,116 : INFO : EventManager : Event: ======'drop_target_s_right_bank_target_right_down'====== Args={'device': <drop_target.s_right_bank_target_right>}
+2025-10-24 11:54:52,116 : INFO : EventManager : Event: ======'drop_target_s_left_bank_target_left_down'====== Args={'device': <drop_target.s_left_bank_target_left>}
+2025-10-24 11:54:52,116 : INFO : EventManager : Event: ======'drop_target_s_left_bank_target_middle_down'====== Args={'device': <drop_target.s_left_bank_target_middle>}
+2025-10-24 11:54:52,116 : INFO : EventManager : Event: ======'drop_target_s_left_bank_target_right_down'====== Args={'device': <drop_target.s_left_bank_target_right>}
+2025-10-24 11:54:52,117 : INFO : BallController : Initial balls found: 1
+2025-10-24 11:54:52,119 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,119 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,119 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlanes'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,119 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lower_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_upper_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_skill_lane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_upper_rollovers'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outer_skill_lanes'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_bottom'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,120 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_saucer'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start_button'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,121 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,123 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,123 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,123 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,123 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-24 11:54:52,123 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-24 11:54:52,133 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-24 11:54:52,134 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-24 11:54:52,134 : INFO : SwitchController : <<<<<<< 's_middle_upper_rollovers' active >>>>>>>
+2025-10-24 11:54:52,143 : INFO : SwitchController : <<<<<<< 's_middle_upper_rollovers' inactive >>>>>>>
+2025-10-24 11:54:52,150 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-24 11:54:52,152 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-24 11:54:52,152 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-10-24 11:54:52,153 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-10-24 11:54:52,155 : INFO : Mode.attract : Started. Priority: 10
+2025-10-24 11:54:52,155 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-24 11:54:52,155 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-10-24 11:54:52,156 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-24 11:54:52,156 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-24 11:54:52,172 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-10-24 11:54:52,205 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-10-24 11:54:52,205 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-10-24 11:54:52,206 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'queue': '<QueuedEvent>', 'cmd': 'slides_play', '_from_bcp': True}
+2025-10-24 11:55:10,547 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-10-24 11:55:10,795 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-10-24 11:55:10,795 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-10-24 11:55:10,795 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.25}
+2025-10-24 11:55:10,796 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.25}
+2025-10-24 11:55:10,796 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.25}
+2025-10-24 11:55:10,796 : INFO : Mode.game : Started. Priority: 20
+2025-10-24 11:55:10,796 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-24 11:55:10,796 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.25}
+2025-10-24 11:55:10,812 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-10-24 11:55:10,813 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-10-24 11:55:10,813 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-10-24 11:55:10,813 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-10-24 11:55:10,813 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('ac322246-9f61-4b5d-8c79-5ff736182717'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('d8ae2133-b945-4c40-b005-24dc39f2f817'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-24 11:55:10,813 : INFO : Mode.attract : Stopped.
+2025-10-24 11:55:10,814 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-10-24 11:55:10,815 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-10-24 11:55:10,815 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-10-24 11:55:10,831 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-10-24 11:55:10,832 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-24 11:55:10,832 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-24 11:55:10,833 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-10-24 11:55:10,837 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-24 11:55:10,838 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-24 11:55:10,843 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-24 11:55:10,844 : INFO : drop_target_bank.right_bank : 3 targets are down. Will reset those.
+2025-10-24 11:55:10,844 : INFO : coil.c_drop_target_right : Pulsing Driver for 10ms (0.5 pulse_power)
+2025-10-24 11:55:10,844 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe... supported.')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe... supported.')>)>
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\drop_target.py", line 371, in event_reset
+    self.reset()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\drop_target.py", line 413, in reset
+    wait_ms = coil.pulse(max_wait_ms=self.config['reset_coil_max_wait_ms'])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\driver.py", line 351, in pulse
+    self._pulse_now(pulse_ms, pulse_power)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\driver.py", line 314, in _pulse_now
+    self.hw_driver.pulse(PulseSettings(power=pulse_power, duration=pulse_ms))
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 85, in pulse
+    raise AssertionError("Pulse power != 1.0 is not supported.")
+AssertionError: Pulse power != 1.0 is not supported.
+2025-10-24 11:55:10,887 : INFO : Machine : Shutting down...
+2025-10-24 11:55:10,887 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-24 11:55:10,890 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-10-24 11:55:10,890 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-10-24 11:55:10,890 : INFO : Mode.game : Stopped.
+2025-10-24 11:55:10,891 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-24 11:55:10,891 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-10-24 11:55:10,891 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-10-24 11:55:10,982 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\drop_target.py", line 371, in event_reset
+    self.reset()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\drop_target.py", line 413, in reset
+    wait_ms = coil.pulse(max_wait_ms=self.config['reset_coil_max_wait_ms'])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\driver.py", line 351, in pulse
+    self._pulse_now(pulse_ms, pulse_power)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\driver.py", line 314, in _pulse_now
+    self.hw_driver.pulse(PulseSettings(power=pulse_power, duration=pulse_ms))
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 85, in pulse
+    raise AssertionError("Pulse power != 1.0 is not supported.")
+AssertionError: Pulse power != 1.0 is not supported.
+2025-10-24 11:55:10,984 : INFO : root : MPF run loop ended.

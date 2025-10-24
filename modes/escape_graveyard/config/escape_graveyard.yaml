@@ -6,7 +6,10 @@
 
 mode:
   start_events: s_saucer_active
-  stop_events: ball_ended, timer_escape_graveyard_complete, reach_house
+  stop_events:
+    - ball_ended
+    - timer_escape_graveyard_complete
+    - reach_house
   priority: 100
   use_wait_queue: true
 
@@ -14,6 +17,7 @@ mode:
 #  TIMERS
 # -------------------------------
 timers:
+  # Main gameplay timer
   escape_graveyard:
     start_value: 45
     end_value: 0
@@ -22,19 +26,31 @@ timers:
     control_events:
       - action: start
         event: eject_saucer_and_start_mode
+
+  # Safety: if the intro never posts "complete", eject after 10s
+  intro_safety:
+    start_value: 10
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - action: start
+        event: mode_escape_graveyard_started
+      - action: stop
+        event: play_graveyard_intro_complete
+
   spinner_scream_cooldown:
     start_value: 0
     end_value: 1
     direction: up
-    tick_interval: 0.5s    # 0.5 second cooldown
+    tick_interval: 0.5s
     start_running: false
-
 
 # -------------------------------
 #  COUNTERS
 # -------------------------------
 counters:
-  # --- Right-bank completion (3 unique targets) ---
+  # Right-bank completion (3 unique targets)
   right_bank_hits:
     count_events:
       - s_right_bank_target_left_active
@@ -45,12 +61,10 @@ counters:
     multiple_hit_window: 2s
     reset_on_complete: true
     persist_state: false
-    enable_events:
-      - mode_escape_graveyard_started
-    disable_events:
-      - mode_escape_graveyard_stopped
+    enable_events: mode_escape_graveyard_started
+    disable_events: mode_escape_graveyard_stopped
 
-  # --- Full graveyard progression (3 targets + spinner) ---
+  # Full graveyard progression (3 targets + spinner)
   graveyard_hits:
     count_events:
       - s_right_bank_target_left_active
@@ -62,40 +76,51 @@ counters:
     multiple_hit_window: 2s
     reset_on_complete: true
     persist_state: false
-    enable_events:
-      - mode_escape_graveyard_started
-    disable_events:
-      - mode_escape_graveyard_stopped
+    enable_events: mode_escape_graveyard_started
+    disable_events: mode_escape_graveyard_stopped
 
 # -------------------------------
 #  EVENT PLAYER
 # -------------------------------
 event_player:
-  # Mode start triggers intro
+  # Mode start triggers intro + starts safety timer (via timer control_events above)
   mode_escape_graveyard_started: play_graveyard_intro
 
-  # Separate line to play fade-out show
+  # Also run fade-out show (keep your .1 ordering)
   mode_escape_graveyard_started.1:
     fade_out_subsequentball:
       action: play
 
-  # --- Safety fallback: eject ball if intro hangs for >10s ---
-  "mode_escape_graveyard_started{time>10s}": eject_saucer_and_start_mode
-
-  # --- When intro video/slide ends, eject ball from saucer ---
+  # When intro ends, eject ball
   play_graveyard_intro_complete: eject_saucer_and_start_mode
 
-  # --- When the ball ejects, start the gameplay lights and timer ---
+  # If intro never finishes, safety timer completes -> eject
+  timer_intro_safety_complete: eject_saucer_and_start_mode
+
+  # When ball ejects, start the gameplay lights (main timer starts via control_events)
   eject_saucer_and_start_mode: start_escape_lights
 
-  # --- Standard mode progression ---
+  # Standard mode progression
   timer_escape_graveyard_complete: end_graveyard_mode
   reach_house: end_graveyard_mode
   enable_house_lights: start_house_flash_lights
 
+# -------------------------------
+#  RANDOM EVENT PLAYER
+# -------------------------------
+random_event_player:
+  s_right_bank_target_left_active: &graveyard_moans
+    events:
+      - play_zombie_moan_1
+      - play_zombie_moan_2
+      - play_zombie_moan_3
+  s_right_bank_target_middle_active: *graveyard_moans
+  s_right_bank_target_right_active:  *graveyard_moans
 
+# -------------------------------
+#  SOUND PLAYER
+# -------------------------------
 sound_player:
-  # --- Zombie moans when any right-bank target is hit ---
   play_zombie_moan_1:
     zombie1:
       action: play
@@ -112,27 +137,18 @@ sound_player:
       priority: 60
       volume: 0.9
 
-  # Long moan once the 3-target counter completes
   play_third_target_sound:
     zombielong:
       action: play
       priority: 80
       volume: 1.0
 
-  # Spinner scream itself (triggered by the event_player line above)
   play_spinner_scream:
     womanscream:
       action: play
       priority: 80
       volume: 1.0
 
-random_event_player:
-  s_right_bank_target_left_active, s_right_bank_target_middle_active, s_right_bank_target_right_active:
-    events:
-      - play_zombie_moan_1
-      - play_zombie_moan_2
-      - play_zombie_moan_3
-      
 # -------------------------------
 #  COIL PLAYER (for saucer eject)
 # -------------------------------
@@ -148,21 +164,26 @@ show_player:
     graveyard_intro:
       action: play
       loops: 1
+
   start_escape_lights:
     graveyard_lights:
       action: play
       loops: -1
+
   escape_graveyard:
     graveyard_lights:
       action: play
+
   start_house_flash_lights:
     house_lights:
       action: play
       speed: 1
+
   graveyard_reach_house:
     house_lights:
       action: play
       loops: 1
+
   end_graveyard_mode:
     fade_out_graveyard_music:
       action: play
@@ -175,11 +196,11 @@ show_player:
 #  VARIABLE PLAYER (scoring + multiplier)
 # -------------------------------
 variable_player:
-  s_right_bank_left_active:
+  s_right_bank_target_left_active:
     score: 1000 * current_player.graveyard_multiplier
-  s_right_bank_middle_active:
+  s_right_bank_target_middle_active:
     score: 1000 * current_player.graveyard_multiplier
-  s_right_bank_right_active:
+  s_right_bank_target_right_active:
     score: 1000 * current_player.graveyard_multiplier
   s_spinner_active:
     score: 500 * current_player.graveyard_multiplier
@@ -191,3 +212,5 @@ variable_player:
 
   mode_escape_graveyard_stopped:
     graveyard_multiplier: 1
+
+

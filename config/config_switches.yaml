@@ -4,7 +4,7 @@ switches:
   #Cabinet Switches
   s_start_button:
     number: 06
-    tags: start_button
+    tags: start
   s_tilt:
     number: 07
     tags: tilt
@@ -17,6 +17,7 @@ switches:
   s_slam_tilt:
     number: 16
     tags: slam_tilt
+
   #Playfield Switches:
   s_right_outlane_rollover:
     number: 01
@@ -71,15 +72,15 @@ switches:
   s_right_bank_target_left:
     number: 30
     tags: right_bank_target_left
-  s_pop_bumper_bottom:
+  s_middle_pop_bumper:
     number: 33
-    tags: pop_bumper_bottom
-  s_pop_bumper_right:
+    tags: middle_pop_bumper
+  s_right_pop_bumper:
     number: 34
-    tags: pop_bumper_right
-  s_pop_bumper_left:
+    tags: right_pop_bumper
+  s_left_pop_bumper:
     number: 35
-    tags: pop_bumper_left
+    tags: left_pop_bumper
   s_right_sling:
     number: 38
     tags: right_sling

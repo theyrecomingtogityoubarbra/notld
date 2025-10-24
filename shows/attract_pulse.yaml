@@ -1,0 +1,15 @@
+#show_version=6
+
+# --- Pulse Section (one pulse) ---
+- duration: 0.2
+  lights:
+    '*': on
+
+- duration: 0.2
+  lights:
+    '*': off
+
+# Handoff to wave (zero-time step)
+- duration: 0.01
+  events:
+    - attract_pulse_complete

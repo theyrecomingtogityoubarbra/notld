@@ -1,0 +1,10 @@
+2025-10-24 14:48:07,490 : INFO : root : Loading config.
+2025-10-24 14:48:07,501 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-24 14:48:07,502 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-24 14:48:07,772 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-24 14:48:07,773 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-24 14:48:07,774 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-24 14:48:07,775 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-24 14:48:07,777 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-24 14:48:07,780 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\shows\.\attract_lights.yaml
+2025-10-24 14:48:07,780 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\shows\.\attract_lights.yaml.

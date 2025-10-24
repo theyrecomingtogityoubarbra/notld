@@ -9,6 +9,10 @@
 
 hardware:
   platform: lisy
+lisy:
+  connection: serial
+  port: com3
+  baud: 115200
 
 config:
   - config_ball_devices.yaml
@@ -30,6 +34,33 @@ playfields:
   playfield:
     default_source_device: bd_trough
     tags: default
+    
+digital_outputs:
+  flipper_enabling_relay:
+    type: driver
+    number: 16
+    enable_events: ball_started
+    disable_events: ball_will_end
+
+autofire_coils:
+  ac_left_sling:
+    coil: c_left_sling
+    switch: s_left_sling
+  ac_right_sling:
+    coil: c_right_sling
+    switch: s_right_sling
+  ac_upper_left_sling:
+    coil: c_upper_left_sling
+    switch: s_left_upper_bumper
+  ac_left_pop_bumper:
+    coil: c_left_pop_bumper
+    switch: s_left_pop_bumper
+  ac_right_pop_bumper:
+    coil: c_right_pop_bumper
+    switch: s_right_pop_bumper
+  ac_middle_pop_bumper:
+    coil: c_middle_pop_bumper
+    switch: s_middle_pop_bumper
 
 ball_saves:
   default_ball_save:

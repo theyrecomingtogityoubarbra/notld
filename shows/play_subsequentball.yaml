@@ -4,4 +4,5 @@
   sounds:
     subsequentball:
       action: play
+      loops: -1
 
