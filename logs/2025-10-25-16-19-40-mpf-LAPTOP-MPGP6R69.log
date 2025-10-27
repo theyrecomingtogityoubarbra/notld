@@ -1,0 +1,307 @@
+2025-10-25 16:19:40,166 : INFO : root : Loading config.
+2025-10-25 16:19:40,173 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-25 16:19:40,173 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-10-25 16:19:40,173 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-25 16:19:40,187 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-25 16:19:40,187 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-25 16:19:40,204 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-25 16:19:40,205 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-25 16:19:40,207 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-25 16:19:40,211 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-25 16:19:40,214 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-10-25 16:19:40,216 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-10-25 16:19:40,216 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-10-25 16:19:40,219 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-25 16:19:40,355 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-25 16:19:40,355 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-25 16:19:40,356 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-25 16:19:40,357 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-25 16:19:40,357 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-25 16:19:40,358 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-25 16:19:40,360 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-25 16:19:40,361 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-25 16:19:40,361 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-25 16:19:40,362 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-25 16:19:40,362 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-25 16:19:40,363 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-25 16:19:40,363 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-25 16:19:40,364 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-25 16:19:40,364 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-25 16:19:40,365 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-25 16:19:40,366 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-25 16:19:40,366 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-25-16-19-40-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-25-16-19-40-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-25 16:19:40,366 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-25 16:19:40,366 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-25 16:19:40,366 : INFO : Machine : Platform: win32
+2025-10-25 16:19:40,366 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-25 16:19:40,366 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-25 16:19:40,368 : INFO : Machine : Initializing MPF...
+2025-10-25 16:19:40,627 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-25 16:19:40,628 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-25 16:19:40,788 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY35', 'prev_value': None, 'change': True}
+2025-10-25 16:19:40,788 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2025-10-25 16:19:40,788 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,116 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,149 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,149 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 4230, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,149 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,149 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,149 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,336 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,337 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,337 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,337 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,337 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,337 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-25-16-19-40-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,337 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-25 16:19:42,367 : WARNING : segment_display.info_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 16:19:42,367 : WARNING : segment_display.player1_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 16:19:42,367 : WARNING : segment_display.player2_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 16:19:42,367 : WARNING : segment_display.player3_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 16:19:42,367 : WARNING : segment_display.player4_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 16:19:42,376 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-10-25 16:19:42,376 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-10-25 16:19:42,457 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-115' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player1_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 1 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player1_display. See error above.
+2025-10-25 16:19:42,459 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-116' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player2_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 2 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player2_display. See error above.
+2025-10-25 16:19:42,460 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-117' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player3_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 3 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player3_display. See error above.
+2025-10-25 16:19:42,461 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-118' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player4_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 4 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player4_display. See error above.
+2025-10-25 16:19:42,462 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-25 16:19:42,462 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-25 16:19:42,462 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-25 16:19:42,463 : INFO : Machine : Shutting down...
+2025-10-25 16:19:42,463 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-25 16:19:42,464 : INFO : SwitchController : Found active switch: ('8', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x000001D4114596D0>) <switch.s_trough>
+2025-10-25 16:19:42,473 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-25 16:19:42,475 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\text_ui.py", line 459, in _bcp_connection_attempt
+    self._pending_bcp_connection = PopUpDialog(self.screen,
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\asciimatics\widgets\popupdialog.py", line 39, in __init__
+    string_len = wcswidth if screen.unicode_aware else len
+                             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unicode_aware'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connection_attempt of <mpf.core.text_ui.TextUi object at 0x000001D414607480>>, priority=1, kwargs={}, key=UUID('4c1a2481-679f-420a-a8c1-3ddea6f73141'), condition=None, blocking_facility=None) for event bcp_connection_attempt. 'NoneType' object has no attribute 'unicode_aware'
+2025-10-25 16:19:42,478 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-25 16:19:42,490 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-25 16:19:42,491 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-25 16:19:42,491 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\text_ui.py", line 466, in _bcp_connected
+    self.scene.remove_effect(self._pending_bcp_connection)
+  File "C:\Users\antho\mpf\Lib\site-packages\asciimatics\scene.py", line 85, in remove_effect
+    self._effects.remove(effect)
+ValueError: list.remove(x): x not in list
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connected of <mpf.core.text_ui.TextUi object at 0x000001D414607480>>, priority=1, kwargs={}, key=UUID('1660fa68-c123-489d-974d-7c7399ccdfcf'), condition=None, blocking_facility=None) for event bcp_clients_connected. list.remove(x): x not in list
+2025-10-25 16:19:42,493 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2025-10-25 16:19:42,494 : INFO : ball_device.bd_trough : State: idle
+2025-10-25 16:19:42,495 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-10-25 16:19:42,495 : INFO : ball_device.bd_saucer : State: idle
+2025-10-25 16:19:42,507 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-25 16:19:42,513 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-25 16:19:42,514 : INFO : BallController : Initial balls found: 1
+2025-10-25 16:19:42,515 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,515 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,515 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_coin_right'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,515 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_credit_button'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,517 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlanes'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,517 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lower_bumper'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,517 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_pop_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,517 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,517 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_upper_bumper'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,518 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane_rollover'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,518 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_pop_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,518 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,518 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_saucer'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,519 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_slam_tilt'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,519 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stand_up'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,519 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start_button'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,519 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,519 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 4230, 'top': [4230], 'total': 1}, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,519 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,520 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,520 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,520 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,520 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,520 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,521 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,521 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,521 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_pop_bumper'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,521 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,521 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_pop_bumper'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,523 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,523 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,523 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,523 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,523 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_pop_bumper'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,525 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,525 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,525 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,525 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 65, 'prev_value': None, 'change': True}
+2025-10-25 16:19:42,525 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-25 16:19:42,525 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-25 16:19:42,526 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...ertionError()>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe...ertionError()>) at C:\Users\antho\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 576, in _poll
+    self.send_byte(LisyDefines.SwitchesGetChangedSwitches)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 783, in send_byte
+    assert self._writer is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-10-25 16:19:42,528 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-25 16:19:42,540 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-25 16:19:42,540 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-25 16:19:42,540 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-10-25 16:19:42,541 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-10-25 16:19:42,542 : INFO : Mode.attract : Will not start because machine is shutting down.
+2025-10-25 16:19:42,542 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-25 16:19:43,567 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-154' coro=<IocpProactor.accept.<locals>.accept_coro() running at C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py:566> wait_for=<_OverlappedFuture cancelled>>
+2025-10-25 16:19:43,568 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 1 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player1_display. See error above.
+2025-10-25 16:19:43,570 : INFO : root : MPF run loop ended.

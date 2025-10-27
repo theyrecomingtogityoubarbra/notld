@@ -1,0 +1,1019 @@
+2025-10-27 09:33:34,573 : INFO : root : Loading config.
+2025-10-27 09:33:34,577 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-27 09:33:34,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-27 09:33:34,742 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-27 09:33:34,744 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-27 09:33:34,745 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-27 09:33:34,746 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-27 09:33:34,746 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-27 09:33:34,748 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-27 09:33:34,748 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-27 09:33:34,749 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\7f73d12aa9beccac1cbd8c265ccda72e.mpf_cache
+2025-10-27 09:33:34,749 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-27 09:33:34,750 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-27 09:33:34,750 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-27 09:33:34,752 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-27 09:33:34,752 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-27 09:33:34,753 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-27 09:33:34,753 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-27 09:33:34,754 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-27 09:33:34,754 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-27-09-33-34-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-27-09-33-34-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-27 09:33:34,754 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-27 09:33:34,754 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-27 09:33:34,754 : INFO : Machine : Platform: win32
+2025-10-27 09:33:34,754 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-27 09:33:34,754 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-27 09:33:34,757 : INFO : Machine : Initializing MPF...
+2025-10-27 09:33:35,022 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-27 09:33:35,023 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-27 09:33:35,606 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-27 09:33:36,107 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-27 09:33:36,606 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-27 09:33:37,105 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-27 09:33:37,604 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-27 09:33:38,104 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-27 09:33:38,492 : WARNING : lisy : Reset of LISY failed. Got 100 instead of 0. Will retry.
+2025-10-27 09:33:38,555 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY35', 'prev_value': None, 'change': True}
+2025-10-27 09:33:38,555 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2025-10-27 09:33:38,555 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2025-10-27 09:33:39,880 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-27 09:33:39,912 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-27 09:33:39,912 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 300, 'prev_value': None, 'change': True}
+2025-10-27 09:33:39,912 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-27 09:33:39,912 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-27 09:33:39,912 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,026 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,026 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,026 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,026 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,026 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,026 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-27-09-33-34-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,027 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-27 09:33:40,060 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-10-27 09:33:40,060 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-10-27 09:33:40,134 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-27 09:33:40,136 : INFO : SwitchController : Found active switch: ('8', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x000001B57F8C96D0>) <switch.s_trough>
+2025-10-27 09:33:40,144 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-27 09:33:40,146 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-27 09:33:40,165 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-27 09:33:40,166 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-27 09:33:40,281 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2025-10-27 09:33:40,281 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:33:40,282 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-10-27 09:33:40,282 : INFO : ball_device.bd_saucer : State: idle
+2025-10-27 09:33:40,296 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-27 09:33:40,302 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-27 09:33:40,302 : INFO : BallController : Initial balls found: 1
+2025-10-27 09:33:40,304 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,304 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,304 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_coin_right'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,304 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_credit_button'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlanes'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_left'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_middle'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lower_bumper'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane_rollover'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_pop_bumper'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_upper_bumper'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_pop_bumper'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_skill_lane'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_upper_rollovers'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,305 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outer_skill_lanes'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_left'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_middle'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane_rollover'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_pop_bumper'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_saucer'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_slam_tilt'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_spinner'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stand_up'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start_button'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,306 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1413, 'top': [5110, 5070, 4300, 4230, 3980, 3410, 1300, 500, 500, 300], 'total': 23}, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 106, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_pop_bumper'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_pop_bumper'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 52, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_pop_bumper'====== Args={'value': 142, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 380, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,310 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,310 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 351, 'prev_value': None, 'change': True}
+2025-10-27 09:33:40,310 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-27 09:33:40,346 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-27 09:33:40,347 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-27 09:33:40,354 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-27 09:33:40,354 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-27 09:33:40,355 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-10-27 09:33:40,356 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-10-27 09:33:40,356 : INFO : Mode.attract : Started. Priority: 10
+2025-10-27 09:33:40,356 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:33:40,356 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-10-27 09:33:40,357 : INFO : EventManager : Event: ======'godot_attract_on'====== Args={'priority': 0}
+2025-10-27 09:33:40,357 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-27 09:33:40,357 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-27 09:33:40,373 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-10-27 09:33:40,422 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-10-27 09:33:40,422 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-10-27 09:33:40,423 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'queue': '<QueuedEvent>', 'cmd': 'slides_play', '_from_bcp': True}
+2025-10-27 09:33:42,354 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-27 09:33:42,746 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:33:43,154 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:33:45,135 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-27 09:33:45,525 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:33:45,929 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:33:46,069 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-10-27 09:33:46,304 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-10-27 09:33:46,304 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-10-27 09:33:46,305 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.23499999998603016}
+2025-10-27 09:33:46,305 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.23499999998603016}
+2025-10-27 09:33:46,305 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.23499999998603016}
+2025-10-27 09:33:46,305 : INFO : Mode.game : Started. Priority: 20
+2025-10-27 09:33:46,305 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:33:46,306 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.23499999998603016}
+2025-10-27 09:33:46,318 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-10-27 09:33:46,319 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-10-27 09:33:46,319 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-10-27 09:33:46,319 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-10-27 09:33:46,319 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:33:46,319 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:33:46,321 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:33:46,321 : INFO : Mode.attract : Stopped.
+2025-10-27 09:33:46,321 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:33:46,321 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-10-27 09:33:46,321 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-10-27 09:33:46,322 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-10-27 09:33:46,322 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-10-27 09:33:46,322 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:33:46,322 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-10-27 09:33:46,322 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-10-27 09:33:46,323 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-10-27 09:33:46,323 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-10-27 09:33:46,323 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-10-27 09:33:46,324 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:33:46,342 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-10-27 09:33:46,343 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:33:46,347 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:33:46,348 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-10-27 09:33:46,348 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:33:46,349 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:33:46,357 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:33:46,357 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:33:46,358 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:33:46,358 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-27 09:33:46,358 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:33:46,358 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:33:46,358 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:33:46,361 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:33:46,363 : INFO : Mode.base : Started. Priority: 50
+2025-10-27 09:33:46,363 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:33:46,363 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:33:46,363 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-10-27 09:33:46,363 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:33:46,363 : INFO : EventManager : Event: ======'start_firstball_intro'====== Args={'priority': 0}
+2025-10-27 09:33:46,363 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'priority': 0, 'delay': '6s'}
+2025-10-27 09:33:46,365 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-10-27 09:33:46,379 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-10-27 09:33:46,379 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-10-27 09:33:46,379 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-10-27 09:33:46,380 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:33:46,381 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-10-27 09:33:46,381 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:33:46,381 : INFO : ball_device.bd_trough : State: ejecting
+2025-10-27 09:33:46,381 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-10-27 09:33:46,381 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:33:46,383 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-10-27 09:33:46,383 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-10-27 09:33:46,428 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:33:46,435 : INFO : ball_device.bd_trough : State: ball_left
+2025-10-27 09:33:46,435 : INFO : ball_device.bd_trough : Ball left
+2025-10-27 09:33:46,435 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-10-27 09:33:53,121 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'_from_bcp': True}
+2025-10-27 09:33:56,432 : INFO : ball_device.bd_trough : State: failed_confirm
+2025-10-27 09:33:56,432 : INFO : ball_device.bd_trough : Got timeout (10.0s) before confirm from <playfield.playfield>
+2025-10-27 09:33:56,525 : INFO : ball_device.bd_trough : Confirming eject because target is playfield and ball did not return.
+2025-10-27 09:33:56,525 : INFO : ball_device.bd_trough : Eject successful
+2025-10-27 09:33:56,525 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-10-27 09:33:56,525 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-27 09:33:56,525 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-10-27 09:33:56,527 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-10-27 09:33:56,527 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:33:59,397 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:33:59,397 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:33:59,397 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:33:59,397 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 107, 'prev_value': 106, 'change': 1}
+2025-10-27 09:33:59,398 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100, 'prev_value': 0, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:33:59,398 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:33:59,409 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:33:59,710 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:01,627 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:01,627 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:01,627 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:01,628 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 108, 'prev_value': 107, 'change': 1}
+2025-10-27 09:34:01,628 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 200, 'prev_value': 100, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:01,629 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:01,639 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:01,640 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:01,908 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:02,312 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:02,312 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:02,312 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:02,312 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 109, 'prev_value': 108, 'change': 1}
+2025-10-27 09:34:02,313 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 300, 'prev_value': 200, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:02,313 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,321 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,322 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,453 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:02,595 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:02,595 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:02,595 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:02,595 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 110, 'prev_value': 109, 'change': 1}
+2025-10-27 09:34:02,596 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 400, 'prev_value': 300, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:02,597 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,604 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,604 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,674 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:02,767 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:02,767 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:02,767 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:02,767 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 111, 'prev_value': 110, 'change': 1}
+2025-10-27 09:34:02,768 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 500, 'prev_value': 400, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:02,768 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,776 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,777 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,846 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:02,940 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:02,940 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:02,940 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:02,940 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 112, 'prev_value': 111, 'change': 1}
+2025-10-27 09:34:02,941 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 600, 'prev_value': 500, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:02,941 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,950 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:02,950 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,002 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:03,081 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:03,081 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:03,081 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:03,081 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 113, 'prev_value': 112, 'change': 1}
+2025-10-27 09:34:03,082 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 700, 'prev_value': 600, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:03,083 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,089 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,091 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,144 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:03,236 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:03,236 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:03,236 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:03,236 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 114, 'prev_value': 113, 'change': 1}
+2025-10-27 09:34:03,237 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 800, 'prev_value': 700, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:03,238 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,245 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,246 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,313 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:03,391 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:03,391 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:03,391 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:03,391 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 115, 'prev_value': 114, 'change': 1}
+2025-10-27 09:34:03,392 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 900, 'prev_value': 800, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:03,392 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,400 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,401 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,407 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:03,502 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:03,502 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:03,502 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:03,502 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 116, 'prev_value': 115, 'change': 1}
+2025-10-27 09:34:03,503 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 900, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:03,504 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,510 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,511 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,549 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:03,612 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:03,612 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:03,613 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:03,613 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 117, 'prev_value': 116, 'change': 1}
+2025-10-27 09:34:03,613 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1100, 'prev_value': 1000, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:03,614 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,621 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,622 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:03,705 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:05,625 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-10-27 09:34:05,625 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2025-10-27 09:34:05,625 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2025-10-27 09:34:05,626 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-10-27 09:34:05,626 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 2}
+2025-10-27 09:34:05,626 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:05,626 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 2>, 'num': 2}
+2025-10-27 09:34:05,626 : INFO : Mode.game : Player added successfully. Total players: 2
+2025-10-27 09:34:05,626 : INFO : EventManager : Event: ======'multiplayer_game'====== Args={}
+2025-10-27 09:34:05,627 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 2}
+2025-10-27 09:34:05,627 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 2, 'prev_value': 2, 'change': 0, 'player_num': 2}
+2025-10-27 09:34:05,627 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 2}
+2025-10-27 09:34:05,629 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:05,638 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:05,639 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:05,814 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-10-27 09:34:08,870 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:08,870 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 352, 'prev_value': 351, 'change': 1}
+2025-10-27 09:34:09,368 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-27 09:34:09,368 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-27 09:34:09,368 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-27 09:34:09,369 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-27 09:34:09,369 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-10-27 09:34:09,370 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:09,370 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-27 09:34:09,371 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-10-27 09:34:09,371 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:09,371 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:09,372 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-10-27 09:34:09,372 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-10-27 09:34:09,372 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-10-27 09:34:09,373 : INFO : Mode.base : Stopped.
+2025-10-27 09:34:09,373 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:09,373 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-10-27 09:34:09,373 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-10-27 09:34:09,385 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-10-27 09:34:09,386 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:09,390 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:09,391 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:09,391 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:09,392 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:09,392 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2025-10-27 09:34:09,392 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:09,393 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:34:09,398 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:34:09,398 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:09,398 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:09,399 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-27 09:34:09,399 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:34:09,399 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:34:09,399 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:09,402 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:34:09,404 : INFO : Mode.base : Started. Priority: 50
+2025-10-27 09:34:09,404 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:09,405 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-27 09:34:09,405 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-10-27 09:34:09,405 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:34:09,405 : INFO : EventManager : Event: ======'start_firstball_intro'====== Args={'priority': 0}
+2025-10-27 09:34:09,405 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'priority': 0, 'delay': '6s'}
+2025-10-27 09:34:09,406 : INFO : EventManager : Event: ======'multi_player_ball_started'====== Args={}
+2025-10-27 09:34:09,419 : INFO : EventManager : Event: ======'player_2_ball_started'====== Args={}
+2025-10-27 09:34:09,420 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-10-27 09:34:09,420 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-10-27 09:34:09,420 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-10-27 09:34:09,420 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:09,421 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-10-27 09:34:09,421 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:09,422 : INFO : ball_device.bd_trough : State: ejecting
+2025-10-27 09:34:09,422 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-10-27 09:34:09,422 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:09,424 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-10-27 09:34:09,424 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-10-27 09:34:09,478 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:09,484 : INFO : ball_device.bd_trough : State: ball_left
+2025-10-27 09:34:09,484 : INFO : ball_device.bd_trough : Ball left
+2025-10-27 09:34:09,484 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-10-27 09:34:11,120 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:11,120 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:11,120 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:11,120 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 118, 'prev_value': 117, 'change': 1}
+2025-10-27 09:34:11,121 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100, 'prev_value': 0, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:11,122 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,123 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-10-27 09:34:11,155 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,155 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,156 : INFO : ball_device.bd_trough : Got eject confirm
+2025-10-27 09:34:11,156 : INFO : ball_device.bd_trough : Eject successful
+2025-10-27 09:34:11,156 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-10-27 09:34:11,156 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-27 09:34:11,156 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-10-27 09:34:11,157 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-10-27 09:34:11,157 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:34:11,198 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:11,368 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:11,368 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:11,368 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:11,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 119, 'prev_value': 118, 'change': 1}
+2025-10-27 09:34:11,368 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 200, 'prev_value': 100, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:11,369 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,376 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,377 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,443 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:11,489 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:11,489 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:11,489 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:11,489 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 120, 'prev_value': 119, 'change': 1}
+2025-10-27 09:34:11,489 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 300, 'prev_value': 200, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:11,491 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,498 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,498 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,499 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,597 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:11,604 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:11,604 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:11,604 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:11,604 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 121, 'prev_value': 120, 'change': 1}
+2025-10-27 09:34:11,604 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 400, 'prev_value': 300, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:11,605 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,611 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,612 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,612 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,691 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:11,754 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:11,754 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:11,754 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:11,754 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 122, 'prev_value': 121, 'change': 1}
+2025-10-27 09:34:11,755 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 500, 'prev_value': 400, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:11,755 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,762 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,762 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,764 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:11,816 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:13,992 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:13,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 353, 'prev_value': 352, 'change': 1}
+2025-10-27 09:34:14,008 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:14,024 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:14,024 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 354, 'prev_value': 353, 'change': 1}
+2025-10-27 09:34:14,040 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:14,087 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:14,087 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 355, 'prev_value': 354, 'change': 1}
+2025-10-27 09:34:14,586 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-27 09:34:14,586 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-27 09:34:14,586 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-27 09:34:14,587 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-27 09:34:14,587 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-10-27 09:34:14,587 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:14,587 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-27 09:34:14,588 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-10-27 09:34:14,588 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:14,588 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:14,589 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-10-27 09:34:14,590 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-10-27 09:34:14,590 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-10-27 09:34:14,591 : INFO : Mode.base : Stopped.
+2025-10-27 09:34:14,591 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:14,591 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-10-27 09:34:14,591 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-10-27 09:34:14,604 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-10-27 09:34:14,605 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:14,609 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:14,610 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:14,610 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:14,611 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:14,611 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2025-10-27 09:34:14,611 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:14,612 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:14,617 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:14,617 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:14,617 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:14,617 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-27 09:34:14,617 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:14,617 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:14,618 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:14,621 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:14,622 : INFO : Mode.base : Started. Priority: 50
+2025-10-27 09:34:14,622 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:14,622 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:14,622 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-10-27 09:34:14,622 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:34:14,622 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'priority': 0}
+2025-10-27 09:34:14,623 : INFO : EventManager : Event: ======'multi_player_ball_started'====== Args={}
+2025-10-27 09:34:14,637 : INFO : EventManager : Event: ======'player_1_ball_started'====== Args={}
+2025-10-27 09:34:14,637 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-10-27 09:34:14,638 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-10-27 09:34:14,638 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-10-27 09:34:14,638 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:14,639 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-10-27 09:34:14,639 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:14,640 : INFO : ball_device.bd_trough : State: ejecting
+2025-10-27 09:34:14,640 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-10-27 09:34:14,640 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:14,641 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-10-27 09:34:14,641 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-10-27 09:34:14,696 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:14,702 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:14,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 356, 'prev_value': 355, 'change': 1}
+2025-10-27 09:34:14,708 : INFO : ball_device.bd_trough : State: ball_left
+2025-10-27 09:34:14,708 : INFO : ball_device.bd_trough : Ball left
+2025-10-27 09:34:14,708 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-10-27 09:34:14,708 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:16,274 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:16,274 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:16,274 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:16,274 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 123, 'prev_value': 122, 'change': 1}
+2025-10-27 09:34:16,275 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1200, 'prev_value': 1100, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:16,276 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,276 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-10-27 09:34:16,287 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,287 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,289 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,289 : INFO : ball_device.bd_trough : Got eject confirm
+2025-10-27 09:34:16,289 : INFO : ball_device.bd_trough : Eject successful
+2025-10-27 09:34:16,289 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-10-27 09:34:16,290 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-27 09:34:16,290 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-10-27 09:34:16,290 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-10-27 09:34:16,290 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:34:16,368 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:16,414 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:16,414 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:16,414 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:16,414 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 124, 'prev_value': 123, 'change': 1}
+2025-10-27 09:34:16,414 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1300, 'prev_value': 1200, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:16,416 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,424 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,425 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,426 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,476 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:16,553 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:16,553 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:16,553 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:16,553 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 125, 'prev_value': 124, 'change': 1}
+2025-10-27 09:34:16,554 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1400, 'prev_value': 1300, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:16,554 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,562 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,563 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,563 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,631 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:16,708 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:16,708 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:16,708 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:16,708 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 126, 'prev_value': 125, 'change': 1}
+2025-10-27 09:34:16,709 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1500, 'prev_value': 1400, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:16,710 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,717 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,717 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,717 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,787 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:16,833 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:16,833 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:16,833 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:16,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 127, 'prev_value': 126, 'change': 1}
+2025-10-27 09:34:16,834 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1600, 'prev_value': 1500, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:16,834 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,842 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,843 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,843 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,913 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:16,990 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:16,990 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:16,990 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:16,991 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 128, 'prev_value': 127, 'change': 1}
+2025-10-27 09:34:16,991 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1700, 'prev_value': 1600, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:16,992 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,999 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:16,999 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,001 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,053 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:17,162 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:17,162 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:17,162 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:17,162 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 129, 'prev_value': 128, 'change': 1}
+2025-10-27 09:34:17,163 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1800, 'prev_value': 1700, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:17,163 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,171 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,172 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,172 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,178 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:17,257 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:17,257 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:17,257 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:17,257 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 130, 'prev_value': 129, 'change': 1}
+2025-10-27 09:34:17,258 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1900, 'prev_value': 1800, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:17,258 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,265 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,265 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,266 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:17,333 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:19,686 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:19,686 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 357, 'prev_value': 356, 'change': 1}
+2025-10-27 09:34:19,702 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:19,779 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:19,779 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 358, 'prev_value': 357, 'change': 1}
+2025-10-27 09:34:19,794 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:19,811 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:19,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 359, 'prev_value': 358, 'change': 1}
+2025-10-27 09:34:20,311 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-27 09:34:20,311 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-27 09:34:20,311 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-27 09:34:20,312 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-27 09:34:20,312 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-10-27 09:34:20,312 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:20,313 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-27 09:34:20,313 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-10-27 09:34:20,313 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:20,313 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:20,314 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-10-27 09:34:20,314 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-10-27 09:34:20,314 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-10-27 09:34:20,315 : INFO : Mode.base : Stopped.
+2025-10-27 09:34:20,315 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:20,315 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-10-27 09:34:20,315 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-10-27 09:34:20,329 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-10-27 09:34:20,329 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:20,334 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:20,334 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:20,334 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:20,335 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:20,335 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 2}
+2025-10-27 09:34:20,335 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:20,336 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 2, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:20,341 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 2, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:20,342 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:20,342 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:20,342 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-27 09:34:20,342 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 2, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:20,343 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 2, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:20,343 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:20,345 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 2, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:20,347 : INFO : Mode.base : Started. Priority: 50
+2025-10-27 09:34:20,347 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:20,347 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'player': 2, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-10-27 09:34:20,347 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-10-27 09:34:20,347 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:34:20,347 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'priority': 0}
+2025-10-27 09:34:20,348 : INFO : EventManager : Event: ======'multi_player_ball_started'====== Args={}
+2025-10-27 09:34:20,363 : INFO : EventManager : Event: ======'player_2_ball_started'====== Args={}
+2025-10-27 09:34:20,363 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-10-27 09:34:20,364 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-10-27 09:34:20,364 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-10-27 09:34:20,364 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:20,365 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-10-27 09:34:20,365 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:20,365 : INFO : ball_device.bd_trough : State: ejecting
+2025-10-27 09:34:20,365 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-10-27 09:34:20,367 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:20,367 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-10-27 09:34:20,367 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-10-27 09:34:20,419 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:20,426 : INFO : ball_device.bd_trough : State: ball_left
+2025-10-27 09:34:20,426 : INFO : ball_device.bd_trough : Ball left
+2025-10-27 09:34:20,426 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-10-27 09:34:21,210 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:21,210 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:21,210 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:21,210 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 131, 'prev_value': 130, 'change': 1}
+2025-10-27 09:34:21,211 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 600, 'prev_value': 500, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:21,212 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,212 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-10-27 09:34:21,219 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,219 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,220 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,220 : INFO : ball_device.bd_trough : Got eject confirm
+2025-10-27 09:34:21,220 : INFO : ball_device.bd_trough : Eject successful
+2025-10-27 09:34:21,220 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-10-27 09:34:21,220 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-27 09:34:21,220 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-10-27 09:34:21,220 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-10-27 09:34:21,220 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:34:21,320 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:21,367 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:21,367 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:21,367 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:21,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 132, 'prev_value': 131, 'change': 1}
+2025-10-27 09:34:21,368 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 700, 'prev_value': 600, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:21,369 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,376 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,376 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,377 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,446 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:21,524 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:21,524 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:21,524 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:21,524 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 133, 'prev_value': 132, 'change': 1}
+2025-10-27 09:34:21,525 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 800, 'prev_value': 700, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:21,526 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,533 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,534 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,534 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,600 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:21,647 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:21,647 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:21,647 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:21,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 134, 'prev_value': 133, 'change': 1}
+2025-10-27 09:34:21,648 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 900, 'prev_value': 800, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:21,648 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,656 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,657 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,657 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,725 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:21,772 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:21,772 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:21,772 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:21,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 135, 'prev_value': 134, 'change': 1}
+2025-10-27 09:34:21,773 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 900, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:21,774 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,782 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,782 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,783 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:21,850 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:24,431 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:24,431 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 360, 'prev_value': 359, 'change': 1}
+2025-10-27 09:34:24,447 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:24,493 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:24,493 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 361, 'prev_value': 360, 'change': 1}
+2025-10-27 09:34:24,993 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-27 09:34:24,993 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-27 09:34:24,993 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-27 09:34:24,994 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-27 09:34:24,994 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-10-27 09:34:24,994 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:24,995 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-27 09:34:24,995 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-10-27 09:34:24,995 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:24,995 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:24,996 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-10-27 09:34:24,996 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-10-27 09:34:24,996 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-10-27 09:34:24,997 : INFO : Mode.base : Stopped.
+2025-10-27 09:34:24,997 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:24,997 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-10-27 09:34:24,997 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-10-27 09:34:25,010 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-10-27 09:34:25,011 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:25,015 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:25,015 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:25,015 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:25,015 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:25,016 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2025-10-27 09:34:25,016 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:25,017 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:25,022 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:25,022 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:25,022 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:25,024 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-27 09:34:25,024 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:25,024 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:25,024 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:25,027 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:25,028 : INFO : Mode.base : Started. Priority: 50
+2025-10-27 09:34:25,028 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:25,028 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:25,028 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-10-27 09:34:25,028 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:34:25,029 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'priority': 0}
+2025-10-27 09:34:25,029 : INFO : EventManager : Event: ======'multi_player_ball_started'====== Args={}
+2025-10-27 09:34:25,043 : INFO : EventManager : Event: ======'player_1_ball_started'====== Args={}
+2025-10-27 09:34:25,043 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-10-27 09:34:25,043 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-10-27 09:34:25,043 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-10-27 09:34:25,044 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:25,044 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-10-27 09:34:25,044 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:25,045 : INFO : ball_device.bd_trough : State: ejecting
+2025-10-27 09:34:25,045 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-10-27 09:34:25,045 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:25,045 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-10-27 09:34:25,045 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-10-27 09:34:25,135 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:25,141 : INFO : ball_device.bd_trough : State: ball_left
+2025-10-27 09:34:25,141 : INFO : ball_device.bd_trough : Ball left
+2025-10-27 09:34:25,141 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-10-27 09:34:25,963 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:25,963 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:25,963 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:25,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 136, 'prev_value': 135, 'change': 1}
+2025-10-27 09:34:25,964 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 2000, 'prev_value': 1900, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:25,965 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:25,965 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-10-27 09:34:25,972 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:25,973 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:25,973 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:25,974 : INFO : ball_device.bd_trough : Got eject confirm
+2025-10-27 09:34:25,974 : INFO : ball_device.bd_trough : Eject successful
+2025-10-27 09:34:25,974 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-10-27 09:34:25,974 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-27 09:34:25,974 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-10-27 09:34:25,975 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-10-27 09:34:25,975 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:34:26,056 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:26,134 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:26,134 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:26,134 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:26,134 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 137, 'prev_value': 136, 'change': 1}
+2025-10-27 09:34:26,135 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 2100, 'prev_value': 2000, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:26,136 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,142 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,143 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,143 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,181 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:26,260 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:26,260 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:26,260 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:26,260 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 138, 'prev_value': 137, 'change': 1}
+2025-10-27 09:34:26,261 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 2200, 'prev_value': 2100, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-10-27 09:34:26,262 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,269 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,269 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,270 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:26,339 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:28,629 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:28,630 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 362, 'prev_value': 361, 'change': 1}
+2025-10-27 09:34:28,636 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:28,676 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:28,676 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 363, 'prev_value': 362, 'change': 1}
+2025-10-27 09:34:28,707 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:28,739 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:28,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 364, 'prev_value': 363, 'change': 1}
+2025-10-27 09:34:29,238 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-27 09:34:29,238 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-27 09:34:29,238 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-27 09:34:29,239 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-27 09:34:29,239 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-10-27 09:34:29,240 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:29,240 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-27 09:34:29,240 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-10-27 09:34:29,240 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:29,241 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:29,241 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-10-27 09:34:29,242 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-10-27 09:34:29,242 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-10-27 09:34:29,242 : INFO : Mode.base : Stopped.
+2025-10-27 09:34:29,242 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:29,243 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-10-27 09:34:29,243 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-10-27 09:34:29,256 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-10-27 09:34:29,256 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:29,261 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:29,262 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-27 09:34:29,262 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:29,262 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:29,262 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 2}
+2025-10-27 09:34:29,263 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:29,263 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 2, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:29,267 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 2, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:29,268 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:29,268 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-27 09:34:29,268 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-27 09:34:29,268 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 2, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:29,268 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 2, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:29,269 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:29,272 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 2, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:29,273 : INFO : Mode.base : Started. Priority: 50
+2025-10-27 09:34:29,273 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:29,273 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'player': 2, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2025-10-27 09:34:29,273 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-10-27 09:34:29,273 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-27 09:34:29,273 : INFO : EventManager : Event: ======'start_subsequent_loop'====== Args={'priority': 0}
+2025-10-27 09:34:29,274 : INFO : EventManager : Event: ======'multi_player_ball_started'====== Args={}
+2025-10-27 09:34:29,288 : INFO : EventManager : Event: ======'player_2_ball_started'====== Args={}
+2025-10-27 09:34:29,288 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-10-27 09:34:29,288 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-10-27 09:34:29,288 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-10-27 09:34:29,289 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:29,289 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-10-27 09:34:29,289 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:29,290 : INFO : ball_device.bd_trough : State: ejecting
+2025-10-27 09:34:29,290 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-10-27 09:34:29,290 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-10-27 09:34:29,290 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-10-27 09:34:29,290 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-10-27 09:34:29,349 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:29,356 : INFO : ball_device.bd_trough : State: ball_left
+2025-10-27 09:34:29,356 : INFO : ball_device.bd_trough : Ball left
+2025-10-27 09:34:29,356 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-10-27 09:34:30,421 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:30,421 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:30,421 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:30,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 139, 'prev_value': 138, 'change': 1}
+2025-10-27 09:34:30,422 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1100, 'prev_value': 1000, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:30,422 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,423 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-10-27 09:34:30,431 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,431 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,431 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,432 : INFO : ball_device.bd_trough : Got eject confirm
+2025-10-27 09:34:30,432 : INFO : ball_device.bd_trough : Eject successful
+2025-10-27 09:34:30,432 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-10-27 09:34:30,432 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-27 09:34:30,432 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-10-27 09:34:30,432 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-10-27 09:34:30,432 : INFO : ball_device.bd_trough : State: idle
+2025-10-27 09:34:30,467 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:30,514 : INFO : SwitchController : <<<<<<< 's_inlanes' active >>>>>>>
+2025-10-27 09:34:30,514 : INFO : EventManager : Event: ======'s_inlanes_active'====== Args={}
+2025-10-27 09:34:30,514 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-10-27 09:34:30,514 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 140, 'prev_value': 139, 'change': 1}
+2025-10-27 09:34:30,515 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1200, 'prev_value': 1100, 'change': 100, 'player_num': 2, 'source': 'base'}
+2025-10-27 09:34:30,516 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,523 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,524 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,524 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('78240c55-dc52-4d32-b1ca-b5bc7630d13f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('e8ec3eef-dc30-4d89-a64a-c85000a2d287'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-27 09:34:30,592 : INFO : SwitchController : <<<<<<< 's_inlanes' inactive >>>>>>>
+2025-10-27 09:34:33,085 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:33,085 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 365, 'prev_value': 364, 'change': 1}
+2025-10-27 09:34:33,100 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-27 09:34:33,147 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-27 09:34:33,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 366, 'prev_value': 365, 'change': 1}
+2025-10-27 09:34:33,648 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-27 09:34:33,648 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-27 09:34:33,648 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-27 09:34:33,648 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-27 09:34:33,648 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-10-27 09:34:33,649 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:33,649 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-27 09:34:33,650 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-10-27 09:34:33,650 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-27 09:34:33,650 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-27 09:34:33,651 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-10-27 09:34:33,652 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-10-27 09:34:33,652 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-10-27 09:34:33,653 : INFO : Mode.base : Stopped.
+2025-10-27 09:34:33,653 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:33,653 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-10-27 09:34:33,653 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-10-27 09:34:33,668 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-10-27 09:34:33,670 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:33,676 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:33,676 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 2>, 'number': 2}
+2025-10-27 09:34:33,677 : INFO : EventManager : Event: ======'game_will_end'====== Args={}
+2025-10-27 09:34:33,677 : INFO : EventManager : Event: ======'game_ending'====== Args={}
+2025-10-27 09:34:33,678 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 2200, 'prev_value': 300, 'change': 1900}
+2025-10-27 09:34:33,678 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 1200, 'prev_value': None, 'change': True}
+2025-10-27 09:34:33,679 : INFO : EventManager : Event: ======'game_ended'====== Args={}
+2025-10-27 09:34:33,680 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-10-27 09:34:33,680 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-10-27 09:34:33,680 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-10-27 09:34:33,683 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-10-27 09:34:33,689 : INFO : Mode.attract : Started. Priority: 10
+2025-10-27 09:34:33,689 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:33,689 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-10-27 09:34:33,689 : INFO : EventManager : Event: ======'godot_attract_on'====== Args={'priority': 0}
+2025-10-27 09:34:33,690 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-27 09:34:33,706 : INFO : Mode.game : Stopped.
+2025-10-27 09:34:33,706 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-27 09:34:33,706 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-10-27 09:34:33,706 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-10-27 09:34:33,729 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-10-27 09:34:33,731 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-10-27 09:34:33,731 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-10-27 09:34:33,731 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-10-27 09:34:35,680 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-27 09:34:36,070 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:36,489 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:38,488 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-27 09:34:38,869 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:39,271 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:41,259 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-27 09:34:41,649 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:42,054 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:44,054 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-27 09:34:44,446 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:44,853 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-27 09:34:46,007 : INFO : Machine : Shutting down...
+2025-10-27 09:34:46,007 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-27 09:34:46,051 : ERROR : asyncio : Exception in callback RunningShow._run_next_step()
+handle: <TimerHandle when=855893.9499999997 RunningShow._run_next_step()>
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\assets\show.py", line 690, in _run_next_step
+    player.show_play_callback(
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 365, in show_play_callback
+    self.play(settings=settings, priority=priority, calling_context=calling_context,
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 43, in play
+    self._light_color(light, instance_dict, full_context, s['color'], s["fade"], final_priority, start_time)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 103, in _light_color
+    light.color(color, key=full_context, fade_ms=fade_ms, priority=priority, start_time=start_time)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\light.py", line 414, in color
+    self._schedule_update()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\light.py", line 657, in _schedule_update
+    driver.set_fade(start_brightness, start_time, target_brightness, target_time)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\interfaces\light_platform_interface.py", line 98, in set_fade
+    self.set_brightness_and_fade(target_brightness, max(fade_ms, 0))
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\interfaces\light_platform_interface.py", line 160, in set_brightness_and_fade
+    self.set_brightness(brightness)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 123, in set_brightness
+    self.platform.send_byte(LisyDefines.LampsSetLampOn, bytes([self.number]))
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 783, in send_byte
+    assert self._writer is not None
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+2025-10-27 09:34:46,153 : INFO : root : MPF run loop ended.

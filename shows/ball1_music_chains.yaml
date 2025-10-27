@@ -1,0 +1,18 @@
+#show_version=6
+
+# Step 1: play the intro now
+- time: 0
+  sounds:
+    firstballintro:
+      action: play
+      loops: 0
+      volume: 0.8
+
+# Step 2: after the intro length, start the loop
+# Replace 6 with the exact length (e.g. 7.4) of firstballintro
+- time: 6
+  sounds:
+    subsequentball:
+      action: play
+      loops: -1
+      volume: 0.8

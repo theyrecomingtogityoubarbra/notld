@@ -1,0 +1,133 @@
+2025-10-25 20:11:31,518 : INFO : root : Loading config.
+2025-10-25 20:11:31,522 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-25 20:11:31,523 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-10-25 20:11:31,523 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-25 20:11:31,536 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-25 20:11:31,536 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-25 20:11:31,553 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-25 20:11:31,556 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-25 20:11:31,559 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-25 20:11:31,562 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-25 20:11:31,566 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-10-25 20:11:31,568 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-10-25 20:11:31,568 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-10-25 20:11:31,571 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-25 20:11:31,679 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-25 20:11:31,680 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-25 20:11:31,681 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-25 20:11:31,681 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-25 20:11:31,682 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-25 20:11:31,683 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-25 20:11:31,684 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-25 20:11:31,684 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-25 20:11:31,684 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-25 20:11:31,686 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-25 20:11:31,686 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-25 20:11:31,687 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-25 20:11:31,687 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-25 20:11:31,688 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-25 20:11:31,688 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-25 20:11:31,688 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-25 20:11:31,689 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-25 20:11:31,689 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-25-20-11-31-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-25-20-11-31-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-25 20:11:31,689 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-25 20:11:31,689 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-25 20:11:31,689 : INFO : Machine : Platform: win32
+2025-10-25 20:11:31,689 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-25 20:11:31,689 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-25 20:11:31,692 : INFO : Machine : Initializing MPF...
+2025-10-25 20:11:31,790 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,818 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,818 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 3980, 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,818 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 5110, 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,818 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,818 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,819 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,986 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,986 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,986 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,986 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,986 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,986 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-25-20-11-31-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-25 20:11:31,987 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-25 20:11:32,020 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-10-25 20:11:32,020 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-10-25 20:11:32,024 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-25 20:11:32,032 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-10-25 20:11:32,032 : INFO : ball_device.bd_trough : State: idle
+2025-10-25 20:11:32,032 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-10-25 20:11:32,032 : INFO : ball_device.bd_saucer : State: idle
+2025-10-25 20:11:32,057 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-25 20:11:32,062 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-25 20:11:32,062 : INFO : BallController : Initial balls found: 0
+2025-10-25 20:11:32,063 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_coin_right'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_credit_button'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_middle'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lower_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane_rollover'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_pop_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_upper_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_pop_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_skill_lane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane_rollover'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_saucer'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_slam_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_spinner'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stand_up'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,064 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 4349, 'top': [5110, 5070, 4300, 4230, 3980, 3410], 'total': 6}, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_pop_bumper'====== Args={'value': 95, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_pop_bumper'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 66, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,066 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_pop_bumper'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 67, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 311, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 137, 'prev_value': None, 'change': True}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-25 20:11:32,067 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-10-25 20:11:32,068 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-10-25 20:11:32,068 : INFO : Mode.attract : Started. Priority: 10
+2025-10-25 20:11:32,068 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-25 20:11:32,068 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-10-25 20:11:32,068 : INFO : EventManager : Event: ======'godot_attract_on'====== Args={'priority': 0}
+2025-10-25 20:11:32,069 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-25 20:11:32,069 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-25 20:11:32,069 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-10-25 20:11:33,324 : INFO : Machine : Shutting down...
+2025-10-25 20:11:33,324 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-25 20:11:33,326 : INFO : root : MPF run loop ended.

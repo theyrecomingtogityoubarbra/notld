@@ -1,14 +1,11 @@
 #config_version=6
 
 sounds:
-  firstballintro:
-    file: music/firstballintro.wav
-    track: music
-    volume: 0.8
-  subsequentball:
-    file: music/subsequentball.wav
-    track: music
-    volume: 0.8
+  firstballintro:            # file is sounds/firstballintro.wav
+    # Fire an event just before it ends (smoother hand-off) and/or when it stops.
+    events_when_about_to_finish: firstballintro_nearly_done
+    about_to_finish_time: 150ms   # tweak for your file length
+    events_when_stopped: firstballintro_finished
 
   escape_graveyard_music:
     file: music/escape_graveyard_music.wav

@@ -1,18 +1,63 @@
 #config_version=6
 
-## MPF Main Machine Config File
-#
-# This file defines your system-wide properties like switches,
-# drivers, ball devices, hardware platforms, and more. You can
-# include everything here, or create sub-config files to be
-# imported and merged with this one.
-
 hardware:
   platform: lisy
 lisy:
   connection: serial
   port: com3
   baud: 115200
+
+segment_displays:
+  info_display:    { number: 0, size: 4, update_method: replace }
+  player1_display: { number: 1, size: 7, update_method: stack }
+  player2_display: { number: 2, size: 7, update_method: stack }
+  player3_display: { number: 3, size: 7, update_method: stack }
+  player4_display: { number: 4, size: 7, update_method: stack }
+
+
+# Free Play: no {credits} anywhere in segment_display_player
+segment_display_player:
+  # Blank the info window (4 spaces) at boot and in attract
+  machine_reset_phase_3:
+    info_display: { text: "    " }
+  mode_attract_started:
+    info_display: { text: "    " }
+
+  # Show only the ball number in the right two digits
+  "ball_started{ball==1}":
+    info_display: { text: " 01 " }
+  "ball_started{ball==2}":
+    info_display: { text: " 02 " }
+  "ball_started{ball==3}":
+    info_display: { text: " 03 " }
+
+  # Light player score windows at game start
+  game_started:
+    info_display:
+      text: "{current_player.ball:d}"
+    player1_display: { text: " " }
+    player2_display: { text: " " }
+    player3_display: { text: " " }
+    player4_display: { text: " " }
+
+  # Score updates
+  "player_score{current_player.number==1}":
+    player1_display: { text: "{players[0].score:d}" }
+  "player_score{current_player.number==2}":
+    player2_display: { text: "{players[1].score:d}" }
+  "player_score{current_player.number==3}":
+    player3_display: { text: "{players[2].score:d}" }
+  "player_score{current_player.number==4}":
+    player4_display: { text: "{players[3].score:d}" }
+
+  # Back to blank at game end
+  game_ended:
+    info_display:
+      text: "    "
+    player1_display: { text: "{machine.player1_score:d}" }
+    player2_display: { text: "{machine.player2_score:d}" }
+    player3_display: { text: "{machine.player3_score:d}" }
+    player4_display: { text: "{machine.player4_score:d}" }
 
 config:
   - config_ball_devices.yaml
@@ -22,8 +67,8 @@ config:
   - config_sounds.yaml
 
 game:
-  balls_per_game: 3        # Number of balls per player per game
-  max_players: 4           # Maximum players allowed
+  balls_per_game: 3
+  max_players: 4
 
 modes:
   - attract
@@ -34,7 +79,7 @@ playfields:
   playfield:
     default_source_device: bd_trough
     tags: default
-    
+
 digital_outputs:
   flipper_enabling_relay:
     type: driver
@@ -62,10 +107,99 @@ autofire_coils:
     coil: c_middle_pop_bumper
     switch: s_middle_pop_bumper
 
-ball_saves:
-  default_ball_save:
-    active_time: 10s              # how long the save is active after ball start
-    enable_events: ball_started   # start automatically at the beginning of each ball
-    auto_launch: true             # auto-eject the saved ball
-    balls_to_save: 1              # only one save per ball
-    eject_delay: 1s            # optional: delay before eject
+light_player:
+  # clear all count lamps when a new game starts
+  # clear BEFORE any players are added
+  game_starting:
+    l_player_1: off
+    l_player_2: off
+    l_player_3: off
+    l_player_4: off
+
+  # cumulative player-count lamps using the player number from the event
+  "player_added{num==1}":
+    l_player_1: on
+  "player_added{player_num==1}":        # fallback for images that use player_num
+    l_player_1: on
+
+  "player_added{num==2}":
+    l_player_1: on
+    l_player_2: on
+  "player_added{player_num==2}":
+    l_player_1: on
+    l_player_2: on
+
+  "player_added{num==3}":
+    l_player_1: on
+    l_player_2: on
+    l_player_3: on
+  "player_added{player_num==3}":
+    l_player_1: on
+    l_player_2: on
+    l_player_3: on
+
+  "player_added{num==4}":
+    l_player_1: on
+    l_player_2: on
+    l_player_3: on
+    l_player_4: on
+  "player_added{player_num==4}":
+    l_player_1: on
+    l_player_2: on
+    l_player_3: on
+    l_player_4: on
+
+  # turn all UP lamps off first on each ball start
+  ball_started:
+    l_1up: off
+    l_2up: off
+    l_3up: off
+    l_4up: off
+
+  # then turn on the current player's UP lamp (no suffix needed)
+  "ball_started{current_player.number==1}":
+    l_1up: on
+  "ball_started{current_player.number==2}":
+    l_2up: on
+  "ball_started{current_player.number==3}":
+    l_3up: on
+  "ball_started{current_player.number==4}":
+    l_4up: on
+
+  # single merged game_ended cleanup
+  game_ended:
+    l_player_1: off
+    l_player_2: off
+    l_player_3: off
+    l_player_4: off
+    l_1up: off
+    l_2up: off
+    l_3up: off
+    l_4up: off
+
+
+#event_player:
+  # After the ball is served, wait a moment before arming ball save.
+  # This avoids arming during any outhole switch bounce or serve cycle.
+  #ball_started:
+    #ball_save_arm_now:
+      #delay: 1s
+
+  # Once ANY meaningful playfield switch happens, start a short fuse and then
+  # turn ball save off. (Adjust the delay to taste.)
+  #playfield_active:
+    #ball_save_off:
+      #delay: 10s
+
+#ball_saves:
+  #default_ball_save:
+    # Do NOT arm immediately on ball_started.
+    #enable_events: ball_save_arm_now
+    # Stop it automatically after we know the ball is really in play:
+    #disable_events: ball_save_off
+
+    #active_time: 10s         # window during which a drain will be saved
+    #grace_period: 1s         # brief extra time after the timer expires
+    #auto_launch: true        # re-serve automatically on a saved drain
+    #balls_to_save: 1         # one save per ball
+    #eject_delay: 750ms       # small pause before re-serve (tweak as you like)

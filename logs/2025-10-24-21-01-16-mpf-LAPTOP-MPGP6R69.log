@@ -1,0 +1,227 @@
+2025-10-24 21:01:16,737 : INFO : root : Loading config.
+2025-10-24 21:01:16,757 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-24 21:01:16,758 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-24 21:01:17,029 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-24 21:01:17,031 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-24 21:01:17,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-24 21:01:17,034 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-24 21:01:17,035 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-24 21:01:17,038 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-24 21:01:17,039 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-24 21:01:17,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-24 21:01:17,041 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-24 21:01:17,043 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-24 21:01:17,044 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-24 21:01:17,045 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-24 21:01:17,047 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-24 21:01:17,048 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-24 21:01:17,050 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-24 21:01:17,051 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-24 21:01:17,054 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-24 21:01:17,054 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-24-21-01-16-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-24-21-01-16-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-24 21:01:17,054 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-24 21:01:17,054 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-24 21:01:17,054 : INFO : Machine : Platform: win32
+2025-10-24 21:01:17,054 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-24 21:01:17,055 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-24 21:01:17,059 : INFO : Machine : Initializing MPF...
+2025-10-24 21:01:17,693 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-24 21:01:17,696 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-24 21:01:17,858 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY35', 'prev_value': None, 'change': True}
+2025-10-24 21:01:17,859 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2025-10-24 21:01:17,859 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,205 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,286 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,286 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 4230, 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,287 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,287 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,289 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,516 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,516 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,516 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,516 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,517 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,517 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-24-21-01-16-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-24 21:01:19,517 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-24 21:01:19,592 : WARNING : segment_display.info_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-24 21:01:19,592 : WARNING : segment_display.player1_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-24 21:01:19,592 : WARNING : segment_display.player2_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-24 21:01:19,593 : WARNING : segment_display.player3_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-24 21:01:19,593 : WARNING : segment_display.player4_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-24 21:01:19,615 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-10-24 21:01:19,615 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-10-24 21:01:19,684 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-116' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player1_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 1 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player1_display. See error above.
+2025-10-24 21:01:19,688 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-117' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player2_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 2 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player2_display. See error above.
+2025-10-24 21:01:19,691 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-118' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player3_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 3 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player3_display. See error above.
+2025-10-24 21:01:19,693 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-119' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Error in platform while configuring segment display player4_display. See error above.')>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 4 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player4_display. See error above.
+2025-10-24 21:01:19,699 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-24 21:01:19,701 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-24 21:01:19,701 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-24 21:01:19,702 : INFO : Machine : Shutting down...
+2025-10-24 21:01:19,704 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-24 21:01:19,705 : INFO : SwitchController : Found active switch: ('8', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x000001E578A396D0>) <switch.s_trough>
+2025-10-24 21:01:19,727 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-24 21:01:19,731 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\text_ui.py", line 459, in _bcp_connection_attempt
+    self._pending_bcp_connection = PopUpDialog(self.screen,
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\asciimatics\widgets\popupdialog.py", line 39, in __init__
+    string_len = wcswidth if screen.unicode_aware else len
+                             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unicode_aware'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connection_attempt of <mpf.core.text_ui.TextUi object at 0x000001E57BBC3480>>, priority=1, kwargs={}, key=UUID('b23dae48-95de-4182-9596-fa050336dfb9'), condition=None, blocking_facility=None) for event bcp_connection_attempt. 'NoneType' object has no attribute 'unicode_aware'
+2025-10-24 21:01:19,739 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-24 21:01:20,780 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-24 21:01:20,782 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-24 21:01:20,782 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\text_ui.py", line 466, in _bcp_connected
+    self.scene.remove_effect(self._pending_bcp_connection)
+  File "C:\Users\antho\mpf\Lib\site-packages\asciimatics\scene.py", line 85, in remove_effect
+    self._effects.remove(effect)
+ValueError: list.remove(x): x not in list
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connected of <mpf.core.text_ui.TextUi object at 0x000001E57BBC3480>>, priority=1, kwargs={}, key=UUID('55dd8a9b-6186-468a-8401-a0e6c888df50'), condition=None, blocking_facility=None) for event bcp_clients_connected. list.remove(x): x not in list
+2025-10-24 21:01:20,786 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2025-10-24 21:01:20,788 : INFO : ball_device.bd_trough : State: idle
+2025-10-24 21:01:20,789 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-10-24 21:01:20,789 : INFO : ball_device.bd_saucer : State: idle
+2025-10-24 21:01:20,821 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-24 21:01:20,840 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-24 21:01:20,841 : INFO : BallController : Initial balls found: 1
+2025-10-24 21:01:20,842 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-153' coro=<Event.wait() running at C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py:199>>
+2025-10-24 21:01:20,954 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-154' coro=<Event.wait() running at C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py:199>>
+2025-10-24 21:01:20,955 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 94, in _initialize
+    self.hw_display = await self.platform.configure_segment_display(self.config['number'],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 772, in configure_segment_display
+    await display.initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 202, in initialize
+    raise AssertionError("Display {} is configured as length {} but hardware reports as {}.".format(
+AssertionError: Display 1 is configured as length 6 but hardware reports as 7.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 98, in _initialize
+    raise AssertionError("Error in platform while configuring segment display {}. "
+AssertionError: Error in platform while configuring segment display player1_display. See error above.
+2025-10-24 21:01:20,960 : INFO : root : MPF run loop ended.

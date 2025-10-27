@@ -1,0 +1,61 @@
+2025-10-27 09:41:44,954 : INFO : root : Loading config.
+2025-10-27 09:41:44,959 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-27 09:41:44,960 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-10-27 09:41:44,960 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-27 09:41:44,976 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-10-27 09:41:44,977 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-10-27 09:41:44,994 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-10-27 09:41:44,996 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-10-27 09:41:44,999 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-10-27 09:41:45,003 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-10-27 09:41:45,007 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-10-27 09:41:45,009 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-10-27 09:41:45,009 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-10-27 09:41:45,012 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-27 09:41:45,129 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-27 09:41:45,130 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-27 09:41:45,131 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-27 09:41:45,131 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-27 09:41:45,132 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-27 09:41:45,133 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-27 09:41:45,134 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-27 09:41:45,134 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\7f73d12aa9beccac1cbd8c265ccda72e.mpf_cache
+2025-10-27 09:41:45,135 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-27 09:41:45,135 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-27 09:41:45,136 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-27 09:41:45,136 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-27 09:41:45,137 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-27 09:41:45,137 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-27 09:41:45,138 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-27 09:41:45,139 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-27 09:41:45,139 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-27-09-41-44-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-27-09-41-44-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-27 09:41:45,139 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-27 09:41:45,139 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-27 09:41:45,139 : INFO : Machine : Platform: win32
+2025-10-27 09:41:45,139 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-27 09:41:45,139 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-27 09:41:45,142 : INFO : Machine : Initializing MPF...
+2025-10-27 09:41:45,247 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-27 09:41:45,287 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-27 09:41:45,287 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 2200, 'prev_value': None, 'change': True}
+2025-10-27 09:41:45,287 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 1200, 'prev_value': None, 'change': True}
+2025-10-27 09:41:45,287 : INFO : Machine : Shutting down...
+2025-10-27 09:41:45,287 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-27 09:41:45,289 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 256, in initialize
+    self._load_machine_vars()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 435, in _load_machine_vars
+    self.variables.load_machine_vars(machine_var_data_manager, current_time)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine_vars.py", line 51, in load_machine_vars
+    self._load_initial_machine_vars()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine_vars.py", line 124, in _load_initial_machine_vars
+    value=Util.convert_to_type(element['initial_value'], element['value_type']))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 55, in convert_to_type
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '    '
+2025-10-27 09:41:45,329 : INFO : root : MPF run loop ended.

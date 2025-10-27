@@ -1,0 +1,428 @@
+2025-10-25 17:40:18,040 : INFO : root : Loading config.
+2025-10-25 17:40:18,047 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-25 17:40:18,048 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-25 17:40:18,193 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-25 17:40:18,194 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-25 17:40:18,194 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-25 17:40:18,195 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-25 17:40:18,195 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-25 17:40:18,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-25 17:40:18,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-25 17:40:18,197 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-25 17:40:18,197 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-25 17:40:18,199 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-25 17:40:18,199 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-25 17:40:18,200 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-25 17:40:18,200 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-25 17:40:18,201 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-25 17:40:18,201 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\1c965aadbb61a7e709e8884fad17ac0b.mpf_cache
+2025-10-25 17:40:18,202 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\60ca9d662df3e70e96f6d7ec0f4491aa.mpf_cache
+2025-10-25 17:40:18,202 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-25 17:40:18,202 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-25-17-40-18-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-25-17-40-18-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-25 17:40:18,203 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-25 17:40:18,203 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-25 17:40:18,203 : INFO : Machine : Platform: win32
+2025-10-25 17:40:18,203 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-25 17:40:18,203 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-25 17:40:18,205 : INFO : Machine : Initializing MPF...
+2025-10-25 17:40:18,461 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-25 17:40:18,462 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-25 17:40:18,620 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY35', 'prev_value': None, 'change': True}
+2025-10-25 17:40:18,620 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2025-10-25 17:40:18,621 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2025-10-25 17:40:19,934 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-25 17:40:19,969 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-25 17:40:19,969 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 3410, 'prev_value': None, 'change': True}
+2025-10-25 17:40:19,969 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-10-25 17:40:19,969 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-25 17:40:19,970 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-25-17-40-18-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,065 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-25 17:40:20,096 : WARNING : segment_display.info_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 17:40:20,096 : WARNING : segment_display.player1_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 17:40:20,096 : WARNING : segment_display.player2_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 17:40:20,096 : WARNING : segment_display.player3_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 17:40:20,096 : WARNING : segment_display.player4_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2025-10-25 17:40:20,105 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-10-25 17:40:20,105 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-10-25 17:40:20,184 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-25 17:40:20,191 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-25 17:40:20,193 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-25 17:40:20,213 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-25 17:40:20,213 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-25 17:40:20,323 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-10-25 17:40:20,354 : INFO : ball_device.bd_trough : State: idle
+2025-10-25 17:40:20,355 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-10-25 17:40:20,355 : INFO : ball_device.bd_saucer : State: idle
+2025-10-25 17:40:20,368 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-25 17:40:20,375 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-25 17:40:20,375 : INFO : BallController : Initial balls found: 0
+2025-10-25 17:40:20,376 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,376 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_coin_right'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_credit_button'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlanes'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,376 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_middle'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lower_bumper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_slam_tilt'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stand_up'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 4252, 'top': [5070, 4300, 4230, 3410], 'total': 4}, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_pop_bumper'====== Args={'value': 77, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_pop_bumper'====== Args={'value': 73, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_pop_bumper'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 270, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,380 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,380 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,380 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,380 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2025-10-25 17:40:20,381 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-25 17:40:20,391 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-25 17:40:20,392 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-25 17:40:20,401 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-25 17:40:20,401 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-25 17:40:20,402 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-10-25 17:40:20,403 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-10-25 17:40:20,403 : INFO : Mode.attract : Started. Priority: 10
+2025-10-25 17:40:20,403 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-25 17:40:20,403 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-10-25 17:40:20,404 : INFO : EventManager : Event: ======'godot_attract_on'====== Args={'priority': 0}
+2025-10-25 17:40:20,404 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-25 17:40:20,404 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-25 17:40:20,416 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-10-25 17:40:20,440 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-10-25 17:40:20,440 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-10-25 17:40:20,441 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'queue': '<QueuedEvent>', 'cmd': 'slides_play', '_from_bcp': True}
+2025-10-25 17:40:22,387 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:22,779 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:23,181 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:25,189 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:25,577 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:25,984 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:27,982 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:28,370 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:28,776 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:29,546 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-10-25 17:40:29,687 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-10-25 17:40:29,687 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-10-25 17:40:29,687 : INFO : BallController : Known balls: 0
+2025-10-25 17:40:29,687 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2025-10-25 17:40:29,687 : INFO : BallController : bd_saucer contains 0 balls. Tags ['saucer', 'home', 'eject']
+2025-10-25 17:40:29,687 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-10-25 17:40:29,688 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-10-25 17:40:29,688 : INFO : BallController : Triggering ball search.
+2025-10-25 17:40:30,766 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:31,156 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:31,559 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:33,553 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:33,943 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:34,363 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:36,013 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-25 17:40:36,029 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-10-25 17:40:36,075 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-10-25 17:40:36,357 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:36,574 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-10-25 17:40:36,574 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-10-25 17:40:36,574 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-10-25 17:40:36,575 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-10-25 17:40:36,575 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-10-25 17:40:36,575 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-10-25 17:40:36,575 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2025-10-25 17:40:36,575 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-10-25 17:40:36,575 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2025-10-25 17:40:36,576 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 1
+2025-10-25 17:40:36,576 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2025-10-25 17:40:36,576 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-25 17:40:36,576 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-10-25 17:40:36,576 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-10-25 17:40:36,576 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-10-25 17:40:36,746 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:37,156 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:39,130 : INFO : EventManager : Event: ======'attract_wave_complete'====== Args={'priority': 0}
+2025-10-25 17:40:39,524 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:39,929 : INFO : EventManager : Event: ======'attract_pulse_complete'====== Args={'priority': 0}
+2025-10-25 17:40:40,225 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-10-25 17:40:40,522 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-10-25 17:40:40,522 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-10-25 17:40:40,522 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.29599999997299165}
+2025-10-25 17:40:40,522 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.29599999997299165}
+2025-10-25 17:40:40,523 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.29599999997299165}
+2025-10-25 17:40:40,523 : INFO : Mode.game : Started. Priority: 20
+2025-10-25 17:40:40,523 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-25 17:40:40,523 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.29599999997299165}
+2025-10-25 17:40:40,537 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-10-25 17:40:40,538 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-10-25 17:40:40,538 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-10-25 17:40:40,538 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-10-25 17:40:40,538 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('8746cb84-8db0-4f8d-b4cd-3b221af84d5a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('91fc193e-a36d-44a0-8ce5-79264467829f'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-25 17:40:40,539 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-10-25 17:40:40,539 : INFO : Mode.attract : Stopped.
+2025-10-25 17:40:40,539 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-25 17:40:40,539 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-10-25 17:40:40,539 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-10-25 17:40:40,540 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-10-25 17:40:40,540 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-10-25 17:40:40,540 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-25 17:40:40,540 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-10-25 17:40:40,540 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-10-25 17:40:40,541 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-10-25 17:40:40,541 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-10-25 17:40:40,541 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-10-25 17:40:40,557 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-10-25 17:40:40,558 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-25 17:40:40,563 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-25 17:40:40,563 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-10-25 17:40:40,563 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-10-25 17:40:40,564 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-25 17:40:40,568 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-25 17:40:40,568 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-10-25 17:40:40,568 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-10-25 17:40:40,570 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-10-25 17:40:40,570 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-25 17:40:40,570 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-25 17:40:40,571 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('8746cb84-8db0-4f8d-b4cd-3b221af84d5a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('91fc193e-a36d-44a0-8ce5-79264467829f'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-10-25 17:40:40,574 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-10-25 17:40:40,574 : INFO : EventManager : Event: ======'info_flip_back_now'====== Args={'priority': 0, 'delay': '2s'}
+2025-10-25 17:40:40,575 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 847, in evaluate_and_subscribe_template
+    value, subscriptions = self._eval(template, parameters, True)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 771, in _eval_name
+    raise ValueError("Missing variable {}".format(node.id))
+ValueError: Missing variable credits
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\segment_display_player.py", line 53, in play
+    display.add_text_entry(text=s['text'],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 151, in add_text_entry
+    self._update_stack()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 288, in _update_stack
+    new_text, future = self._current_placeholder.evaluate_and_subscribe({})
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 278, in evaluate_and_subscribe
+    value = f.format(self.text)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 190, in format
+    return self.vformat(format_string, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 194, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 234, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 241, in get_field
+    obj = self.get_value(field_name, args, kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 232, in get_value
+    value, future = placeholder.evaluate_and_subscribe(self.parameters)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 108, in evaluate_and_subscribe
+    result, subscriptions = self.placeholder_manager.evaluate_and_subscribe_template(self.template, parameters,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 854, in evaluate_and_subscribe_template
+    raise AssertionError("Failed to evaluate and subscribe template {} with parameters {}. "
+AssertionError: Failed to evaluate and subscribe template credits with parameters {}. See error above.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.segment_display_player/segment_displays>, priority=0, kwargs={'calling_context': 'ball_started{ball==1}', 'mode': None, 'settings': {<segment_display.info_display>: {'text': '{credits:>2}01', 'priority': 0, 'color': [], 'action': 'add', 'flashing': 'not_set', 'flash_mask': None, 'key': None, 'expire': None, 'transition': None, 'transition_out': None}}}, key=UUID('d9a293f6-957d-4319-96bd-71f92f2ddc7b'), condition=<Template ball==1>, blocking_facility=None) for event ball_started. Failed to evaluate and subscribe template credits with parameters {}. See error above.
+2025-10-25 17:40:40,580 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 847, in evaluate_and_subscribe_template
+    value, subscriptions = self._eval(template, parameters, True)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 771, in _eval_name
+    raise ValueError("Missing variable {}".format(node.id))
+ValueError: Missing variable credits
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\segment_display_player.py", line 53, in play
+    display.add_text_entry(text=s['text'],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 151, in add_text_entry
+    self._update_stack()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 288, in _update_stack
+    new_text, future = self._current_placeholder.evaluate_and_subscribe({})
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 278, in evaluate_and_subscribe
+    value = f.format(self.text)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 190, in format
+    return self.vformat(format_string, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 194, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 234, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 241, in get_field
+    obj = self.get_value(field_name, args, kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 232, in get_value
+    value, future = placeholder.evaluate_and_subscribe(self.parameters)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 108, in evaluate_and_subscribe
+    result, subscriptions = self.placeholder_manager.evaluate_and_subscribe_template(self.template, parameters,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 854, in evaluate_and_subscribe_template
+    raise AssertionError("Failed to evaluate and subscribe template {} with parameters {}. "
+AssertionError: Failed to evaluate and subscribe template credits with parameters {}. See error above.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.segment_display_player/segment_displays>, priority=0, kwargs={'calling_context': 'info_flip_back_now', 'mode': None, 'settings': {<segment_display.info_display>: {'text': '{credits:>2}00', 'priority': 0, 'color': [], 'action': 'add', 'flashing': 'not_set', 'flash_mask': None, 'key': None, 'expire': None, 'transition': None, 'transition_out': None}}}, key=UUID('1f3ea78c-93fb-4001-800d-817e020f22cd'), condition=None, blocking_facility=None) for event info_flip_back_now. Failed to evaluate and subscribe template credits with parameters {}. See error above.
+2025-10-25 17:40:40,582 : INFO : Machine : Shutting down...
+2025-10-25 17:40:40,582 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-25 17:40:40,583 : INFO : Mode.base : Will not start because machine is shutting down.
+2025-10-25 17:40:40,583 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-10-25 17:40:40,584 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-10-25 17:40:40,584 : INFO : Mode.game : Stopped.
+2025-10-25 17:40:40,584 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-25 17:40:40,585 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-10-25 17:40:40,585 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-10-25 17:40:40,677 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 847, in evaluate_and_subscribe_template
+    value, subscriptions = self._eval(template, parameters, True)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 771, in _eval_name
+    raise ValueError("Missing variable {}".format(node.id))
+ValueError: Missing variable credits
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\config_players\segment_display_player.py", line 53, in play
+    display.add_text_entry(text=s['text'],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 151, in add_text_entry
+    self._update_stack()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\devices\segment_display\segment_display.py", line 288, in _update_stack
+    new_text, future = self._current_placeholder.evaluate_and_subscribe({})
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 278, in evaluate_and_subscribe
+    value = f.format(self.text)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 190, in format
+    return self.vformat(format_string, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 194, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\string.py", line 234, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 241, in get_field
+    obj = self.get_value(field_name, args, kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 232, in get_value
+    value, future = placeholder.evaluate_and_subscribe(self.parameters)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 108, in evaluate_and_subscribe
+    result, subscriptions = self.placeholder_manager.evaluate_and_subscribe_template(self.template, parameters,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\placeholder_manager.py", line 854, in evaluate_and_subscribe_template
+    raise AssertionError("Failed to evaluate and subscribe template {} with parameters {}. "
+AssertionError: Failed to evaluate and subscribe template credits with parameters {}. See error above.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.segment_display_player/segment_displays>, priority=0, kwargs={'calling_context': 'ball_started{ball==1}', 'mode': None, 'settings': {<segment_display.info_display>: {'text': '{credits:>2}01', 'priority': 0, 'color': [], 'action': 'add', 'flashing': 'not_set', 'flash_mask': None, 'key': None, 'expire': None, 'transition': None, 'transition_out': None}}}, key=UUID('d9a293f6-957d-4319-96bd-71f92f2ddc7b'), condition=<Template ball==1>, blocking_facility=None) for event ball_started. Failed to evaluate and subscribe template credits with parameters {}. See error above.
+2025-10-25 17:40:40,681 : INFO : root : MPF run loop ended.

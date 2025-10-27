@@ -1,0 +1,130 @@
+2025-10-26 10:58:10,779 : INFO : root : Loading config.
+2025-10-26 10:58:10,783 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-26 10:58:10,783 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-26 10:58:10,886 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-10-26 10:58:10,887 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-10-26 10:58:10,887 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-26 10:58:10,887 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-10-26 10:58:10,887 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-26 10:58:10,888 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-10-26 10:58:10,888 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-10-26 10:58:10,888 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-26 10:58:10,890 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\base\config\base.yaml
+2025-10-26 10:58:10,890 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-26 10:58:10,900 : DEBUG : YamlMultifileConfigLoader : Loading mode escape_graveyard from C:\Users\antho\mpf\Lib\site-packages\mpf\modes\escape_graveyard\config\escape_graveyard.yaml
+2025-10-26 10:58:10,901 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-26 10:58:10,901 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-26 10:58:10,902 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-26 10:58:10,902 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-26 10:58:10,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-26 10:58:10,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-26 10:58:10,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-26 10:58:10,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\ae2be9c5579852c305357e207df97e8b.mpf_cache
+2025-10-26 10:58:10,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-26 10:58:10,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-26 10:58:10,905 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-26 10:58:10,905 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-26-10-58-10-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-26-10-58-10-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-26 10:58:10,905 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-26 10:58:10,905 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-26 10:58:10,905 : INFO : Machine : Platform: win32
+2025-10-26 10:58:10,905 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-26 10:58:10,905 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-26 10:58:10,906 : DEBUG : asyncio : Using proactor: IocpProactor
+2025-10-26 10:58:10,907 : INFO : Machine : Initializing MPF...
+2025-10-26 10:58:11,006 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,006 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,006 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,006 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BCE8520>
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE768E0>
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76A80>
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000002AB1BE92A40>
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000002AB1BD648A0>
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,007 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76E90>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76DC0>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76F60>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76CF0>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76C20>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000002AB1BE76B50>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000002AB1BE92AA0>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000002AB1BE92A40>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000002AB1BD648A0>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000002AB1BE92AA0>
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,008 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,009 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,009 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,009 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,009 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,009 : DEBUG : asciimatics.widgets.layout : Updating: None
+2025-10-26 10:58:11,009 : DEBUG : asciimatics.screen : Processing key: d
+2025-10-26 10:58:11,126 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-26 10:58:11,127 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-26 10:58:11,129 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000002AB1BE06360>
+transport: SerialTransport(<ProactorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000002AB1BE06360>, Serial<id=0x2ab1bf418a0, open=False>(port='com3', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (OSError(9, 'The handle is invalid.', None, 6))
+2025-10-26 10:58:11,167 : INFO : Machine : Shutting down...
+2025-10-26 10:58:11,167 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-26 10:58:11,168 : ERROR : root : ClearCommError failed (OSError(9, 'The handle is invalid.', None, 6))
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 698, in run
+    if not self.initialize_mpf():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 686, in initialize_mpf
+    self._crash_shutdown()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 751, in _crash_shutdown
+    self._do_stop()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 742, in _do_stop
+    self.shutdown()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 772, in shutdown
+    self._platform_stop()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 822, in _platform_stop
+    hardware_platform.stop()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\platforms\lisy\lisy.py", line 565, in stop
+    self.machine.clock.loop.run_until_complete(self._writer.wait_closed())
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\antho\AppData\Local\Programs\Python\Python312\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\antho\mpf\Lib\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\antho\mpf\Lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (OSError(9, 'The handle is invalid.', None, 6))

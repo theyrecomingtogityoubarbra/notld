@@ -1,12 +1,44 @@
 #config_version=6
-
-# Attract mode that starts when the machine boots up, stops
-# whenever a game is started, and re-starts after the game ends.
+mode:
+  start_events: machine_reset_phase_3, game_ended
+  stop_events:  game_starting, mode_base_started, ball_started
+  priority: 10
 
 slide_player:
-  mode_attract_started: attract
+  mode_attract_started:
+    attract:
+      action: play
+  mode_attract_will_stop:
+    attract:
+      action: remove
 
-mode:
-  start_events: machine_reset_phase_3
-  stop_events: game_started
-  priority: 10
+show_player:
+  mode_attract_started:
+    attract_wave:
+      action: play
+      loops: 1
+  attract_wave_complete:
+    attract_pulse:
+      action: play
+      loops: 1
+  attract_pulse_complete:
+    attract_wave:
+      action: play
+      loops: 1
+  mode_attract_will_stop:
+    attract_wave: { action: stop }
+    attract_pulse: { action: stop }
+
+event_player:
+  mode_attract_started:
+    godot_attract_on: {}
+  # stop it on any reasonable “leaving attract” event
+  mode_attract_will_stop:
+    godot_attract_off: {}
+  game_starting:
+    godot_attract_off: {}
+  ball_started:
+    godot_attract_off: {}
+  mode_base_started:
+    godot_attract_off: {}
+

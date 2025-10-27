@@ -19,5 +19,6 @@ offset_right = 1920.0
 offset_bottom = 1080.0
 stream = ExtResource("2_htapb")
 autoplay = true
+expand = true
 loop = true
 script = ExtResource("3_q3n6u")

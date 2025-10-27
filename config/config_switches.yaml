@@ -89,4 +89,4 @@ switches:
     tags: left_sling
   s_inlanes:
     number: 40
-    tags: inlanes
+    tags: inlanes, playfield_active

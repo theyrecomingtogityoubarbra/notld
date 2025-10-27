@@ -5,116 +5,118 @@ mode:
   stop_events: mode_escape_graveyard_started, game_ended
   priority: 50
 
-
 # -----------------------------
-# VARIABLE PLAYER (scoring)
+# SCORING
 # -----------------------------
 variable_player:
-  # Bumpers & Slings - 10 points
-  s_left_upper_bumper_active:
-    score: 10
-  s_left_lower_bumper_active:
-    score: 10
-  s_left_sling_active:
-    score: 10
-  s_right_sling_active:
-    score: 10
+  s_left_upper_bumper_active:   { score: 10 }
+  s_left_lower_bumper_active:   { score: 10 }
+  s_left_sling_active:          { score: 10 }
+  s_right_sling_active:         { score: 10 }
 
-  # Rollovers - 500 points
-  s_outer_skill_lanes_active:
-    score: 500
-  s_middle_skill_lane_active:
-    score: 500
-  s_rollover_middles_active:
-    score: 500
+  s_outer_skill_lanes_active:   { score: 500 }
+  s_middle_skill_lane_active:   { score: 500 }
+  s_rollover_middles_active:    { score: 500 }
 
-  # Saucer - 0 points
-  s_saucer_active:
-    score: 0
+  s_saucer_active:              { score: 0 }
 
-  # Everything else - 100 points
-  s_spinner_active:
-    score: 100
-  s_left_bank_target_left_active:
-    score: 100
-  s_left_bank_target_right_active:
-    score: 100
-  s_left_bank_target_middle_active:
-    score: 100
-  s_right_bank_target_left_active:
-    score: 100
-  s_right_bank_target_right_active:
-    score: 100
-  s_right_bank_target_middle_active:
-    score: 100
-  s_inlanes_active:
-    score: 100
-  s_left_outlane_rollover_active:
-    score: 100
-  s_right_outlane_rollover_active:
-    score: 100
-  s_pop_bumper_left_active:
-    score: 100
-  s_pop_bumper_right_active:
-    score: 100
-  s_pop_bumper_bottom_active:
-    score: 100
+  s_spinner_active:             { score: 100 }
+  s_left_bank_target_left_active:    { score: 100 }
+  s_left_bank_target_right_active:   { score: 100 }
+  s_left_bank_target_middle_active:  { score: 100 }
+  s_right_bank_target_left_active:   { score: 100 }
+  s_right_bank_target_right_active:  { score: 100 }
+  s_right_bank_target_middle_active: { score: 100 }
+  s_inlanes_active:                  { score: 100 }
+  s_left_outlane_rollover_active:    { score: 100 }
+  s_right_outlane_rollover_active:   { score: 100 }
+  s_pop_bumper_left_active:          { score: 100 }
+  s_pop_bumper_right_active:         { score: 100 }
+  s_pop_bumper_bottom_active:        { score: 100 }
 
-# -------------------------------
-# EVENT PLAYER
-# -------------------------------
+# -----------------------------
+# EVENTS
+# -----------------------------
 event_player:
-  "ball_started{ball==1}": play_intro
+  # fire these as soon as base has started (which happens on ball_started)
+  mode_base_started:
+    stop_mode_attract: {}
+    godot_attract_off: {}
 
-  # optional: stop when base is about to end
-  mode_base_will_stop: stop_base_music
+  # Ball 1: intro, then schedule loop
+  "mode_base_started{ball==1}":
+    start_firstball_intro: {}
+    start_subsequent_loop:
+      delay: 6s     # set to the real intro length
 
+  # Balls 2+: straight to loop
+  "mode_base_started{ball>1}":
+    start_subsequent_loop: {}
+
+slides:
+  base_blank:
+    - type: rectangle
+      width: 100%
+      height: 100%
+      color: black
+
+slide_player:
+  # when base starts, show the black slide (it will sit on top of attract)
+  mode_base_started:
+    base_blank:
+      action: play
+      priority: 100
+
+  # when base is ending, remove the black slide
+  mode_base_will_stop:
+    base_blank:
+      action: remove
+
+show_player:
+  mode_base_started:
+    attract_wave:  { action: stop }
+    attract_pulse: { action: stop }
+
+# -----------------------------
+# SOUND
+# -----------------------------
 sound_player:
-  play_intro:
-    intro:
+  start_firstball_intro:
+    firstballintro:
+      action: play
+      loops: 0
+      priority: 100
+      volume: 0.8
+      events_when_stopped: start_subsequent_loop   # backup trigger
+
+  start_subsequent_loop:
+    subsequentball:
       action: play
       loops: -1
       priority: 100
       volume: 0.8
-      bus: music
 
-  stop_base_music:
-    intro:
-      action: stop
+  mode_base_will_stop:
+    firstballintro: { action: stop }
+    subsequentball: { action: stop }
 
   play_skilllane_quote_1:
-    herehecomesnowimgettingoutofhere:
-      action: play
-      priority: 50
-      volume: 0.7
+    herehecomesnowimgettingoutofhere: { action: play, priority: 50, volume: 0.7 }
   play_skilllane_quote_2:
-    heyyourestillafraid:
-      action: play
-      priority: 50
-      volume: 0.7
+    heyyourestillafraid:              { action: play, priority: 50, volume: 0.7 }
   play_skilllane_quote_3:
-    theyrecomingforyou:
-      action: play
-      priority: 50
-      volume: 0.7
+    theyrecomingforyou:               { action: play, priority: 50, volume: 0.7 }
   play_skilllane_quote_4:
-    looktherecomesoneofthemnow:
-      action: play
-      priority: 50
-      volume: 0.7
+    looktherecomesoneofthemnow:       { action: play, priority: 50, volume: 0.7 }
   play_skilllane_quote_5:
-    theyrecomingforyoubarbra:
-      action: play
-      priority: 50
-      volume: 0.7
+    theyrecomingforyoubarbra:         { action: play, priority: 50, volume: 0.7 }
   play_skilllane_quote_6:
-    theyrecomingtogetyoubarbra:
-      action: play
-      priority: 50
-      volume: 0.7
+    theyrecomingtogetyoubarbra:       { action: play, priority: 50, volume: 0.7 }
 
+# -----------------------------
+# RANDOM QUOTES
+# -----------------------------
 random_event_player:
-  # Random one-liner when either skill lane is hit
   s_outer_skill_lanes_active:
     events:
       - play_skilllane_quote_1
@@ -132,11 +134,3 @@ random_event_player:
       - play_skilllane_quote_4
       - play_skilllane_quote_5
       - play_skilllane_quote_6
-  
-# -------------------------------
-# SHOW PLAYER
-# -------------------------------
-show_player:
-  game_started:
-    attract:
-      action: stop

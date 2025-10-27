@@ -1,61 +1,76 @@
 events:
-  game_ended: 1
-  game_started: 11
+  game_ended: 17
+  game_started: 55
 missing_switches:
-  s_coin_right: 10
-  s_credit_button: 10
-  s_inlanes: 2
-  s_left_bank_target_left: 2
-  s_left_bank_target_middle: 2
-  s_left_bank_target_right: 2
-  s_left_lower_bumper: 2
-  s_left_outlane_rollover: 2
-  s_left_upper_bumper: 2
-  s_middle_skill_lane: 2
-  s_right_bank_target_middle: 3
-  s_right_bank_target_right: 2
-  s_right_outlane_rollover: 4
-  s_saucer: 3
-  s_slam_tilt: 10
-  s_stand_up: 2
-  s_start_button: 11
-  s_tilt: 11
-  s_trough: 1
+  s_coin_right: 54
+  s_credit_button: 27
+  s_left_bank_target_left: 7
+  s_left_bank_target_middle: 7
+  s_left_bank_target_right: 7
+  s_left_lower_bumper: 7
+  s_left_outlane_rollover: 7
+  s_left_pop_bumper: 7
+  s_left_sling: 7
+  s_left_upper_bumper: 7
+  s_middle_pop_bumper: 7
+  s_middle_skill_lane: 14
+  s_middle_upper_rollovers: 7
+  s_outer_skill_lanes: 14
+  s_right_bank_target_left: 7
+  s_right_bank_target_middle: 7
+  s_right_bank_target_right: 7
+  s_right_outlane_rollover: 10
+  s_right_pop_bumper: 7
+  s_right_sling: 14
+  s_saucer: 7
+  s_slam_tilt: 27
+  s_spinner: 7
+  s_stand_up: 27
+  s_tilt: 25
 player:
   score:
-    average: 4230
+    average: 1435
     top:
+    - 5110
+    - 5070
+    - 4300
     - 4230
-    total: 1
+    - 3980
+    - 3410
+    - 2200
+    - 1300
+    - 1200
+    - 500
+    total: 25
 switches:
   s_coin_right: 1
-  s_credit_button: 2
-  s_inlanes: 9
-  s_left_bank_target_left: 15
-  s_left_bank_target_middle: 12
-  s_left_bank_target_right: 15
-  s_left_lower_bumper: 14
-  s_left_outlane_rollover: 4
-  s_left_pop_bumper: 30
-  s_left_sling: 30
-  s_left_upper_bumper: 7
-  s_middle_pop_bumper: 28
-  s_middle_skill_lane: 10
-  s_middle_upper_rollovers: 21
-  s_outer_skill_lanes: 16
+  s_credit_button: 5
+  s_inlanes: 140
+  s_left_bank_target_left: 33
+  s_left_bank_target_middle: 24
+  s_left_bank_target_right: 25
+  s_left_lower_bumper: 30
+  s_left_outlane_rollover: 21
+  s_left_pop_bumper: 100
+  s_left_sling: 90
+  s_left_upper_bumper: 36
+  s_middle_pop_bumper: 91
+  s_middle_skill_lane: 32
+  s_middle_upper_rollovers: 68
+  s_outer_skill_lanes: 52
   s_pop_bumper_bottom: 6
   s_pop_bumper_left: 2
   s_pop_bumper_right: 1
-  s_right_bank_target_left: 11
-  s_right_bank_target_middle: 7
-  s_right_bank_target_right: 9
-  s_right_outlane_rollover: 2
-  s_right_pop_bumper: 28
-  s_right_sling: 25
-  s_saucer: 8
-  s_slam_tilt: 1
-  s_spinner: 128
-  s_stand_up: 3
-  s_start_button: 0
-  s_tilt: 0
-  s_trough: 47
+  s_right_bank_target_left: 43
+  s_right_bank_target_middle: 32
+  s_right_bank_target_right: 32
+  s_right_outlane_rollover: 6
+  s_right_pop_bumper: 142
+  s_right_sling: 68
+  s_saucer: 54
+  s_slam_tilt: 5
+  s_spinner: 380
+  s_stand_up: 8
+  s_start_button: 26
+  s_tilt: 1
+  s_trough: 366

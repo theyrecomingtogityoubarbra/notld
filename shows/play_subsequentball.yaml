@@ -1,8 +1,0 @@
-#show_version=6
-
-- duration: 0.1
-  sounds:
-    subsequentball:
-      action: play
-      loops: -1
-

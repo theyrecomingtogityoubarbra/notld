@@ -3,7 +3,7 @@
 coils:
   c_trough_eject:
     number: 07
-    default_pulse_ms: 50
+    default_pulse_ms: 40
     tags: ball_launch
   c_drop_target_right:
     number: 05
