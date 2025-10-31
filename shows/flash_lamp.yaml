@@ -1,0 +1,10 @@
+#show_version=6
+# Flash the right bank (tombstones) and spinner lights while active
+
+- duration: 0.2
+  lights:
+    "{l_right_bank_left, l_right_bank_middle, l_right_bank_right}": 1
+- duration: 0.2
+  lights:
+    "{l_right_bank_left, l_right_bank_middle, l_right_bank_right}": 0
+

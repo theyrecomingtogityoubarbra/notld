@@ -17,29 +17,60 @@ segment_displays:
 
 # Free Play: no {credits} anywhere in segment_display_player
 segment_display_player:
-  # Blank the info window (4 spaces) at boot and in attract
-  machine_reset_phase_3:
-    info_display: { text: "    " }
-  mode_attract_started:
-    info_display: { text: "    " }
-
-  # Show only the ball number in the right two digits
-  "ball_started{ball==1}":
-    info_display: { text: " 01 " }
-  "ball_started{ball==2}":
-    info_display: { text: " 02 " }
-  "ball_started{ball==3}":
-    info_display: { text: " 03 " }
-
   # Light player score windows at game start
   game_started:
-    info_display:
-      text: "{current_player.ball:d}"
+    info_display: { text: "    "}
     player1_display: { text: " " }
     player2_display: { text: " " }
     player3_display: { text: " " }
     player4_display: { text: " " }
 
+  # Show "0" the moment a player is added
+  "player_added{num==1}":
+    player1_display: { text: "0" }
+  "player_added{num==2}":
+    player2_display: { text: "0" }
+  "player_added{num==3}":
+    player3_display: { text: "0" }
+  "player_added{num==4}":
+    player4_display: { text: "0" }
+
+  "ball_started{current_player.number==1}":
+    player1_display: { text: "{players[0].score:d}" }
+  "ball_started{current_player.number==2}":
+    player2_display: { text: "{players[1].score:d}" }
+  "ball_started{current_player.number==3}":
+    player3_display: { text: "{players[2].score:d}" }
+  "ball_started{current_player.number==4}":
+    player4_display: { text: "{players[3].score:d}" }
+
+  # turn mask ON (priority higher than your normal score text)
+  "blink_on{current_player.number==1}":
+    player1_display: { text: "       ", key: upmask, priority: 2000 }
+  "blink_on{current_player.number==2}":
+    player2_display: { text: "       ", key: upmask, priority: 2000 }
+  "blink_on{current_player.number==3}":
+    player3_display: { text: "       ", key: upmask, priority: 2000 }
+  "blink_on{current_player.number==4}":
+    player4_display: { text: "       ", key: upmask, priority: 2000 }
+
+  # turn mask OFF (remove only our overlay)
+  "blink_off{current_player.number==1}":
+    player1_display: { action: remove, key: upmask }
+  "blink_off{current_player.number==2}":
+    player2_display: { action: remove, key: upmask }
+  "blink_off{current_player.number==3}":
+    player3_display: { action: remove, key: upmask }
+  "blink_off{current_player.number==4}":
+    player4_display: { action: remove, key: upmask }
+
+  # safety: clear any leftover mask at the start of each ball
+  ball_started:
+    player1_display: { action: remove, key: upmask }
+    player2_display: { action: remove, key: upmask }
+    player3_display: { action: remove, key: upmask }
+    player4_display: { action: remove, key: upmask }
+    
   # Score updates
   "player_score{current_player.number==1}":
     player1_display: { text: "{players[0].score:d}" }
@@ -52,8 +83,6 @@ segment_display_player:
 
   # Back to blank at game end
   game_ended:
-    info_display:
-      text: "    "
     player1_display: { text: "{machine.player1_score:d}" }
     player2_display: { text: "{machine.player2_score:d}" }
     player3_display: { text: "{machine.player3_score:d}" }
@@ -106,6 +135,24 @@ autofire_coils:
   ac_middle_pop_bumper:
     coil: c_middle_pop_bumper
     switch: s_middle_pop_bumper
+
+sound_system:
+  tracks:
+    music:
+      volume: 1.0
+      simultaneous_sounds: 1
+    voice:
+      volume: 1.0
+      simultaneous_sounds: 1
+      ducking:
+        target: music
+        attenuation: 0.4    # reduce music while voice plays
+        attack: 0ms
+        release: 300ms
+    sfx:
+      volume: 1.0
+      simultaneous_sounds: 4
+
 
 light_player:
   # clear all count lamps when a new game starts
@@ -177,29 +224,11 @@ light_player:
     l_3up: off
     l_4up: off
 
-
-#event_player:
-  # After the ball is served, wait a moment before arming ball save.
-  # This avoids arming during any outhole switch bounce or serve cycle.
-  #ball_started:
-    #ball_save_arm_now:
-      #delay: 1s
-
-  # Once ANY meaningful playfield switch happens, start a short fuse and then
-  # turn ball save off. (Adjust the delay to taste.)
-  #playfield_active:
-    #ball_save_off:
-      #delay: 10s
-
-#ball_saves:
-  #default_ball_save:
-    # Do NOT arm immediately on ball_started.
-    #enable_events: ball_save_arm_now
-    # Stop it automatically after we know the ball is really in play:
-    #disable_events: ball_save_off
-
-    #active_time: 10s         # window during which a drain will be saved
-    #grace_period: 1s         # brief extra time after the timer expires
-    #auto_launch: true        # re-serve automatically on a saved drain
-    #balls_to_save: 1         # one save per ball
-    #eject_delay: 750ms       # small pause before re-serve (tweak as you like)
+show_player:
+  game_started:
+    blink_slow:
+      action: play
+      loops: -1
+  game_ended:
+    blink_slow:
+      action: stop

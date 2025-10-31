@@ -1,0 +1,18 @@
+#show_version=6
+# run spinner lights in sequence
+- duration: 0.1
+  lights:
+    l_spinner_first: 1
+- duration: 0.1
+  lights:
+    l_spinner_first: 0
+    l_spinner_second: 1
+- duration: 0.1
+  lights:
+    l_spinner_second: 0
+    l_spinner_third: 1
+- duration: 0.1
+  lights:
+    l_spinner_third: 0
+    l_spinner_fourth: 1
+

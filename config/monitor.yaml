@@ -1,0 +1,107 @@
+# monitor.yaml
+device_size: 0.05
+
+light:
+  # Bottom / inlanes
+  l_inlanes:
+    x: 0.50
+    y: 0.88
+
+  # First row above inlanes
+  l_first_row_left:
+    x: 0.30
+    y: 0.79
+  l_first_row_middle:
+    x: 0.50
+    y: 0.79
+  l_first_row_right:
+    x: 0.70
+    y: 0.79
+
+  # Second row
+  l_second_row_left:
+    x: 0.30
+    y: 0.73
+  l_second_row_middle:
+    x: 0.50
+    y: 0.73
+  l_second_row_right:
+    x: 0.70
+    y: 0.73
+
+  # Third row
+  l_third_row_left:
+    x: 0.30
+    y: 0.67
+  l_third_row_middle:
+    x: 0.50
+    y: 0.67
+  l_third_row_right:
+    x: 0.70
+    y: 0.67
+
+  # Fourth row
+  l_fourth_row_left:
+    x: 0.30
+    y: 0.60
+  l_fourth_row_middle:
+    x: 0.50
+    y: 0.60
+  l_fourth_row_right:
+    x: 0.70
+    y: 0.60
+
+  # Fifth row (only middle)
+  l_fifth_row_middle:
+    x: 0.50
+    y: 0.54
+
+  # Center features
+  l_rollover_middles:
+    x: 0.50
+    y: 0.48
+
+  # Left bank
+  l_left_bank_lower:
+    x: 0.22
+    y: 0.65
+  l_left_bank_upper:
+    x: 0.22
+    y: 0.58
+
+  # Spinner column (middle)
+  l_spinner_first:
+    x: 0.50
+    y: 0.42
+  l_spinner_second:
+    x: 0.50
+    y: 0.38
+  l_spinner_third:
+    x: 0.50
+    y: 0.35
+  l_spinner_fourth:
+    x: 0.50
+    y: 0.32
+  l_spinner_adjacent:
+    x: 0.56
+    y: 0.37
+
+  # Right bank
+  l_right_bank_left:
+    x: 0.78
+    y: 0.65
+  l_right_bank_middle:
+    x: 0.83
+    y: 0.65
+  l_right_bank_right:
+    x: 0.88
+    y: 0.65
+
+  # Top / skill lanes
+  l_skill_lane_middle:
+    x: 0.50
+    y: 0.15
+  l_skill_lane_outers:
+    x: 0.50
+    y: 0.13
+

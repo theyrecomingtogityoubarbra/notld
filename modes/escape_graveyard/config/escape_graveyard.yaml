@@ -1,216 +1,226 @@
 #config_version=6
 
-# -------------------------------
-#  ESCAPE THE GRAVEYARD MODE
-# -------------------------------
-
 mode:
-  start_events: s_saucer_active
-  stop_events:
-    - ball_ended
-    - timer_escape_graveyard_complete
-    - reach_house
-  priority: 100
-  use_wait_queue: true
+  start_events: start_mode_escape_graveyard, escape_graveyard_start
+  stop_events: ball_will_end, eg_mode_complete, eg_mode_failed, escape_graveyard_stop
+  priority: 220
 
-# -------------------------------
-#  TIMERS
-# -------------------------------
-timers:
-  # Main gameplay timer
-  escape_graveyard:
-    start_value: 45
-    end_value: 0
-    direction: down
-    tick_interval: 1s
-    control_events:
-      - action: start
-        event: eject_saucer_and_start_mode
-
-  # Safety: if the intro never posts "complete", eject after 10s
-  intro_safety:
-    start_value: 10
-    end_value: 0
-    direction: down
-    tick_interval: 1s
-    control_events:
-      - action: start
-        event: mode_escape_graveyard_started
-      - action: stop
-        event: play_graveyard_intro_complete
-
-  spinner_scream_cooldown:
-    start_value: 0
-    end_value: 1
-    direction: up
-    tick_interval: 0.5s
-    start_running: false
-
-# -------------------------------
-#  COUNTERS
-# -------------------------------
-counters:
-  # Right-bank completion (3 unique targets)
-  right_bank_hits:
-    count_events:
-      - s_right_bank_target_left_active
-      - s_right_bank_target_middle_active
-      - s_right_bank_target_right_active
-    count_complete_value: 3
-    events_when_complete: play_third_target_sound
-    multiple_hit_window: 2s
-    reset_on_complete: true
-    persist_state: false
+# -----------------------------
+# HOLD BALL IN SAUCER FOR INTRO
+# -----------------------------
+ball_holds:
+  eg_intro_hold:
+    hold_devices: bd_saucer
+    balls_to_hold: 1
     enable_events: mode_escape_graveyard_started
-    disable_events: mode_escape_graveyard_stopped
+    release_one_events: eg_intro_release
 
-  # Full graveyard progression (3 targets + spinner)
-  graveyard_hits:
-    count_events:
-      - s_right_bank_target_left_active
-      - s_right_bank_target_middle_active
-      - s_right_bank_target_right_active
-      - s_spinner_active
-    count_complete_value: 4
-    events_when_complete: enable_house_lights
-    multiple_hit_window: 2s
-    reset_on_complete: true
-    persist_state: false
-    enable_events: mode_escape_graveyard_started
-    disable_events: mode_escape_graveyard_stopped
-
-# -------------------------------
-#  EVENT PLAYER
-# -------------------------------
+# -----------------------------
+# EVENTS (media, phase changes, callouts)
+# -----------------------------
 event_player:
-  # Mode start triggers intro + starts safety timer (via timer control_events above)
-  mode_escape_graveyard_started: play_graveyard_intro
+  # Start intro (ball is held)
+  mode_escape_graveyard_started:
+    - eg_intro_begin
 
-  # Also run fade-out show (keep your .1 ordering)
-  mode_escape_graveyard_started.1:
-    fade_out_subsequentball:
-      action: play
+  "mode_escape_graveyard_will_stop{current_player.eg_success==1}":
+    - godot_show_graveyard_completed     # plays graveyard_completed.tscn
 
-  # When intro ends, eject ball
-  play_graveyard_intro_complete: eject_saucer_and_start_mode
+  "mode_escape_graveyard_will_stop{current_player.eg_success==0}":
+    - godot_show_graveyard_failed        # plays graveyard_failed.tscn
+    
+  # eg_intro_timer will fire eg_intro_release when it completes
+  eg_intro_begin: [11s]
 
-  # If intro never finishes, safety timer completes -> eject
-  timer_intro_safety_complete: eject_saucer_and_start_mode
+  # When the intro timer completes, release the hold (saucer will eject)
+  timer_eg_intro_timer_complete:
+    - eg_intro_release
 
-  # When ball ejects, start the gameplay lights (main timer starts via control_events)
-  eject_saucer_and_start_mode: start_escape_lights
+  # Phase 2 begins → boost multiplier
+  eg_phase2_started:
+    - enable_house_lights
+    - godot_show_graveyard_reach_house
 
-  # Standard mode progression
-  timer_escape_graveyard_complete: end_graveyard_mode
-  reach_house: end_graveyard_mode
-  enable_house_lights: start_house_flash_lights
+  # when the 60s timer ends, mark failure
+  timer_eg_mode_timer_complete:
+    - eg_mode_failed
 
-# -------------------------------
-#  RANDOM EVENT PLAYER
-# -------------------------------
-random_event_player:
-  s_right_bank_target_left_active: &graveyard_moans
-    events:
-      - play_zombie_moan_1
-      - play_zombie_moan_2
-      - play_zombie_moan_3
-  s_right_bank_target_middle_active: *graveyard_moans
-  s_right_bank_target_right_active:  *graveyard_moans
+  # Spinner scream on the objective hit
+  sh_eg_spinner_hit:
+    - play_womanscream
 
-# -------------------------------
-#  SOUND PLAYER
-# -------------------------------
-sound_player:
-  play_zombie_moan_1:
-    zombie1:
-      action: play
-      priority: 60
-      volume: 0.9
-  play_zombie_moan_2:
-    zombie2:
-      action: play
-      priority: 60
-      volume: 0.9
-  play_zombie_moan_3:
-    zombie3:
-      action: play
-      priority: 60
-      volume: 0.9
+  # Play a special sound when the RIGHT bank (all 3) is finished
+  eg_rightbank_complete:
+    - play_zombielong
 
-  play_third_target_sound:
-    zombielong:
-      action: play
-      priority: 80
-      volume: 1.0
+  # Phase 1 completion: reset left bank, start the short delay, give reach-house bonus
+  eg_phase1_complete:
+    - pulse_c_drop_target_left
+    - eg_phase2_delay_start
+    - reach_house
 
-  play_spinner_scream:
-    womanscream:
-      action: play
-      priority: 80
-      volume: 1.0
+  # When the short delay timer completes, actually start Phase 2
+  timer_eg_phase2_delay_complete:
+    - eg_phase2_started
 
-# -------------------------------
-#  COIL PLAYER (for saucer eject)
-# -------------------------------
-coil_player:
-  eject_saucer_and_start_mode:
-    c_saucer: pulse
+variable_player:
+  # default: not successful
+  mode_escape_graveyard_started:
+    eg_success: 0
 
-# -------------------------------
-#  SHOW PLAYER
-# -------------------------------
-show_player:
-  play_graveyard_intro:
+  # mark success when the mode is completed
+  eg_mode_complete:
+    eg_success: 1
+
+timers:
+  eg_intro_timer:
+    start_value: 7
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - action: restart
+        event: eg_intro_begin
+
+  eg_mode_timer:
+    start_value: 60
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - action: restart
+        event: mode_escape_graveyard_started
+
+  eg_phase2_delay:
+    start_value: 1
+    end_value: 0
+    direction: down
+    tick_interval: 400ms
+    start_running: false
+    control_events:
+      - action: restart
+        event: eg_phase2_delay_start
+
+
+# -----------------------------
+# MEDIA: SLIDE + MUSIC
+# -----------------------------
+slide_player:
+  eg_intro_begin:
     graveyard_intro:
       action: play
-      loops: 1
+      priority: 300
+      expire: "7s"          # was {config.eg_intro_seconds}s
 
-  start_escape_lights:
-    graveyard_lights:
+  eg_phase1_complete:
+    graveyard_reach_house:
       action: play
-      loops: -1
+      priority: 300
+      expire: "5s"          # was {config.eg_phase2_slide_seconds}s
 
-  escape_graveyard:
-    graveyard_lights:
-      action: play
+sound_player:
+  mode_escape_graveyard_started:
+    escape_graveyard_music: { action: play, loops: -1, priority: 100, volume: 0.8 }
+  eg_mode_complete:
+    escape_graveyard_music: { action: stop }
+  mode_escape_graveyard_will_stop:
+    escape_graveyard_music: { action: stop }
 
-  start_house_flash_lights:
-    house_lights:
-      action: play
-      speed: 1
+segment_display_player:
+  mode_escape_graveyard_started:
+    info_display: { text: "EGOP" }
+  eg_phase1_complete:
+    info_display: { text: "HSE!" }   # “House!” – change to taste
+  eg_mode_complete:
+    info_display: { text: "DONE" }
+  mode_escape_graveyard_will_stop:
+    info_display: { text: "    " }
 
-  graveyard_reach_house:
-    house_lights:
-      action: play
-      loops: 1
+# -----------------------------
+# SHOTS (PHASE 1 + PHASE 2)
+# -----------------------------
+shots:
+  # Phase 1 — Right drop targets
+  sh_eg_right_drop_left:
+    switch: s_right_bank_target_left
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
+  sh_eg_right_drop_middle:
+    switch: s_right_bank_target_middle
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
+  sh_eg_right_drop_right:
+    switch: s_right_bank_target_right
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
 
-  end_graveyard_mode:
-    fade_out_graveyard_music:
-      action: play
+  # Phase 1 — Pops
+  sh_eg_pop_left:
+    switch: s_left_pop_bumper
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
+  sh_eg_pop_middle:
+    switch: s_middle_pop_bumper
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
+  sh_eg_pop_right:
+    switch: s_right_pop_bumper
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
 
-  play_third_target_sound:
-    flash_all_lights:
-      action: play
+  # Phase 1 — Spinner
+  sh_eg_spinner:
+    switch: s_spinner
+    enable_events: mode_escape_graveyard_started
+    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
 
-# -------------------------------
-#  VARIABLE PLAYER (scoring + multiplier)
-# -------------------------------
-variable_player:
-  s_right_bank_target_left_active:
-    score: 1000 * current_player.graveyard_multiplier
-  s_right_bank_target_middle_active:
-    score: 1000 * current_player.graveyard_multiplier
-  s_right_bank_target_right_active:
-    score: 1000 * current_player.graveyard_multiplier
-  s_spinner_active:
-    score: 500 * current_player.graveyard_multiplier
-  reach_house:
-    score: 5000 * current_player.graveyard_multiplier
+  # Phase 2 — Left drop targets
+  sh_eg_left_drop_left:
+    switch: s_left_bank_target_left
+    enable_events: eg_phase2_started
+    disable_events: eg_mode_complete, mode_escape_graveyard_will_stop
+  sh_eg_left_drop_middle:
+    switch: s_left_bank_target_middle
+    enable_events: eg_phase2_started
+    disable_events: eg_mode_complete, mode_escape_graveyard_will_stop
+  sh_eg_left_drop_right:
+    switch: s_left_bank_target_right
+    enable_events: eg_phase2_started
+    disable_events: eg_mode_complete, mode_escape_graveyard_will_stop
 
-  enable_house_lights:
-    graveyard_multiplier: 2
+# -----------------------------
+# ACCRUALS
+# -----------------------------
+accruals:
+  # -------- Phase 1: complete when all seven objectives are hit --------
+  eg_phase1:
+    events:
+      - sh_eg_right_drop_left_hit
+      - sh_eg_right_drop_middle_hit
+      - sh_eg_right_drop_right_hit
+      - sh_eg_pop_left_hit
+      - sh_eg_pop_middle_hit
+      - sh_eg_pop_right_hit
+      - sh_eg_spinner_hit
+    events_when_complete: eg_phase1_complete
+    reset_on_complete: false
 
-  mode_escape_graveyard_stopped:
-    graveyard_multiplier: 1
+  # (Optional) Detect when the RIGHT drop bank (3 targets) is finished during Phase 1
+  eg_rightbank:
+    events:
+      - sh_eg_right_drop_left_hit
+      - sh_eg_right_drop_middle_hit
+      - sh_eg_right_drop_right_hit
+    events_when_complete: eg_rightbank_complete
+    reset_on_complete: false
 
-
+  # -------- Phase 2: complete when all three left drops are hit --------
+  eg_phase2:
+    events:
+      - sh_eg_left_drop_left_hit
+      - sh_eg_left_drop_middle_hit
+      - sh_eg_left_drop_right_hit
+    events_when_complete: eg_mode_complete
+    reset_on_complete: false

@@ -86,7 +86,7 @@ sound_player:
       action: play
       loops: 0
       priority: 100
-      volume: 0.8
+      volume: 0.7
       events_when_stopped: start_subsequent_loop   # backup trigger
 
   start_subsequent_loop:
@@ -94,24 +94,24 @@ sound_player:
       action: play
       loops: -1
       priority: 100
-      volume: 0.8
+      volume: 0.7
 
   mode_base_will_stop:
     firstballintro: { action: stop }
     subsequentball: { action: stop }
 
   play_skilllane_quote_1:
-    herehecomesnowimgettingoutofhere: { action: play, priority: 50, volume: 0.7 }
+    herehecomesnowimgettingoutofhere: { action: play, priority: 50, volume: 0.9 }
   play_skilllane_quote_2:
-    heyyourestillafraid:              { action: play, priority: 50, volume: 0.7 }
+    heyyourestillafraid:              { action: play, priority: 50, volume: 0.9 }
   play_skilllane_quote_3:
-    theyrecomingforyou:               { action: play, priority: 50, volume: 0.7 }
+    theyrecomingforyou:               { action: play, priority: 50, volume: 0.9 }
   play_skilllane_quote_4:
-    looktherecomesoneofthemnow:       { action: play, priority: 50, volume: 0.7 }
+    looktherecomesoneofthemnow:       { action: play, priority: 50, volume: 0.9 }
   play_skilllane_quote_5:
-    theyrecomingforyoubarbra:         { action: play, priority: 50, volume: 0.7 }
+    theyrecomingforyoubarbra:         { action: play, priority: 50, volume: 0.9 }
   play_skilllane_quote_6:
-    theyrecomingtogetyoubarbra:       { action: play, priority: 50, volume: 0.7 }
+    theyrecomingtogetyoubarbra:       { action: play, priority: 50, volume: 0.9 }
 
 # -----------------------------
 # RANDOM QUOTES

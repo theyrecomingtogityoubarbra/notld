@@ -1,0 +1,5 @@
+2025-10-28 12:15:42,936 : INFO : root : Loading config.
+2025-10-28 12:15:42,940 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-28 12:15:42,941 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-28 12:15:43,091 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-28 12:15:43,093 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache

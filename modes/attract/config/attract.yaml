@@ -1,17 +1,24 @@
 #config_version=6
+
 mode:
-  start_events: machine_reset_phase_3, game_ended
-  stop_events:  game_starting, mode_base_started, ball_started
+  # start at boot and after a game ends
+  start_events: machine_reset_phase_3, reset_complete, game_ended
+  # stop as soon as we’re leaving attract
+  stop_events: game_starting, mode_base_started, ball_started
   priority: 10
 
+# If you have a slide named "attract", this shows it during attract.
+# (Harmless if you don’t—MPF will just do nothing here.)
 slide_player:
   mode_attract_started:
     attract:
       action: play
+      priority: 100
   mode_attract_will_stop:
     attract:
       action: remove
 
+# Start your attract shows and keep them looping by chaining their complete events.
 show_player:
   mode_attract_started:
     attract_wave:
@@ -26,13 +33,14 @@ show_player:
       action: play
       loops: 1
   mode_attract_will_stop:
-    attract_wave: { action: stop }
+    attract_wave:  { action: stop }
     attract_pulse: { action: stop }
 
+# Tell Godot to start/stop its attract scene
 event_player:
   mode_attract_started:
     godot_attract_on: {}
-  # stop it on any reasonable “leaving attract” event
+
   mode_attract_will_stop:
     godot_attract_off: {}
   game_starting:
@@ -41,4 +49,3 @@ event_player:
     godot_attract_off: {}
   mode_base_started:
     godot_attract_off: {}
-

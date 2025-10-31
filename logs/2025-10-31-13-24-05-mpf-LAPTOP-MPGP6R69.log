@@ -1,0 +1,13 @@
+2025-10-31 13:24:05,614 : INFO : root : Loading config.
+2025-10-31 13:24:05,638 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-31 13:24:05,639 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-31 13:24:05,985 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\attract\config\attract.yaml
+2025-10-31 13:24:05,985 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-10-31 13:24:05,992 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-10-31 13:24:05,993 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\attract\config\attract.yaml.
+2025-10-31 13:24:05,997 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\modes\attract\config\attract.yaml
+2025-10-31 13:24:05,999 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-31 13:24:06,001 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-31 13:24:06,003 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-31 13:24:06,030 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\base\config\base.yaml
+2025-10-31 13:24:06,031 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\base\config\base.yaml.

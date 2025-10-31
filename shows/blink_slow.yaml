@@ -1,0 +1,7 @@
+#show_version=6
+
+- duration: 0.6s
+  events: blink_on
+
+- duration: 0.6s
+  events: blink_off

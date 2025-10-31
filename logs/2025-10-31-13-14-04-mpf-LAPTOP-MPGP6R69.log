@@ -1,0 +1,67 @@
+2025-10-31 13:14:04,219 : INFO : root : Loading config.
+2025-10-31 13:14:04,234 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-31 13:14:04,235 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-10-31 13:14:04,573 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-31 13:14:04,575 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-10-31 13:14:04,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-10-31 13:14:04,579 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-10-31 13:14:04,582 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\escape_graveyard\config\escape_graveyard.yaml
+2025-10-31 13:14:04,582 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\escape_graveyard\config\escape_graveyard.yaml.
+2025-10-31 13:14:04,630 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\modes\escape_graveyard\config\escape_graveyard.yaml
+2025-10-31 13:14:04,633 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-10-31 13:14:04,637 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-10-31 13:14:04,639 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-10-31 13:14:04,641 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\7f73d12aa9beccac1cbd8c265ccda72e.mpf_cache
+2025-10-31 13:14:04,642 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\a03ebaa9d6d5676c418deb142cb34911.mpf_cache
+2025-10-31 13:14:04,643 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-10-31 13:14:04,644 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-10-31 13:14:04,645 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-10-31 13:14:04,646 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\55437eb303afaa980597ff60f339a871.mpf_cache
+2025-10-31 13:14:04,648 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fddc1006228d3387e6d1e46051a3638d.mpf_cache
+2025-10-31 13:14:04,649 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-10-31 13:14:04,650 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-10-31 13:14:04,651 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-10-31 13:14:04,654 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-10-31 13:14:04,654 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-31-13-14-04-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-10-31-13-14-04-mpf-LAPTOP-MPGP6R69.log'}
+2025-10-31 13:14:04,654 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-10-31 13:14:04,654 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-10-31 13:14:04,655 : INFO : Machine : Platform: win32
+2025-10-31 13:14:04,655 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-10-31 13:14:04,655 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-10-31 13:14:04,661 : INFO : Machine : Initializing MPF...
+2025-10-31 13:14:05,428 : INFO : lisy : Connecting to com3 at 115200bps
+2025-10-31 13:14:05,430 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-10-31 13:14:06,017 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:06,515 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:07,012 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:07,509 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:08,009 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:08,520 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:09,019 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:09,514 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:10,014 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:10,513 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:11,011 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:11,509 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:12,008 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:12,521 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:13,017 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:13,517 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:14,018 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:14,514 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:15,014 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:15,512 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:16,015 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:16,512 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:17,009 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:17,508 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:18,021 : WARNING : lisy : Reset of LISY failed. Did not get a response in 500ms. Will retry.
+2025-10-31 13:14:18,091 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-31 13:14:18,092 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\Users\antho\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
