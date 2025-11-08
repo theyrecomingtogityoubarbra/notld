@@ -1,0 +1,6 @@
+2025-11-08 11:07:37,134 : INFO : root : Loading config.
+2025-11-08 11:07:37,138 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-08 11:07:37,138 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-11-08 11:07:37,138 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-11-08 11:07:37,152 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-11-08 11:07:37,153 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.

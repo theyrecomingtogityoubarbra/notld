@@ -19,18 +19,18 @@ switches:
     tags: slam_tilt
 
   #Playfield Switches:
-  s_right_outlane_rollover:
+  s_right_rollover:
     number: 01
-    tags: right_outlane_rollover 
+    tags: right_rollover
   s_middle_skill_lane:
     number: 02
     tags: middle_skill_lane
-  s_left_outlane_rollover:
+  s_left_rollover:
     number: 03
-    tags: left_outlane_rollover
-  s_outer_skill_lanes:
+    tags: left_rollover
+  s_right_skill_lane:
     number: 04
-    tags: outer_skill_lanes 
+    tags: right_skill_lane 
   s_left_bank_target_left:
     number: 05
     tags: left_bank_target_left
@@ -49,29 +49,44 @@ switches:
   s_spinner:
     number: 15
     debounce: quick
-    ignore_window_ms: 2000
+    type: NC
     tags: spinner
-  s_middle_upper_rollovers:
+  s_middle_rollover:
     number: 17
-    tags: middle_upper_rollovers
+    tags: middle_rollover
   s_left_lower_bumper:
     number: 18
     tags: left_lower_bumper
   s_left_upper_bumper:
     number: 19
     tags: left_upper_bumper
+  s_left_skill_lane:
+    number: 20
+    tags: left_skill_lane
   s_left_bank_target_middle:
     number: 21
     tags: left_bank_target_middle
   s_right_bank_target_middle:
     number: 22
     tags: right_bank_target_middle 
+  s_rollover_upper:
+    number: 23
+    tags: rollover_upper
   s_saucer:
     number: 24
     tags: saucer
+  s_right_outlane:
+    number: 25
+    tags: right_outlane
+  s_left_outlane:
+    number: 27
+    tags: left_outlane
   s_right_bank_target_left:
     number: 30
     tags: right_bank_target_left
+  s_left_inlane:
+    number: 32
+    tags: left_inlane, playfield_active
   s_middle_pop_bumper:
     number: 33
     tags: middle_pop_bumper
@@ -87,6 +102,6 @@ switches:
   s_left_sling:
     number: 39
     tags: left_sling
-  s_inlanes:
+  s_right_inlane:
     number: 40
-    tags: inlanes, playfield_active
+    tags: right_inlane, playfield_active

@@ -1,12 +1,12 @@
 #config_version=6
 
 mode:
-  start_events: start_mode_escape_graveyard, escape_graveyard_start
-  stop_events: ball_will_end, eg_mode_complete, eg_mode_failed, escape_graveyard_stop
+  start_events: start_mode_escape_graveyard
+  stop_events: ball_will_end, eg_complete, eg_failed
   priority: 220
 
 # -----------------------------
-# HOLD BALL IN SAUCER FOR INTRO
+# HOLD BALL DURING INTRO
 # -----------------------------
 ball_holds:
   eg_intro_hold:
@@ -16,185 +16,145 @@ ball_holds:
     release_one_events: eg_intro_release
 
 # -----------------------------
-# EVENTS (media, phase changes, callouts)
+# TIMERS
 # -----------------------------
-event_player:
-  # Start intro (ball is held)
-  mode_escape_graveyard_started:
-    - eg_intro_begin
-
-  "mode_escape_graveyard_will_stop{current_player.eg_success==1}":
-    - godot_show_graveyard_completed     # plays graveyard_completed.tscn
-
-  "mode_escape_graveyard_will_stop{current_player.eg_success==0}":
-    - godot_show_graveyard_failed        # plays graveyard_failed.tscn
-    
-  # eg_intro_timer will fire eg_intro_release when it completes
-  eg_intro_begin: [11s]
-
-  # When the intro timer completes, release the hold (saucer will eject)
-  timer_eg_intro_timer_complete:
-    - eg_intro_release
-
-  # Phase 2 begins → boost multiplier
-  eg_phase2_started:
-    - enable_house_lights
-    - godot_show_graveyard_reach_house
-
-  # when the 60s timer ends, mark failure
-  timer_eg_mode_timer_complete:
-    - eg_mode_failed
-
-  # Spinner scream on the objective hit
-  sh_eg_spinner_hit:
-    - play_womanscream
-
-  # Play a special sound when the RIGHT bank (all 3) is finished
-  eg_rightbank_complete:
-    - play_zombielong
-
-  # Phase 1 completion: reset left bank, start the short delay, give reach-house bonus
-  eg_phase1_complete:
-    - pulse_c_drop_target_left
-    - eg_phase2_delay_start
-    - reach_house
-
-  # When the short delay timer completes, actually start Phase 2
-  timer_eg_phase2_delay_complete:
-    - eg_phase2_started
-
-variable_player:
-  # default: not successful
-  mode_escape_graveyard_started:
-    eg_success: 0
-
-  # mark success when the mode is completed
-  eg_mode_complete:
-    eg_success: 1
-
 timers:
-  eg_intro_timer:
-    start_value: 7
+  # 11s one-shot to replace inline delay
+  eg_intro_delay:
+    start_value: 11
     end_value: 0
     direction: down
     tick_interval: 1s
-    start_running: false
     control_events:
-      - action: restart
-        event: eg_intro_begin
+      - action: start
+        event: mode_escape_graveyard_started
 
-  eg_mode_timer:
+  # 60s gameplay timer (starts right after eject)
+  eg_timer:
     start_value: 60
     end_value: 0
     direction: down
     tick_interval: 1s
-    start_running: false
     control_events:
-      - action: restart
-        event: mode_escape_graveyard_started
-
-  eg_phase2_delay:
-    start_value: 1
-    end_value: 0
-    direction: down
-    tick_interval: 400ms
-    start_running: false
-    control_events:
-      - action: restart
-        event: eg_phase2_delay_start
-
+      - action: start
+        event: eg_intro_release
+      - action: stop
+        event: eg_complete
+      - action: stop
+        event: eg_failed
+      - action: stop
+        event: mode_escape_graveyard_will_stop
+# listen for: timer_eg_intro_delay_complete / timer_eg_timer_complete
 
 # -----------------------------
-# MEDIA: SLIDE + MUSIC
+# EVENTS (scenes, phase steps, success/fail)
 # -----------------------------
-slide_player:
-  eg_intro_begin:
-    graveyard_intro:
-      action: play
-      priority: 300
-      expire: "7s"          # was {config.eg_intro_seconds}s
-
-  eg_phase1_complete:
-    graveyard_reach_house:
-      action: play
-      priority: 300
-      expire: "5s"          # was {config.eg_phase2_slide_seconds}s
-
-sound_player:
+event_player:
+  # Mode starts: intro scene while ball is held
   mode_escape_graveyard_started:
-    escape_graveyard_music: { action: play, loops: -1, priority: 100, volume: 0.8 }
-  eg_mode_complete:
-    escape_graveyard_music: { action: stop }
-  mode_escape_graveyard_will_stop:
-    escape_graveyard_music: { action: stop }
+    - godot_play_graveyard_intro
 
-segment_display_player:
-  mode_escape_graveyard_started:
-    info_display: { text: "EGOP" }
+  sh_escape_graveyard_start_hit:
+    start_mode_escape_graveyard: {}
+    godot_play_graveyard_intro: {}
+
+  # After 11s → eject & begin Phase 1
+  timer_eg_intro_delay_complete:
+    - eg_intro_release
+
+  eg_intro_release:
+    - godot_stop_graveyard_intro
+    - eg_phase1_begin
+
+  # Phase 1 (6 shots) complete → enable spinner
   eg_phase1_complete:
-    info_display: { text: "HSE!" }   # “House!” – change to taste
-  eg_mode_complete:
-    info_display: { text: "DONE" }
-  mode_escape_graveyard_will_stop:
-    info_display: { text: "    " }
+    - eg_spinner_phase_begin
+
+  # Spinner hit → Phase 2
+  sh_eg_spinner_hit:
+    - eg_phase2_begin
+
+  # 60s timer ran out → fail
+  timer_eg_timer_complete:
+    - eg_fail_sequence
+
+  # Drain during mode → fail as well
+  ball_will_end:
+    - eg_fail_sequence
+
+  # Phase 2 done → success flow
+  eg_complete:
+    - eg_success_sequence
+
+  # Success / Fail → play scene, then stop the mode (no inline delay)
+  eg_success_sequence:
+    - godot_play_graveyard_completed
+    - eg_stop_mode_after_scene
+
+  eg_fail_sequence:
+    - godot_play_graveyard_failed
+    - eg_stop_mode_after_scene
+
+  # trigger the post-scene stop delay show
+  eg_stop_mode_after_scene:
+    - start_eg_stop_delay
 
 # -----------------------------
-# SHOTS (PHASE 1 + PHASE 2)
+# SHOTS
 # -----------------------------
 shots:
-  # Phase 1 — Right drop targets
+  # Phase 1 — Right drops (any order)
   sh_eg_right_drop_left:
     switch: s_right_bank_target_left
-    enable_events: mode_escape_graveyard_started
+    enable_events: eg_phase1_begin
     disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
   sh_eg_right_drop_middle:
     switch: s_right_bank_target_middle
-    enable_events: mode_escape_graveyard_started
+    enable_events: eg_phase1_begin
     disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
   sh_eg_right_drop_right:
     switch: s_right_bank_target_right
-    enable_events: mode_escape_graveyard_started
+    enable_events: eg_phase1_begin
     disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
 
-  # Phase 1 — Pops
+  # Phase 1 — Pops (any order)
   sh_eg_pop_left:
     switch: s_left_pop_bumper
-    enable_events: mode_escape_graveyard_started
+    enable_events: eg_phase1_begin
     disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
   sh_eg_pop_middle:
     switch: s_middle_pop_bumper
-    enable_events: mode_escape_graveyard_started
+    enable_events: eg_phase1_begin
     disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
   sh_eg_pop_right:
     switch: s_right_pop_bumper
-    enable_events: mode_escape_graveyard_started
+    enable_events: eg_phase1_begin
     disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
 
-  # Phase 1 — Spinner
+  # Spinner — enabled after Phase 1
   sh_eg_spinner:
     switch: s_spinner
-    enable_events: mode_escape_graveyard_started
-    disable_events: eg_phase1_complete, mode_escape_graveyard_will_stop
+    enable_events: eg_spinner_phase_begin
+    disable_events: eg_phase2_begin, mode_escape_graveyard_will_stop
 
-  # Phase 2 — Left drop targets
+  # Phase 2 — Left drops (any order)
   sh_eg_left_drop_left:
     switch: s_left_bank_target_left
-    enable_events: eg_phase2_started
-    disable_events: eg_mode_complete, mode_escape_graveyard_will_stop
+    enable_events: eg_phase2_begin
+    disable_events: eg_complete, mode_escape_graveyard_will_stop
   sh_eg_left_drop_middle:
     switch: s_left_bank_target_middle
-    enable_events: eg_phase2_started
-    disable_events: eg_mode_complete, mode_escape_graveyard_will_stop
+    enable_events: eg_phase2_begin
+    disable_events: eg_complete, mode_escape_graveyard_will_stop
   sh_eg_left_drop_right:
     switch: s_left_bank_target_right
-    enable_events: eg_phase2_started
-    disable_events: eg_mode_complete, mode_escape_graveyard_will_stop
+    enable_events: eg_phase2_begin
+    disable_events: eg_complete, mode_escape_graveyard_will_stop
 
 # -----------------------------
-# ACCRUALS
+# ACCRUALS (phase gates)
 # -----------------------------
 accruals:
-  # -------- Phase 1: complete when all seven objectives are hit --------
   eg_phase1:
     events:
       - sh_eg_right_drop_left_hit
@@ -203,24 +163,123 @@ accruals:
       - sh_eg_pop_left_hit
       - sh_eg_pop_middle_hit
       - sh_eg_pop_right_hit
-      - sh_eg_spinner_hit
     events_when_complete: eg_phase1_complete
     reset_on_complete: false
 
-  # (Optional) Detect when the RIGHT drop bank (3 targets) is finished during Phase 1
-  eg_rightbank:
-    events:
-      - sh_eg_right_drop_left_hit
-      - sh_eg_right_drop_middle_hit
-      - sh_eg_right_drop_right_hit
-    events_when_complete: eg_rightbank_complete
-    reset_on_complete: false
-
-  # -------- Phase 2: complete when all three left drops are hit --------
   eg_phase2:
     events:
       - sh_eg_left_drop_left_hit
       - sh_eg_left_drop_middle_hit
       - sh_eg_left_drop_right_hit
-    events_when_complete: eg_mode_complete
+    events_when_complete: eg_complete
     reset_on_complete: false
+
+# -----------------------------
+# SHOW DEFINITIONS
+# -----------------------------
+shows:
+  # Simple 3s “delay then post-event” show to stop the mode after success/fail scene
+  eg_stop_delay_show:
+    - duration: 3s
+      events: stop_mode_escape_graveyard
+
+# -----------------------------
+# SHOW PLAYER  (single block)
+# -----------------------------
+show_player:
+  # 3s post-scene delay to stop the mode
+  start_eg_stop_delay:
+    eg_stop_delay_show:
+      action: play
+      loops: 1
+
+  # --- Phase 1: start three independent flash instances ---
+  eg_phase1_begin:
+    flash@eg_rbl:
+      action: play
+      loops: -1
+      speed: 1.0
+      show_tokens:
+        lights: l_right_bank_left
+    flash@eg_rbm:
+      action: play
+      loops: -1
+      speed: 1.0
+      show_tokens:
+        lights: l_right_bank_middle
+    flash@eg_rbr:
+      action: play
+      loops: -1
+      speed: 1.0
+      show_tokens:
+        lights: l_right_bank_right
+
+  # stop each when its target is made
+  sh_eg_right_drop_left_hit:
+    flash@eg_rbl: { action: stop }
+  sh_eg_right_drop_middle_hit:
+    flash@eg_rbm: { action: stop }
+  sh_eg_right_drop_right_hit:
+    flash@eg_rbr: { action: stop }
+
+  # --- Spinner phase flash ---
+  eg_spinner_phase_begin:
+    flash@eg_spin:
+      action: play
+      loops: -1
+      speed: 1.0
+      show_tokens:
+        lights: l_spinner_first
+
+  sh_eg_spinner_hit:
+    flash@eg_spin: { action: stop }
+
+  # --- Phase 2: two left-bank insert flashes ---
+  eg_phase2_begin:
+    flash@eg_lbl:
+      action: play
+      loops: -1
+      speed: 1.0
+      show_tokens:
+        lights: l_left_bank_lower
+    flash@eg_lbu:
+      action: play
+      loops: -1
+      speed: 1.0
+      show_tokens:
+        lights: l_left_bank_upper
+
+  # stop the two left-bank flashes as those targets are hit
+  sh_eg_left_drop_left_hit:
+    flash@eg_lbl: { action: stop }
+  sh_eg_left_drop_right_hit:
+    flash@eg_lbu: { action: stop }
+
+
+# -----------------------------
+# LAMP CLEANUP
+# -----------------------------
+light_player:
+  eg_complete:
+    l_right_bank_left: off
+    l_right_bank_middle: off
+    l_right_bank_right: off
+    l_spinner_first: off
+    l_spinner_second: off
+    l_spinner_third: off
+    l_spinner_fourth: off
+    l_spinner_adjacent: off
+    l_left_bank_lower: off
+    l_left_bank_upper: off
+
+  mode_escape_graveyard_will_stop:
+    l_right_bank_left: off
+    l_right_bank_middle: off
+    l_right_bank_right: off
+    l_spinner_first: off
+    l_spinner_second: off
+    l_spinner_third: off
+    l_spinner_fourth: off
+    l_spinner_adjacent: off
+    l_left_bank_lower: off
+    l_left_bank_upper: off

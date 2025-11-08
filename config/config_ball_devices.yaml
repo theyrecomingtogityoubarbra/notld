@@ -13,7 +13,8 @@ ball_devices:
     eject_targets: playfield
     eject_timeouts: 2s
     mechanical_eject: false
-    tags: saucer, home, eject
+    tags: saucer, home, eject, playfield
+    ball_search_order: 20
 
 # -------------------------------
 # DROP TARGETS

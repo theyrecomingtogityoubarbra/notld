@@ -7,6 +7,37 @@ lisy:
   port: com3
   baud: 115200
 
+config:
+  - config_ball_devices.yaml
+  - config_coils.yaml
+  - config_switches.yaml
+  - config_lights.yaml
+  - config_sounds.yaml
+
+game:
+  balls_per_game: 3
+  max_players: 4
+
+credits:
+  free_play: true
+
+modes:
+  - attract
+  - base
+  - escape_graveyard
+
+playfields:
+  playfield:
+    default_source_device: bd_trough
+    tags: default
+
+digital_outputs:
+  flipper_enabling_relay:
+    type: driver
+    number: 16
+    enable_events: ball_started
+    disable_events: ball_will_end
+    
 segment_displays:
   info_display:    { number: 0, size: 4, update_method: replace }
   player1_display: { number: 1, size: 7, update_method: stack }
@@ -15,9 +46,9 @@ segment_displays:
   player4_display: { number: 4, size: 7, update_method: stack }
 
 
-# Free Play: no {credits} anywhere in segment_display_player
+  # Free Play: no {credits} anywhere in segment_display_player
 segment_display_player:
-  # Light player score windows at game start
+    # Light player score windows at game start
   game_started:
     info_display: { text: "    "}
     player1_display: { text: " " }
@@ -25,7 +56,11 @@ segment_display_player:
     player3_display: { text: " " }
     player4_display: { text: " " }
 
-  # Show "0" the moment a player is added
+  "ball_started{ball==1}": { info_display: { text: " 01 " } }
+  "ball_started{ball==2}": { info_display: { text: " 02 " } }
+  "ball_started{ball==3}": { info_display: { text: " 03 " } }
+
+    # Show "0" the moment a player is added
   "player_added{num==1}":
     player1_display: { text: "0" }
   "player_added{num==2}":
@@ -44,7 +79,7 @@ segment_display_player:
   "ball_started{current_player.number==4}":
     player4_display: { text: "{players[3].score:d}" }
 
-  # turn mask ON (priority higher than your normal score text)
+    # turn mask ON (priority higher than your normal score text)
   "blink_on{current_player.number==1}":
     player1_display: { text: "       ", key: upmask, priority: 2000 }
   "blink_on{current_player.number==2}":
@@ -54,7 +89,7 @@ segment_display_player:
   "blink_on{current_player.number==4}":
     player4_display: { text: "       ", key: upmask, priority: 2000 }
 
-  # turn mask OFF (remove only our overlay)
+    # turn mask OFF (remove only our overlay)
   "blink_off{current_player.number==1}":
     player1_display: { action: remove, key: upmask }
   "blink_off{current_player.number==2}":
@@ -64,14 +99,14 @@ segment_display_player:
   "blink_off{current_player.number==4}":
     player4_display: { action: remove, key: upmask }
 
-  # safety: clear any leftover mask at the start of each ball
+    # safety: clear any leftover mask at the start of each ball
   ball_started:
     player1_display: { action: remove, key: upmask }
     player2_display: { action: remove, key: upmask }
     player3_display: { action: remove, key: upmask }
     player4_display: { action: remove, key: upmask }
-    
-  # Score updates
+      
+    # Score updates
   "player_score{current_player.number==1}":
     player1_display: { text: "{players[0].score:d}" }
   "player_score{current_player.number==2}":
@@ -81,40 +116,50 @@ segment_display_player:
   "player_score{current_player.number==4}":
     player4_display: { text: "{players[3].score:d}" }
 
-  # Back to blank at game end
   game_ended:
+    info_display: { text: "    " }
+
+  # base event: always show P1’s stored score
+  eg_show_postgame:
     player1_display: { text: "{machine.player1_score:d}" }
     player2_display: { text: "{machine.player2_score:d}" }
     player3_display: { text: "{machine.player3_score:d}" }
     player4_display: { text: "{machine.player4_score:d}" }
 
-config:
-  - config_ball_devices.yaml
-  - config_coils.yaml
-  - config_switches.yaml
-  - config_lights.yaml
-  - config_sounds.yaml
+  "eg_show_postgame{machine.num_players>=2}":
+    player2_display: { text: "{machine.player2_score:d}" }
+  "eg_show_postgame{machine.num_players>=3}":
+    player3_display: { text: "{machine.player3_score:d}" }
+  "eg_show_postgame{machine.num_players>=4}":
+    player4_display: { text: "{machine.player4_score:d}" }
 
-game:
-  balls_per_game: 3
-  max_players: 4
+  "eg_show_postgame{machine.num_players<2}":
+    player2_display: { text: " " }
+  "eg_show_postgame{machine.num_players<3}":
+    player3_display: { text: " " }
+  "eg_show_postgame{machine.num_players<4}":
+    player4_display: { text: " " }
 
-modes:
-  - attract
-  - base
-  - escape_graveyard
+event_player:
+  # Copy all players' final scores just before MPF tears the game down.
+  # This event always happens before "game_ended".
+  "game_will_end{machine.num_players>=1}":
+    set_machine_var: { name: player1_score, value: "{players[0].score}" }
 
-playfields:
-  playfield:
-    default_source_device: bd_trough
-    tags: default
+  "game_will_end{machine.num_players>=2}":
+    set_machine_var: { name: player2_score, value: "{players[1].score}" }
 
-digital_outputs:
-  flipper_enabling_relay:
-    type: driver
-    number: 16
-    enable_events: ball_started
-    disable_events: ball_will_end
+  "game_will_end{machine.num_players>=3}":
+    set_machine_var: { name: player3_score, value: "{players[2].score}" }
+
+  "game_will_end{machine.num_players>=4}":
+    set_machine_var: { name: player4_score, value: "{players[3].score}" }
+
+  # Show the results shortly after the game fully ends
+  game_ended:
+    eg_show_postgame:
+      delay: 200ms
+
 
 autofire_coils:
   ac_left_sling:
@@ -137,10 +182,13 @@ autofire_coils:
     switch: s_middle_pop_bumper
 
 sound_system:
-  tracks:
+  buses:
     music:
       volume: 1.0
       simultaneous_sounds: 1
+    music2:
+      simultaneous_sounds: 1
+      volume: 1.0
     voice:
       volume: 1.0
       simultaneous_sounds: 1
@@ -155,15 +203,15 @@ sound_system:
 
 
 light_player:
-  # clear all count lamps when a new game starts
-  # clear BEFORE any players are added
+    # clear all count lamps when a new game starts
+    # clear BEFORE any players are added
   game_starting:
     l_player_1: off
     l_player_2: off
     l_player_3: off
     l_player_4: off
 
-  # cumulative player-count lamps using the player number from the event
+    # cumulative player-count lamps using the player number from the event
   "player_added{num==1}":
     l_player_1: on
   "player_added{player_num==1}":        # fallback for images that use player_num
@@ -196,14 +244,14 @@ light_player:
     l_player_3: on
     l_player_4: on
 
-  # turn all UP lamps off first on each ball start
+    # turn all UP lamps off first on each ball start
   ball_started:
     l_1up: off
     l_2up: off
     l_3up: off
     l_4up: off
 
-  # then turn on the current player's UP lamp (no suffix needed)
+    # then turn on the current player's UP lamp (no suffix needed)
   "ball_started{current_player.number==1}":
     l_1up: on
   "ball_started{current_player.number==2}":
@@ -213,7 +261,7 @@ light_player:
   "ball_started{current_player.number==4}":
     l_4up: on
 
-  # single merged game_ended cleanup
+    # single merged game_ended cleanup
   game_ended:
     l_player_1: off
     l_player_2: off

@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: ball_started
+  start_events: ball_starting, mode_escape_graveyard_stopped
   stop_events: mode_escape_graveyard_started, game_ended
   priority: 50
 
@@ -14,9 +14,11 @@ variable_player:
   s_left_sling_active:          { score: 10 }
   s_right_sling_active:         { score: 10 }
 
-  s_outer_skill_lanes_active:   { score: 500 }
+  s_right_skill_lane_active:    { score: 500 }
+  s_left_skill_lane_active:     { score: 500 }
   s_middle_skill_lane_active:   { score: 500 }
-  s_rollover_middles_active:    { score: 500 }
+  s_rollover_middle_active:     { score: 500 }
+  s_rollover_upper_active:      { score: 500 }
 
   s_saucer_active:              { score: 0 }
 
@@ -27,9 +29,12 @@ variable_player:
   s_right_bank_target_left_active:   { score: 100 }
   s_right_bank_target_right_active:  { score: 100 }
   s_right_bank_target_middle_active: { score: 100 }
-  s_inlanes_active:                  { score: 100 }
-  s_left_outlane_rollover_active:    { score: 100 }
-  s_right_outlane_rollover_active:   { score: 100 }
+  s_right_inlane_active:             { score: 100 }
+  s_left_inlane_active:              { score: 100 }
+  s_left_outlane_active:             { score: 100 }
+  s_left_rollover_active:            { score: 100 }
+  s_right_outlane_active:            { score: 100 }
+  s_right_rollover_active:           { score: 100 }
   s_pop_bumper_left_active:          { score: 100 }
   s_pop_bumper_right_active:         { score: 100 }
   s_pop_bumper_bottom_active:        { score: 100 }
@@ -41,17 +46,38 @@ event_player:
   # fire these as soon as base has started (which happens on ball_started)
   mode_base_started:
     stop_mode_attract: {}
+    mode_attract_will_stop: {}
     godot_attract_off: {}
+    godot_play_base: {}
 
-  # Ball 1: intro, then schedule loop
-  "mode_base_started{ball==1}":
-    start_firstball_intro: {}
-    start_subsequent_loop:
-      delay: 6s     # set to the real intro length
+  mode_base_will_stop:
+    godot_stop_base: {}
+  mode_escape_graveyard_started:
+    godot_stop_base: {}
+  game_ended:
+    godot_stop_base: {}
 
-  # Balls 2+: straight to loop
-  "mode_base_started{ball>1}":
-    start_subsequent_loop: {}
+  sh_escape_graveyard_start_hit:
+    start_mode_escape_graveyard: {}
+    godot_play_graveyard_intro: {}
+
+counters:
+  eg_pop_counter:
+    count_events:
+      - s_left_pop_bumper_active
+      - s_middle_pop_bumper_active
+      - s_right_pop_bumper_active
+    count_complete_value: 3
+    reset_on_complete: true
+    reset_events: ball_started
+    events_when_complete: eg_lit
+
+shots:
+  # Saucer starts the mode, but only while lit
+  sh_escape_graveyard_start:
+    switch: s_saucer
+    enable_events: eg_lit
+    disable_events: mode_escape_graveyard_started, ball_will_end
 
 slides:
   base_blank:
@@ -63,61 +89,84 @@ slides:
 slide_player:
   # when base starts, show the black slide (it will sit on top of attract)
   mode_base_started:
+    base:
+      action: play
+      priority: 110
+  mode_base_will_stop:
+    base_blank: { action: remove }
+
+  start_subsequent_loop:
     base_blank:
       action: play
-      priority: 100
-
-  # when base is ending, remove the black slide
-  mode_base_will_stop:
-    base_blank:
-      action: remove
+      priority: 120
 
 show_player:
   mode_base_started:
     attract_wave:  { action: stop }
     attract_pulse: { action: stop }
 
+light_player:
+  eg_lit:
+    l_left_bank_lower: on       # choose any "start is lit" lamp you like
+  mode_escape_graveyard_started:
+    l_left_bank_lower: off
+  ball_will_end:
+    l_left_bank_lower: off
+
 # -----------------------------
 # SOUND
 # -----------------------------
 sound_player:
-  start_firstball_intro:
+
+  ball_started{current_player.ball==1}:
     firstballintro:
       action: play
       loops: 0
       priority: 100
-      volume: 0.7
-      events_when_stopped: start_subsequent_loop   # backup trigger
+      volume: 0.6
 
-  start_subsequent_loop:
+  ball_started{ball>=2}:
     subsequentball:
       action: play
-      loops: -1
       priority: 100
-      volume: 0.7
+      volume: 0.6
+      fade_in: 1.5s
 
   mode_base_will_stop:
     firstballintro: { action: stop }
     subsequentball: { action: stop }
 
+  ball_will_end:
+    firstballintro: { action: stop }
+    subsequentball: { action: stop }
+
   play_skilllane_quote_1:
-    herehecomesnowimgettingoutofhere: { action: play, priority: 50, volume: 0.9 }
+    herehecomesnowimgettingoutofhere: { action: play, priority: 50, volume: 1 }
   play_skilllane_quote_2:
-    heyyourestillafraid:              { action: play, priority: 50, volume: 0.9 }
+    heyyourestillafraid:              { action: play, priority: 50, volume: 1 }
   play_skilllane_quote_3:
-    theyrecomingforyou:               { action: play, priority: 50, volume: 0.9 }
+    theyrecomingforyou:               { action: play, priority: 50, volume: 1 }
   play_skilllane_quote_4:
-    looktherecomesoneofthemnow:       { action: play, priority: 50, volume: 0.9 }
+    looktherecomesoneofthemnow:       { action: play, priority: 50, volume: 1 }
   play_skilllane_quote_5:
-    theyrecomingforyoubarbra:         { action: play, priority: 50, volume: 0.9 }
+    theyrecomingforyoubarbra:         { action: play, priority: 50, volume: 1 }
   play_skilllane_quote_6:
-    theyrecomingtogetyoubarbra:       { action: play, priority: 50, volume: 0.9 }
+    theyrecomingtogetyoubarbra:       { action: play, priority: 50, volume: 1 }
 
 # -----------------------------
 # RANDOM QUOTES
 # -----------------------------
 random_event_player:
-  s_outer_skill_lanes_active:
+  s_right_skill_lane_active:
+    events:
+      - play_skilllane_quote_1
+      - play_skilllane_quote_2
+      - play_skilllane_quote_3
+      - play_skilllane_quote_4
+      - play_skilllane_quote_5
+      - play_skilllane_quote_6
+
+  s_left_skill_lane_active:
     events:
       - play_skilllane_quote_1
       - play_skilllane_quote_2

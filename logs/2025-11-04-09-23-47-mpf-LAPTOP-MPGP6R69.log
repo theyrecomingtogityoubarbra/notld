@@ -1,0 +1,20 @@
+2025-11-04 09:23:47,943 : INFO : root : Loading config.
+2025-11-04 09:23:47,947 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-04 09:23:47,947 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-11-04 09:23:47,948 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-11-04 09:23:47,961 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-11-04 09:23:47,961 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-11-04 09:23:47,981 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-11-04 09:23:47,981 : ERROR : ConfigProcessor : Config section 'sound_system' is removed in MPF 0.80 and will be ignored.
+2025-11-04 09:23:47,983 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-11-04 09:23:47,986 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-11-04 09:23:47,991 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-11-04 09:23:47,996 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-11-04 09:23:47,999 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-11-04 09:23:47,999 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2025-11-04 09:23:48,003 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-11-04 09:23:48,136 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-04 09:23:48,136 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-11-04 09:23:48,137 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-04 09:23:48,137 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\base\config\base.yaml
+2025-11-04 09:23:48,138 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\base\config\base.yaml.

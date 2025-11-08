@@ -1,0 +1,776 @@
+2025-11-08 10:06:45,737 : INFO : root : Loading config.
+2025-11-08 10:06:45,744 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-08 10:06:45,744 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-11-08 10:06:45,871 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-08 10:06:45,872 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-11-08 10:06:45,873 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-08 10:06:45,874 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\base\config\base.yaml
+2025-11-08 10:06:45,874 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\base\config\base.yaml.
+2025-11-08 10:06:45,895 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\modes\base\config\base.yaml
+2025-11-08 10:06:45,895 : ERROR : ConfigProcessor : Config section 'slides' is removed in MPF 0.80 and will be ignored.
+2025-11-08 10:06:45,896 : INFO : ConfigProcessor : Config file cache created: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-11-08 10:06:45,896 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-11-08 10:06:45,898 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\31ee881584fa6fce665a672a4f3f633a.mpf_cache
+2025-11-08 10:06:45,899 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5e841763ec73085bbf92358fe6afda21.mpf_cache
+2025-11-08 10:06:45,900 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\7f73d12aa9beccac1cbd8c265ccda72e.mpf_cache
+2025-11-08 10:06:45,900 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\a03ebaa9d6d5676c418deb142cb34911.mpf_cache
+2025-11-08 10:06:45,901 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\b17152efa55a24f0424602723f8d3921.mpf_cache
+2025-11-08 10:06:45,901 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\e87fc0e7d2f8a851b5fa3f604e0d0c6e.mpf_cache
+2025-11-08 10:06:45,902 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\196ac76b6cab3a9880804c826cfbcb5c.mpf_cache
+2025-11-08 10:06:45,902 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\55437eb303afaa980597ff60f339a871.mpf_cache
+2025-11-08 10:06:45,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fddc1006228d3387e6d1e46051a3638d.mpf_cache
+2025-11-08 10:06:45,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\834292dd7853e12a66732dc89828c828.mpf_cache
+2025-11-08 10:06:45,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\46f8fa3e41dfeeb8232af2f03a13b6c4.mpf_cache
+2025-11-08 10:06:45,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\c67e9c175da6c060302945929b27b878.mpf_cache
+2025-11-08 10:06:45,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\03987edb382fe443ccf68b3f49f06933.mpf_cache
+2025-11-08 10:06:45,905 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-11-08 10:06:45,905 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-11-08-10-06-45-mpf-LAPTOP-MPGP6R69.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\antho\\nightpin\\logs\\2025-11-08-10-06-45-mpf-LAPTOP-MPGP6R69.log'}
+2025-11-08 10:06:45,905 : INFO : Machine : MPF path: C:\Users\antho\mpf\Lib\site-packages\mpf
+2025-11-08 10:06:45,905 : INFO : Machine : Machine path: C:\Users\antho\nightpin
+2025-11-08 10:06:45,905 : INFO : Machine : Platform: win32
+2025-11-08 10:06:45,905 : INFO : Machine : Python executable location: C:\Users\antho\mpf\Scripts\python.exe
+2025-11-08 10:06:45,905 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-11-08 10:06:45,907 : INFO : Machine : Initializing MPF...
+2025-11-08 10:06:46,178 : INFO : lisy : Connecting to com3 at 115200bps
+2025-11-08 10:06:46,179 : WARNING : lisy : Could not import terminos (this is ok on windows).
+2025-11-08 10:06:46,332 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY35', 'prev_value': None, 'change': True}
+2025-11-08 10:06:46,332 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2025-11-08 10:06:46,332 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,651 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,686 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,686 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 200, 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,686 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,686 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,686 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,788 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26100-SP0', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,788 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,789 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,789 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26100', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,789 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,789 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\antho\\nightpin\\logs\\2025-11-08-10-06-45-mpf-LAPTOP-MPGP6R69.log', 'prev_value': None, 'change': True}
+2025-11-08 10:06:47,789 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-08 10:06:47,824 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2025-11-08 10:06:47,824 : INFO : EventManager : Event: ======'drop_target_bank_left_bank_up'====== Args={}
+2025-11-08 10:06:47,904 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-08 10:06:47,913 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-11-08 10:06:47,915 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-11-08 10:06:47,933 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-11-08 10:06:47,934 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-11-08 10:06:48,050 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-11-08 10:06:48,084 : INFO : ball_device.bd_trough : State: idle
+2025-11-08 10:06:48,084 : INFO : ball_device.bd_saucer : BCH: Initial count: 0
+2025-11-08 10:06:48,084 : INFO : ball_device.bd_saucer : State: idle
+2025-11-08 10:06:48,111 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-11-08 10:06:48,119 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-11-08 10:06:48,119 : INFO : BallController : Initial balls found: 0
+2025-11-08 10:06:48,120 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 138, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_coin_right'====== Args={'value': 137, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_credit_button'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlanes'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_left'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_middle'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_bank_target_right'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lower_bumper'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,121 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane_rollover'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_pop_bumper'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_rollover'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_skill_lane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_sling'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_upper_bumper'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_pop_bumper'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_rollover'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_skill_lane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_upper_rollovers'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outer_skill_lanes'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,122 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_middle'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_bank_target_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane_rollover'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_pop_bumper'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_rollover'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_skill_lane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_sling'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_rollover_upper'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_saucer'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,123 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_slam_tilt'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_spinner'====== Args={'value': 51, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stand_up'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start_button'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1377, 'top': [5110, 5070, 4300, 4230, 3980, 3410, 2200, 2100, 1300, 1200], 'total': 28}, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_pop_left'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_pop_middle'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_pop_right'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,124 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_right_drop_left'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_right_drop_middle'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_right_drop_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_eg_spinner'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_shots_sh_escape_graveyard_start'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_coin_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlanes'====== Args={'value': 159, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_left'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_middle'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_bank_target_right'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,125 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lower_bumper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane_rollover'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_pop_bumper'====== Args={'value': 134, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_rollover'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_skill_lane'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 113, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_upper_bumper'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_pop_bumper'====== Args={'value': 150, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_rollover'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_skill_lane'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_upper_rollovers'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outer_skill_lanes'====== Args={'value': 133, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_bottom'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_left'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_middle'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_bank_target_right'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane_rollover'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_pop_bumper'====== Args={'value': 192, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_skill_lane'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_upper'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,127 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 116, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 430, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stand_up'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 583, 'prev_value': None, 'change': True}
+2025-11-08 10:06:48,129 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-11-08 10:06:48,161 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-11-08 10:06:48,162 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-11-08 10:06:48,163 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-11-08 10:06:48,171 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-11-08 10:06:48,176 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-11-08 10:06:48,177 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-11-08 10:06:48,177 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-11-08 10:06:48,182 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={'queue': <QueuedEvent>}
+2025-11-08 10:06:48,183 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={'queue': <QueuedEvent>}
+2025-11-08 10:06:48,184 : INFO : Mode.attract : Started. Priority: 10
+2025-11-08 10:06:48,184 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:06:48,184 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={'queue': <QueuedEvent>}
+2025-11-08 10:06:48,184 : INFO : EventManager : Event: ======'godot_attract_on'====== Args={'priority': 0}
+2025-11-08 10:06:48,184 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-11-08 10:06:48,184 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-11-08 10:06:48,199 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-11-08 10:06:48,225 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-11-08 10:06:48,225 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-11-08 10:06:48,226 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'queue': '<QueuedEvent>', 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-08 10:06:48,675 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-11-08 10:06:48,675 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-11-08 10:06:48,676 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-11-08 10:06:48,676 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-11-08 10:06:48,676 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-11-08 10:06:48,677 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-11-08 10:06:48,677 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2025-11-08 10:06:48,677 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-11-08 10:06:48,678 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2025-11-08 10:06:48,678 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 1
+2025-11-08 10:06:48,678 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2025-11-08 10:06:48,678 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-11-08 10:06:48,678 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-11-08 10:06:48,678 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-11-08 10:06:48,678 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-11-08 10:06:49,962 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-11-08 10:06:50,148 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-11-08 10:06:50,148 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-11-08 10:06:50,148 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.1880000000819564}
+2025-11-08 10:06:50,148 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.1880000000819564}
+2025-11-08 10:06:50,149 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.1880000000819564}
+2025-11-08 10:06:50,149 : INFO : Mode.game : Started. Priority: 20
+2025-11-08 10:06:50,149 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:06:50,149 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.1880000000819564}
+2025-11-08 10:06:50,164 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-11-08 10:06:50,165 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-11-08 10:06:50,165 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-11-08 10:06:50,165 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-11-08 10:06:50,165 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-11-08 10:06:50,167 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:50,167 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-11-08 10:06:50,168 : INFO : Mode.attract : Stopped.
+2025-11-08 10:06:50,168 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:06:50,168 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-11-08 10:06:50,168 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-11-08 10:06:50,168 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-11-08 10:06:50,169 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-11-08 10:06:50,169 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:50,169 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-11-08 10:06:50,169 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-11-08 10:06:50,170 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-08 10:06:50,170 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-11-08 10:06:50,170 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-08 10:06:50,171 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:50,186 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-11-08 10:06:50,187 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:50,188 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:50,193 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:50,193 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-08 10:06:50,195 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:50,196 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-08 10:06:50,200 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-08 10:06:50,201 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-08 10:06:50,201 : INFO : EventManager : Event: ======'player_shot_sh_escape_graveyard_start_enabled'====== Args={'value': False, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-08 10:06:50,202 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:50,202 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:50,204 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-08 10:06:50,205 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-11-08 10:06:50,205 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-11-08 10:06:50,205 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-11-08 10:06:50,205 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-08 10:06:50,206 : INFO : EventManager : Event: ======'logicblock_eg_pop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-08 10:06:50,206 : INFO : EventManager : Event: ======'logicblock_eg_pop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-08 10:06:50,206 : INFO : Mode.base : Started. Priority: 50
+2025-11-08 10:06:50,206 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:06:50,206 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-08 10:06:50,206 : INFO : EventManager : Event: ======'logicblock_eg_pop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-08 10:06:50,209 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:50,210 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-11-08 10:06:50,210 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={'priority': 0}
+2025-11-08 10:06:50,210 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-11-08 10:06:50,210 : INFO : EventManager : Event: ======'godot_play_base'====== Args={'priority': 0}
+2025-11-08 10:06:50,211 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-11-08 10:06:50,222 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-11-08 10:06:50,223 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-11-08 10:06:50,223 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-11-08 10:06:50,223 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-11-08 10:06:50,224 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-11-08 10:06:50,224 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-08 10:06:50,224 : INFO : ball_device.bd_trough : State: ejecting
+2025-11-08 10:06:50,226 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-11-08 10:06:50,226 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-08 10:06:50,227 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-11-08 10:06:50,227 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-11-08 10:06:50,286 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-11-08 10:06:50,293 : INFO : ball_device.bd_trough : State: ball_left
+2025-11-08 10:06:50,293 : INFO : ball_device.bd_trough : Ball left
+2025-11-08 10:06:50,293 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-11-08 10:06:50,304 : INFO : EventManager : Event: ======'slide_base_created'====== Args={'_from_bcp': True}
+2025-11-08 10:06:50,304 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-11-08 10:06:50,305 : INFO : EventManager : Event: ======'slide_base_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 50.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-08 10:06:50,305 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-11-08 10:06:50,778 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:51,369 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:51,976 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:51,976 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:52,579 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:52,856 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-08 10:06:52,856 : INFO : EventManager : Event: ======'s_right_inlane_active'====== Args={}
+2025-11-08 10:06:52,856 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-08 10:06:52,856 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 48, 'prev_value': 47, 'change': 1}
+2025-11-08 10:06:52,857 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100, 'prev_value': 0, 'change': 100, 'player_num': 1, 'source': 'base'}
+2025-11-08 10:06:52,858 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-11-08 10:06:52,871 : INFO : ball_device.bd_trough : Got eject confirm
+2025-11-08 10:06:52,871 : INFO : ball_device.bd_trough : Eject successful
+2025-11-08 10:06:52,871 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-11-08 10:06:52,872 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-11-08 10:06:52,872 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-11-08 10:06:52,873 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-11-08 10:06:52,873 : INFO : ball_device.bd_trough : State: idle
+2025-11-08 10:06:53,182 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:53,182 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:53,293 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-08 10:06:53,773 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:54,364 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:54,364 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:54,473 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-11-08 10:06:54,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 584, 'prev_value': 583, 'change': 1}
+2025-11-08 10:06:54,519 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-11-08 10:06:54,534 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-11-08 10:06:54,534 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 585, 'prev_value': 584, 'change': 1}
+2025-11-08 10:06:54,581 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-11-08 10:06:54,628 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2025-11-08 10:06:54,628 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 586, 'prev_value': 585, 'change': 1}
+2025-11-08 10:06:54,971 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:55,141 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-11-08 10:06:55,142 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-11-08 10:06:55,142 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-11-08 10:06:55,142 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-11-08 10:06:55,142 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2025-11-08 10:06:55,142 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-11-08 10:06:55,144 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-11-08 10:06:55,144 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2025-11-08 10:06:55,144 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-11-08 10:06:55,144 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-11-08 10:06:55,145 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2025-11-08 10:06:55,146 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-11-08 10:06:55,146 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-11-08 10:06:55,146 : INFO : EventManager : Event: ======'godot_stop_base'====== Args={'priority': 0}
+2025-11-08 10:06:55,146 : INFO : Mode.base : Stopped.
+2025-11-08 10:06:55,146 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:06:55,146 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-11-08 10:06:55,146 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-11-08 10:06:55,159 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2025-11-08 10:06:55,160 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:55,164 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:55,164 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:55,166 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:55,166 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:55,166 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2025-11-08 10:06:55,167 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-08 10:06:55,167 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-11-08 10:06:55,171 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-11-08 10:06:55,172 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-11-08 10:06:55,172 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:55,173 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:55,176 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-11-08 10:06:55,176 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2025-11-08 10:06:55,176 : INFO : drop_target_bank.left_bank : All targets are already up. Will not reset bank.
+2025-11-08 10:06:55,176 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-11-08 10:06:55,176 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-11-08 10:06:55,176 : INFO : EventManager : Event: ======'logicblock_eg_pop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-08 10:06:55,176 : INFO : EventManager : Event: ======'logicblock_eg_pop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-08 10:06:55,176 : INFO : Mode.base : Started. Priority: 50
+2025-11-08 10:06:55,178 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:06:55,178 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2025-11-08 10:06:55,178 : INFO : EventManager : Event: ======'logicblock_eg_pop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-08 10:06:55,179 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:55,179 : INFO : EventManager : Event: ======'stop_mode_attract'====== Args={'priority': 0}
+2025-11-08 10:06:55,179 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={'priority': 0}
+2025-11-08 10:06:55,179 : INFO : EventManager : Event: ======'godot_attract_off'====== Args={'priority': 0}
+2025-11-08 10:06:55,179 : INFO : EventManager : Event: ======'godot_play_base'====== Args={'priority': 0}
+2025-11-08 10:06:55,180 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-11-08 10:06:55,193 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-11-08 10:06:55,194 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-11-08 10:06:55,194 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-11-08 10:06:55,194 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-11-08 10:06:55,196 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-11-08 10:06:55,196 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-08 10:06:55,196 : INFO : ball_device.bd_trough : State: ejecting
+2025-11-08 10:06:55,196 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-11-08 10:06:55,196 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-08 10:06:55,197 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-11-08 10:06:55,197 : INFO : coil.c_trough_eject : Pulsing Driver for 40ms (1.0 pulse_power)
+2025-11-08 10:06:55,251 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2025-11-08 10:06:55,257 : INFO : ball_device.bd_trough : State: ball_left
+2025-11-08 10:06:55,258 : INFO : ball_device.bd_trough : Ball left
+2025-11-08 10:06:55,258 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-11-08 10:06:55,464 : INFO : EventManager : Event: ======'slide_base_created'====== Args={'_from_bcp': True}
+2025-11-08 10:06:55,464 : INFO : EventManager : Event: ======'slide_base_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-11-08 10:06:55,464 : INFO : EventManager : Event: ======'slide_base_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 50.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 2.0, 'balls_remaining': 1.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-08 10:06:55,464 : INFO : EventManager : Event: ======'slide_base_removed'====== Args={'_from_bcp': True}
+2025-11-08 10:06:55,575 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:56,181 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:56,769 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:56,770 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:57,370 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:57,974 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:57,974 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:58,579 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:06:59,186 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:06:59,186 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:06:59,770 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:00,374 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:00,375 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:07:00,976 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:01,570 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:01,570 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:07:02,174 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:02,780 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:02,780 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:07:03,370 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:03,979 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:03,979 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:07:04,567 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:05,175 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:05,175 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:07:05,252 : INFO : ball_device.bd_trough : State: failed_confirm
+2025-11-08 10:07:05,252 : INFO : ball_device.bd_trough : Got timeout (10.0s) before confirm from <playfield.playfield>
+2025-11-08 10:07:05,360 : INFO : ball_device.bd_trough : Confirming eject because target is playfield and ball did not return.
+2025-11-08 10:07:05,360 : INFO : ball_device.bd_trough : Eject successful
+2025-11-08 10:07:05,360 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-11-08 10:07:05,360 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-11-08 10:07:05,360 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-11-08 10:07:05,361 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2025-11-08 10:07:05,361 : INFO : ball_device.bd_trough : State: idle
+2025-11-08 10:07:05,778 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:06,371 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:06,371 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('95ccf83c-6bb4-4f10-a116-bbbc876e9921'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('88b35459-d0c0-48aa-9191-f880c9ffcdc1'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-08 10:07:06,976 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:07,235 : INFO : Machine : Shutting down...
+2025-11-08 10:07:07,235 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-08 10:07:07,237 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-11-08 10:07:07,237 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-11-08 10:07:07,238 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-11-08 10:07:07,238 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-11-08 10:07:07,239 : INFO : EventManager : Event: ======'godot_stop_base'====== Args={'priority': 0}
+2025-11-08 10:07:07,239 : INFO : Mode.base : Stopped.
+2025-11-08 10:07:07,239 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:07:07,239 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-11-08 10:07:07,239 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-11-08 10:07:07,240 : INFO : Mode.game : Stopped.
+2025-11-08 10:07:07,240 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-08 10:07:07,240 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-11-08 10:07:07,240 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-11-08 10:07:07,568 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:08,185 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:08,770 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:09,374 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:09,981 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:10,573 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:11,180 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:11,771 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:12,362 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:12,984 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:13,579 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:14,185 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:14,774 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:15,365 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:15,973 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:16,566 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:17,188 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:17,783 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:18,370 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:18,975 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:19,568 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:20,183 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:20,773 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:21,366 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:21,976 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:22,565 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:23,187 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:23,779 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:24,371 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:24,978 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:25,569 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:26,189 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:26,781 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:27,372 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:27,979 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:28,573 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:29,179 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:29,782 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:30,373 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:30,979 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:31,569 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:32,174 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:32,781 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:33,369 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:33,984 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:34,577 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:35,182 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:35,772 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:36,376 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:36,981 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:37,569 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:38,188 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:38,774 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:39,376 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:39,981 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:40,571 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:41,175 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:41,781 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:42,369 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:42,977 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:43,566 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:44,187 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:44,780 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:45,370 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:45,978 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:46,568 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:47,182 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:47,774 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:48,366 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:48,973 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:49,579 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:50,178 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:50,768 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:51,371 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:51,976 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:52,576 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:53,181 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:53,771 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:54,377 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:54,985 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:55,576 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:56,183 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:56,771 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:57,375 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:57,979 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:58,567 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:07:59,196 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:07:59,770 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:00,367 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:00,985 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:01,569 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:02,182 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:02,774 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:03,367 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:03,983 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:04,573 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:05,178 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:05,781 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:06,368 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:06,972 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:07,576 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:08,182 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:08,769 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:09,372 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:09,985 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:10,574 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:11,177 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:11,779 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:12,366 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:12,984 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:13,575 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:14,179 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:14,778 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:15,362 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:15,978 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:16,576 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:17,178 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:17,781 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:18,371 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:18,973 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:19,576 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:20,179 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:20,781 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:21,368 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:21,974 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:22,576 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:23,180 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:23,768 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:24,372 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:24,975 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:25,578 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:26,179 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:26,768 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:27,371 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:27,976 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:28,578 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:29,182 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:29,769 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:30,373 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:30,976 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:31,579 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:32,188 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:32,775 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:33,366 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:33,986 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:34,572 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:35,177 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:35,781 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:36,370 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:36,976 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:37,579 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:38,181 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:38,773 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:39,376 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:39,974 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:40,566 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:41,180 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:41,774 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:42,376 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:42,980 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:43,569 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:44,187 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:44,771 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:45,376 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:45,978 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:46,579 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:47,186 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:47,772 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:48,361 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:48,981 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:49,566 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:50,184 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:50,775 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:51,362 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:51,979 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:52,566 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:53,185 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:53,776 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:54,367 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:54,975 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:55,577 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:56,180 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:56,782 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:57,372 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:57,974 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:58,567 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:08:59,186 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:08:59,772 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:00,376 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:00,983 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:01,573 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:02,178 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:02,770 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:03,364 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:03,986 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:04,576 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:05,184 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:05,779 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:06,369 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:06,975 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:07,567 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:08,188 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:08,779 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:09,364 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:09,983 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:10,573 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:11,183 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:11,778 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:12,361 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:12,981 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:13,568 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:14,185 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:14,773 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:15,364 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:15,983 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:16,570 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:17,177 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:17,781 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:18,368 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:18,983 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:19,573 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:20,176 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:20,779 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:21,364 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:21,977 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:22,566 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:23,181 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:23,771 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:24,363 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:24,984 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:25,578 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:26,187 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:26,776 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:27,365 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:27,974 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:28,565 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:29,187 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:29,776 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:30,364 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:30,986 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:31,574 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:32,183 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:32,771 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:33,376 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:33,982 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:34,572 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:35,180 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:35,772 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:36,376 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:36,985 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:37,572 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:38,181 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:38,773 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:39,362 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:39,983 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:40,576 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:41,181 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:41,770 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:42,374 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:42,981 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:43,571 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:44,177 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:44,782 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:45,371 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:45,978 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:46,565 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:47,187 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:47,780 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:48,370 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:48,976 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:49,564 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:50,184 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:50,772 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:51,362 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:51,980 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:52,567 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:53,174 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:53,780 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:54,367 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:54,973 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:55,577 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:56,186 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:56,778 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:57,367 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:57,973 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:58,567 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:09:59,189 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:09:59,779 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:00,373 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:00,981 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:01,568 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:02,175 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:02,783 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:03,371 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:03,974 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:04,578 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:05,183 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:05,774 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:06,362 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:06,985 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:07,575 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:08,181 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:08,769 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:09,370 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:09,976 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:10,569 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:11,176 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:11,780 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:12,371 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:12,979 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:13,570 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:14,175 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:14,769 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:15,362 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:15,983 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:16,572 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:17,178 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:17,768 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:18,372 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:18,977 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:19,565 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:20,186 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:20,777 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:21,364 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:21,986 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:22,564 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:23,186 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:23,775 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:24,362 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:24,984 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:25,574 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:26,179 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:26,782 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:27,372 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:27,981 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:28,574 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:29,178 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:29,781 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:30,376 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:30,983 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:31,574 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:32,182 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:32,770 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:33,361 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:33,984 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:34,574 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:35,184 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:35,773 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:36,362 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:36,984 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:37,579 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:38,185 : INFO : EventManager : Event: ======'blink_on'====== Args={'priority': 0}
+2025-11-08 10:10:38,774 : INFO : EventManager : Event: ======'blink_off'====== Args={'priority': 0}
+2025-11-08 10:10:38,996 : ERROR : root : Received second SIGINT. Will exit ungracefully!
+NoneType: None

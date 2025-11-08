@@ -1,0 +1,14 @@
+2025-11-03 08:40:10,214 : INFO : root : Loading config.
+2025-11-03 08:40:10,219 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-03 08:40:10,219 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\config\config.yaml
+2025-11-03 08:40:10,219 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-11-03 08:40:10,234 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2025-11-03 08:40:10,234 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\config\config.yaml.
+2025-11-03 08:40:10,256 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config.yaml
+2025-11-03 08:40:10,257 : ERROR : ConfigProcessor : Config section 'sound_system' is removed in MPF 0.80 and will be ignored.
+2025-11-03 08:40:10,258 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_ball_devices.yaml
+2025-11-03 08:40:10,262 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_coils.yaml
+2025-11-03 08:40:10,266 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_switches.yaml
+2025-11-03 08:40:10,270 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_lights.yaml
+2025-11-03 08:40:10,273 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\config\config_sounds.yaml
+2025-11-03 08:40:10,275 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.

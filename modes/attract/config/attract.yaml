@@ -33,19 +33,19 @@ show_player:
       action: play
       loops: 1
   mode_attract_will_stop:
-    attract_wave:  { action: stop }
+    attract_wave: { action: stop }
     attract_pulse: { action: stop }
 
 # Tell Godot to start/stop its attract scene
 event_player:
   mode_attract_started:
     godot_attract_on: {}
-
   mode_attract_will_stop:
     godot_attract_off: {}
   game_starting:
     godot_attract_off: {}
   ball_started:
     godot_attract_off: {}
-  mode_base_started:
-    godot_attract_off: {}
+  stop_mode_attract:
+    mode_attract_will_stop: {}
+

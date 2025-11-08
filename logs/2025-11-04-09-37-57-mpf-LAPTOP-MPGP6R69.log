@@ -1,0 +1,10 @@
+2025-11-04 09:37:57,786 : INFO : root : Loading config.
+2025-11-04 09:37:57,791 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-04 09:37:57,791 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-11-04 09:37:57,940 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-04 09:37:57,941 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-11-04 09:37:57,942 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-04 09:37:57,942 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-11-04 09:37:57,944 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\antho\nightpin\modes\escape_graveyard\config\escape_graveyard.yaml
+2025-11-04 09:37:57,944 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\escape_graveyard\config\escape_graveyard.yaml.
+2025-11-04 09:37:57,965 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\modes\escape_graveyard\config\escape_graveyard.yaml
