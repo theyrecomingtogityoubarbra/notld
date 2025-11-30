@@ -13,7 +13,7 @@ ball_devices:
     eject_targets: playfield
     eject_timeouts: 2s
     mechanical_eject: false
-    tags: saucer, home, eject, playfield
+    tags: saucer, eject, playfield
     ball_search_order: 20
 
 # -------------------------------

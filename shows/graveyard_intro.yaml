@@ -1,6 +1,15 @@
 #show_version=6
 
-# Step 2: Main intro video and music
+# Step 1: Play intro video with fade in
+- duration: 0.1
+  slides:
+    graveyard_intro:
+      action: play
+      transition:
+        type: fade
+        duration: 0.5
+
+# Step 2: Main intro music (looping until stopped later)
 - duration: 12.0
   sounds:
     escape_graveyard_music:
@@ -16,6 +25,6 @@
         type: fade
         duration: 0.5
 
-# Step 4: Signal eject
+# Step 4: Signal eject / release
 - duration: 0.1
   events: play_graveyard_intro_complete

@@ -6,16 +6,6 @@ mode:
   priority: 220
 
 # -----------------------------
-# HOLD BALL DURING INTRO
-# -----------------------------
-ball_holds:
-  eg_intro_hold:
-    hold_devices: bd_saucer
-    balls_to_hold: 1
-    enable_events: mode_escape_graveyard_started
-    release_one_events: eg_intro_release
-
-# -----------------------------
 # TIMERS
 # -----------------------------
 timers:
@@ -50,13 +40,9 @@ timers:
 # EVENTS (scenes, phase steps, success/fail)
 # -----------------------------
 event_player:
-  # Mode starts: intro scene while ball is held
+  # Mode starts: intro scene while ball is held (no ball_hold right now)
   mode_escape_graveyard_started:
     - godot_play_graveyard_intro
-
-  sh_escape_graveyard_start_hit:
-    start_mode_escape_graveyard: {}
-    godot_play_graveyard_intro: {}
 
   # After 11s → eject & begin Phase 1
   timer_eg_intro_delay_complete:
@@ -100,6 +86,18 @@ event_player:
     - start_eg_stop_delay
 
 # -----------------------------
+# SOUND
+# -----------------------------
+sound_player:
+  # Graveyard starts → play graveyard music (loop)
+  mode_escape_graveyard_started:
+    escape_graveyard_music:
+      action: play
+      loops: -1
+      priority: 100
+      volume: 0.8
+
+# -----------------------------
 # SHOTS
 # -----------------------------
 shots:
@@ -137,7 +135,7 @@ shots:
     enable_events: eg_spinner_phase_begin
     disable_events: eg_phase2_begin, mode_escape_graveyard_will_stop
 
-  # Phase 2 — Left drops (any order)
+  # Phase 3 — Left drops (any order)
   sh_eg_left_drop_left:
     switch: s_left_bank_target_left
     enable_events: eg_phase2_begin
@@ -177,83 +175,43 @@ accruals:
 # -----------------------------
 # SHOW DEFINITIONS
 # -----------------------------
-shows:
-  # Simple 3s “delay then post-event” show to stop the mode after success/fail scene
-  eg_stop_delay_show:
-    - duration: 3s
-      events: stop_mode_escape_graveyard
 
 # -----------------------------
-# SHOW PLAYER  (single block)
+# SHOW PLAYER
 # -----------------------------
 show_player:
-  # 3s post-scene delay to stop the mode
-  start_eg_stop_delay:
-    eg_stop_delay_show:
-      action: play
-      loops: 1
-
-  # --- Phase 1: start three independent flash instances ---
   eg_phase1_begin:
-    flash@eg_rbl:
+    eg_flash:
       action: play
       loops: -1
       speed: 1.0
-      show_tokens:
-        lights: l_right_bank_left
-    flash@eg_rbm:
-      action: play
-      loops: -1
-      speed: 1.0
-      show_tokens:
-        lights: l_right_bank_middle
-    flash@eg_rbr:
-      action: play
-      loops: -1
-      speed: 1.0
-      show_tokens:
-        lights: l_right_bank_right
 
-  # stop each when its target is made
   sh_eg_right_drop_left_hit:
-    flash@eg_rbl: { action: stop }
+    eg_flash: { action: stop }
   sh_eg_right_drop_middle_hit:
-    flash@eg_rbm: { action: stop }
+    eg_flash: { action: stop }
   sh_eg_right_drop_right_hit:
-    flash@eg_rbr: { action: stop }
+    eg_flash: { action: stop }
 
-  # --- Spinner phase flash ---
   eg_spinner_phase_begin:
-    flash@eg_spin:
+    spinner_chase:
       action: play
       loops: -1
       speed: 1.0
-      show_tokens:
-        lights: l_spinner_first
 
   sh_eg_spinner_hit:
-    flash@eg_spin: { action: stop }
+    spinner_chase: { action: stop }
 
-  # --- Phase 2: two left-bank insert flashes ---
   eg_phase2_begin:
-    flash@eg_lbl:
+    eg_flash_house:
       action: play
       loops: -1
       speed: 1.0
-      show_tokens:
-        lights: l_left_bank_lower
-    flash@eg_lbu:
-      action: play
-      loops: -1
-      speed: 1.0
-      show_tokens:
-        lights: l_left_bank_upper
 
-  # stop the two left-bank flashes as those targets are hit
   sh_eg_left_drop_left_hit:
-    flash@eg_lbl: { action: stop }
+    eg_flash_house: { action: stop }
   sh_eg_left_drop_right_hit:
-    flash@eg_lbu: { action: stop }
+    eg_flash_house: { action: stop }
 
 
 # -----------------------------
@@ -283,3 +241,4 @@ light_player:
     l_spinner_adjacent: off
     l_left_bank_lower: off
     l_left_bank_upper: off
+

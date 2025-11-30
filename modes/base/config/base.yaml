@@ -1,8 +1,8 @@
 #config_version=6
 
 mode:
-  start_events: ball_starting, mode_escape_graveyard_stopped
-  stop_events: mode_escape_graveyard_started, game_ended
+  start_events: ball_starting
+  stop_events: game_ended
   priority: 50
 
 # -----------------------------
@@ -52,10 +52,9 @@ event_player:
 
   mode_base_will_stop:
     godot_stop_base: {}
-  mode_escape_graveyard_started:
-    godot_stop_base: {}
+    godot_stop_base_music: {}
   game_ended:
-    godot_stop_base: {}
+    godot_stop_base_music: {}
 
   sh_escape_graveyard_start_hit:
     start_mode_escape_graveyard: {}
@@ -139,6 +138,20 @@ sound_player:
   ball_will_end:
     firstballintro: { action: stop }
     subsequentball: { action: stop }
+
+  # Escape Graveyard starts → stop base music
+  mode_escape_graveyard_started:
+    firstballintro: { action: stop }
+    subsequentball: { action: stop }
+
+  # Escape Graveyard ends → stop graveyard music, resume base music
+  mode_escape_graveyard_will_stop:
+    escape_graveyard_music: { action: stop }
+    subsequentball:
+      action: play
+      loops: 9999
+      priority: 90
+      volume: 0.6
 
   play_skilllane_quote_1:
     herehecomesnowimgettingoutofhere: { action: play, priority: 50, volume: 1 }

@@ -1,0 +1,16 @@
+#show_version=6
+
+#Flashing right bank targets
+
+- duration: 0.25s
+  lights:
+    l_right_bank_left: on
+    l_right_bank_middle: on
+    l_right_bank_right: on
+
+- duration: 0.25s
+  lights:
+    l_right_bank_left: off
+    l_right_bank_middle: off
+    l_right_bank_right: off
+

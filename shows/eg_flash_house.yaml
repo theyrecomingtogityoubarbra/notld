@@ -1,0 +1,13 @@
+#show_version=6
+
+#Flashing left bank targets
+
+- duration: 0.25s
+  lights:
+    l_left_bank_lower: on
+    l_left_bank_upper: on
+
+- duration: 0.25s
+  lights:
+    l_left_bank_lower: off
+    l_left_bank_upper: off

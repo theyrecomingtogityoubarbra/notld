@@ -1,0 +1,12 @@
+2025-11-09 16:41:01,116 : INFO : root : Loading config.
+2025-11-09 16:41:01,120 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-09 16:41:01,120 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\fdca14d0c9d658ab8200d57120800af5.mpf_cache
+2025-11-09 16:41:01,251 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-09 16:41:01,253 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\202a5840610e95051f9f473dfa660cc0.mpf_cache
+2025-11-09 16:41:01,253 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\5dec96b1547c4adf5bdd3d1715e74bc0.mpf_cache
+2025-11-09 16:41:01,254 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\2cd13a2d3f375e00ab01d6d09a85d8e7.mpf_cache
+2025-11-09 16:41:01,255 : INFO : ConfigProcessor : Loading config from cache: C:\Users\antho\AppData\Local\Temp\9220b44b97b91972524500b81035d790.mpf_cache
+2025-11-09 16:41:01,256 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\mpf\Lib\site-packages\mpf\modes\high_score\config\high_score.yaml.
+2025-11-09 16:41:01,260 : INFO : ConfigProcessor : Loading config: C:\Users\antho\mpf\Lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2025-11-09 16:41:01,260 : INFO : ConfigProcessor : Loading config from file C:\Users\antho\nightpin\modes\high_score\config\high_score.yaml.
+2025-11-09 16:41:01,261 : INFO : ConfigProcessor : Loading config: C:\Users\antho\nightpin\modes\high_score\config\high_score.yaml

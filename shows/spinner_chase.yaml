@@ -1,0 +1,22 @@
+#show_version=6
+
+#Spinner Chase Sequence
+
+- duration: 0.2s
+  lights:
+    l_spinner_first: on
+
+- duration: 0.2s
+  lights:
+    l_spinner_first: off
+    l_spinner_second: on
+
+- duration: 0.2s
+  lights:
+    l_spinner_second: off
+    l_spinner_third: on
+
+- duration: 0.2s
+  lights:
+    l_spinner_third: off
+
