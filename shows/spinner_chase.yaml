@@ -4,6 +4,7 @@
 
 - duration: 0.2s
   lights:
+    l_spinner_fourth: off
     l_spinner_first: on
 
 - duration: 0.2s
@@ -19,4 +20,5 @@
 - duration: 0.2s
   lights:
     l_spinner_third: off
+    l_spinner_fourth: on
 

@@ -13,7 +13,7 @@ ball_devices:
     eject_targets: playfield
     eject_timeouts: 2s
     mechanical_eject: false
-    tags: saucer, eject, playfield
+    tags: saucer, eject
     ball_search_order: 20
 
 # -------------------------------
@@ -54,4 +54,4 @@ drop_target_banks:
       - s_left_bank_target_right
     reset_coil: c_drop_target_left
     reset_on_complete: true
-    reset_events: ball_starting
+    reset_events: ball_starting, mode_escape_graveyard_started

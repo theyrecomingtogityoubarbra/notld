@@ -58,7 +58,9 @@ event_player:
 
   sh_escape_graveyard_start_hit:
     start_mode_escape_graveyard: {}
-    godot_play_graveyard_intro: {}
+
+  mode_escape_graveyard_started:
+    godot_stop_base: {}
 
 counters:
   eg_pop_counter:

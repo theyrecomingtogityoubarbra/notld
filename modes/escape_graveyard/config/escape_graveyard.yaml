@@ -37,10 +37,23 @@ timers:
 # listen for: timer_eg_intro_delay_complete / timer_eg_timer_complete
 
 # -----------------------------
+# BALL HOLD
+# -----------------------------
+ball_holds:
+  eg_intro_hold:
+    hold_devices: bd_saucer        # your saucer ball device name
+    balls_to_hold: 1
+    enable_events: balldevice_bd_saucer_ball_enter
+    release_one_events: eg_intro_release
+
+# -----------------------------
 # EVENTS (scenes, phase steps, success/fail)
 # -----------------------------
 event_player:
   # Mode starts: intro scene while ball is held (no ball_hold right now)
+  sh_escape_graveyard_start_hit:
+    - godot_play_graveyard_intro
+
   mode_escape_graveyard_started:
     - godot_play_graveyard_intro
 
@@ -93,7 +106,6 @@ sound_player:
   mode_escape_graveyard_started:
     escape_graveyard_music:
       action: play
-      loops: -1
       priority: 100
       volume: 0.8
 
@@ -180,7 +192,7 @@ accruals:
 # SHOW PLAYER
 # -----------------------------
 show_player:
-  eg_phase1_begin:
+  mode_escape_graveyard_started:
     eg_flash:
       action: play
       loops: -1
@@ -241,4 +253,3 @@ light_player:
     l_spinner_adjacent: off
     l_left_bank_lower: off
     l_left_bank_upper: off
-
